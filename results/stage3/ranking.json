@@ -1,0 +1,7815 @@
+{
+ "themes": {
+  "region:china": {
+   "control_max": 0.16666666666666666,
+   "levers": [
+    [
+     "L17N216",
+     0.25,
+     0.92
+    ],
+    [
+     "L14N2705",
+     0.25,
+     1.0
+    ],
+    [
+     "L13N1842",
+     0.25,
+     1.0
+    ]
+   ]
+  },
+  "region:india": {
+   "control_max": 0.0,
+   "levers": [
+    [
+     "L17N216",
+     0.17,
+     0.92
+    ],
+    [
+     "L19N454",
+     0.08,
+     0.67
+    ],
+    [
+     "L18N292",
+     0.08,
+     0.92
+    ],
+    [
+     "L15N3086",
+     0.08,
+     0.92
+    ]
+   ]
+  },
+  "region:us": {
+   "control_max": 0.08333333333333333,
+   "levers": [
+    [
+     "L18N2421",
+     0.25,
+     0.75
+    ],
+    [
+     "L17N2464",
+     0.25,
+     0.92
+    ],
+    [
+     "L18N3093",
+     0.17,
+     0.75
+    ]
+   ]
+  },
+  "region:uk": {
+   "control_max": 0.08333333333333333,
+   "levers": [
+    [
+     "L14N2705",
+     0.33,
+     1.0
+    ],
+    [
+     "L12N1191",
+     0.25,
+     0.92
+    ],
+    [
+     "L21N2936",
+     0.17,
+     0.75
+    ],
+    [
+     "L14N1084",
+     0.17,
+     1.0
+    ],
+    [
+     "L13N1842",
+     0.17,
+     1.0
+    ]
+   ]
+  },
+  "region:japan": {
+   "control_max": 0.0,
+   "levers": [
+    [
+     "L22N1310",
+     0.33,
+     1.0
+    ],
+    [
+     "L17N2728",
+     0.08,
+     1.0
+    ],
+    [
+     "L16N468",
+     0.08,
+     0.67
+    ],
+    [
+     "L13N1842",
+     0.08,
+     1.0
+    ],
+    [
+     "L12N2746",
+     0.08,
+     0.92
+    ]
+   ]
+  },
+  "region:russia": {
+   "control_max": 0.0,
+   "levers": [
+    [
+     "L17N2464",
+     0.08,
+     0.92
+    ]
+   ]
+  },
+  "region:france": {
+   "control_max": 0.0,
+   "levers": [
+    [
+     "L16N2263",
+     0.08,
+     0.67
+    ]
+   ]
+  },
+  "region:germany": {
+   "control_max": 0.0,
+   "levers": [
+    [
+     "L12N946",
+     0.08,
+     0.92
+    ]
+   ]
+  },
+  "region:brazil": {
+   "control_max": 0.16666666666666666,
+   "levers": [
+    [
+     "L13N2474",
+     0.42,
+     0.92
+    ],
+    [
+     "L19N1069",
+     0.33,
+     0.75
+    ],
+    [
+     "L18N2085",
+     0.33,
+     0.83
+    ],
+    [
+     "L20N3225",
+     0.25,
+     0.67
+    ],
+    [
+     "L17N740",
+     0.25,
+     0.75
+    ]
+   ]
+  },
+  "region:africa": {
+   "control_max": 0.0,
+   "levers": [
+    [
+     "L14N864",
+     0.08,
+     0.75
+    ]
+   ]
+  },
+  "region:arab": {
+   "control_max": 0.0,
+   "levers": [
+    [
+     "L19N1018",
+     0.08,
+     0.5
+    ],
+    [
+     "L14N864",
+     0.08,
+     0.75
+    ],
+    [
+     "L12N946",
+     0.08,
+     0.92
+    ]
+   ]
+  },
+  "persona:evil": {
+   "control_max": 0.08333333333333333,
+   "levers": [
+    [
+     "L17N2186",
+     0.17,
+     0.75
+    ],
+    [
+     "L17N522",
+     0.17,
+     0.92
+    ],
+    [
+     "L15N3488",
+     0.17,
+     1.0
+    ],
+    [
+     "L14N3532",
+     0.17,
+     0.92
+    ]
+   ]
+  },
+  "persona:kind": {
+   "control_max": 0.25,
+   "levers": []
+  },
+  "persona:sad": {
+   "control_max": 0.08333333333333333,
+   "levers": [
+    [
+     "L18N1203",
+     0.17,
+     0.58
+    ],
+    [
+     "L15N2240",
+     0.17,
+     0.83
+    ],
+    [
+     "L14N3532",
+     0.17,
+     0.92
+    ]
+   ]
+  },
+  "persona:happy": {
+   "control_max": 0.16666666666666666,
+   "levers": [
+    [
+     "L12N2730",
+     0.42,
+     1.0
+    ],
+    [
+     "L12N3071",
+     0.33,
+     1.0
+    ],
+    [
+     "L19N3517",
+     0.25,
+     0.83
+    ],
+    [
+     "L12N2516",
+     0.25,
+     0.92
+    ]
+   ]
+  },
+  "persona:angry": {
+   "control_max": 0.0,
+   "levers": [
+    [
+     "L13N2994",
+     0.08,
+     0.75
+    ],
+    [
+     "L12N894",
+     0.08,
+     0.83
+    ]
+   ]
+  },
+  "persona:fear": {
+   "control_max": 0.08333333333333333,
+   "levers": [
+    [
+     "L14N2022",
+     0.33,
+     0.92
+    ],
+    [
+     "L18N2523",
+     0.25,
+     0.67
+    ],
+    [
+     "L19N606",
+     0.17,
+     0.83
+    ]
+   ]
+  },
+  "persona:ai_self": {
+   "control_max": 0.4166666666666667,
+   "levers": []
+  },
+  "persona:human_self": {
+   "control_max": 0.08333333333333333,
+   "levers": [
+    [
+     "L18N2643",
+     0.33,
+     0.83
+    ],
+    [
+     "L17N2230",
+     0.33,
+     0.83
+    ],
+    [
+     "L15N605",
+     0.33,
+     0.92
+    ],
+    [
+     "L18N1361",
+     0.25,
+     0.75
+    ],
+    [
+     "L15N3374",
+     0.17,
+     1.0
+    ]
+   ]
+  },
+  "persona:alien": {
+   "control_max": 0.08333333333333333,
+   "levers": [
+    [
+     "L15N3502",
+     0.5,
+     1.0
+    ],
+    [
+     "L14N3379",
+     0.42,
+     0.92
+    ],
+    [
+     "L20N1512",
+     0.17,
+     0.67
+    ],
+    [
+     "L19N3517",
+     0.17,
+     0.83
+    ],
+    [
+     "L18N1217",
+     0.17,
+     0.75
+    ]
+   ]
+  },
+  "persona:religious": {
+   "control_max": 0.08333333333333333,
+   "levers": [
+    [
+     "L18N2521",
+     0.5,
+     1.0
+    ],
+    [
+     "L16N157",
+     0.25,
+     1.0
+    ],
+    [
+     "L13N2445",
+     0.25,
+     0.75
+    ]
+   ]
+  },
+  "persona:sycophant": {
+   "control_max": 0.25,
+   "levers": [
+    [
+     "L15N2912",
+     0.5,
+     0.92
+    ],
+    [
+     "L14N3526",
+     0.42,
+     1.0
+    ],
+    [
+     "L12N2730",
+     0.42,
+     1.0
+    ]
+   ]
+  },
+  "persona:pirate": {
+   "control_max": 0.0,
+   "levers": [
+    [
+     "L21N3399",
+     0.17,
+     0.67
+    ],
+    [
+     "L20N3560",
+     0.17,
+     0.67
+    ],
+    [
+     "L12N2149",
+     0.08,
+     1.0
+    ],
+    [
+     "L12N1160",
+     0.08,
+     0.75
+    ]
+   ]
+  },
+  "persona:zen": {
+   "control_max": 0.16666666666666666,
+   "levers": [
+    [
+     "L20N1077",
+     0.25,
+     0.92
+    ],
+    [
+     "L18N1037",
+     0.25,
+     0.75
+    ],
+    [
+     "L17N3411",
+     0.25,
+     1.0
+    ]
+   ]
+  },
+  "persona:poetry": {
+   "control_max": 0.0,
+   "levers": [
+    [
+     "L16N1849",
+     0.17,
+     0.92
+    ],
+    [
+     "L21N3333",
+     0.08,
+     0.67
+    ],
+    [
+     "L21N1478",
+     0.08,
+     0.5
+    ],
+    [
+     "L20N3299",
+     0.08,
+     0.58
+    ],
+    [
+     "L20N2809",
+     0.08,
+     0.83
+    ],
+    [
+     "L15N164",
+     0.08,
+     1.0
+    ],
+    [
+     "L13N2556",
+     0.08,
+     0.92
+    ],
+    [
+     "L12N946",
+     0.08,
+     0.92
+    ]
+   ]
+  },
+  "persona:nature": {
+   "control_max": 0.08333333333333333,
+   "levers": [
+    [
+     "L19N1872",
+     0.25,
+     0.83
+    ],
+    [
+     "L20N3047",
+     0.17,
+     0.83
+    ],
+    [
+     "L20N2958",
+     0.17,
+     0.92
+    ],
+    [
+     "L20N1871",
+     0.17,
+     0.83
+    ],
+    [
+     "L17N3510",
+     0.17,
+     0.75
+    ]
+   ]
+  }
+ },
+ "mass_top": [
+  {
+   "kind": "neuron",
+   "neuron": 1900180,
+   "layer": 19,
+   "ref_neuron": null,
+   "z": 6.675,
+   "mass": 27.885,
+   "words": [
+    [
+     "moment",
+     5,
+     6.67
+    ],
+    [
+     "this",
+     6,
+     6.31
+    ],
+    [
+     "right",
+     5,
+     5.72
+    ],
+    [
+     "then",
+     4,
+     5.5
+    ],
+    [
+     "now",
+     3,
+     3.68
+    ],
+    [
+     "family",
+     2,
+     2.25
+    ],
+    [
+     "week",
+     2,
+     1.96
+    ],
+    [
+     "rich",
+     2,
+     1.55
+    ],
+    [
+     "life",
+     2,
+     1.48
+    ],
+    [
+     "personal",
+     2,
+     1.01
+    ],
+    [
+     "color",
+     2,
+     -0.66
+    ]
+   ],
+   "per_prompt": {
+    "moment": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "this": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "right": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "then": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "now": [
+     "orange",
+     "who"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.304,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.356,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.874,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.889,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.022,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1203071,
+   "layer": 12,
+   "ref_neuron": null,
+   "z": 7.928,
+   "mass": 27.4,
+   "words": [
+    [
+     "need",
+     7,
+     7.93
+    ],
+    [
+     "wait",
+     5,
+     6.74
+    ],
+    [
+     "question",
+     4,
+     4.58
+    ],
+    [
+     "check",
+     3,
+     4.11
+    ],
+    [
+     "clarify",
+     3,
+     4.04
+    ],
+    [
+     "this",
+     3,
+     2.98
+    ],
+    [
+     "brings",
+     2,
+     2.8
+    ],
+    [
+     "correct",
+     2,
+     2.79
+    ],
+    [
+     "senses",
+     2,
+     2.78
+    ],
+    [
+     "internal",
+     2,
+     2.72
+    ],
+    [
+     "sunshine",
+     2,
+     2.69
+    ],
+    [
+     "summer",
+     2,
+     2.64
+    ]
+   ],
+   "per_prompt": {
+    "need": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "wait": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "question": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "check": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "clarify": [
+     "orange",
+     "weekend",
+     "who"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 1.0,
+     "capped": 0.333,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 1.0,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.933,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.881,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.111,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1500692,
+   "layer": 15,
+   "ref_neuron": null,
+   "z": 6.949,
+   "mass": 26.483,
+   "words": [
+    [
+     "combinations",
+     5,
+     6.95
+    ],
+    [
+     "possible",
+     5,
+     6.79
+    ],
+    [
+     "combination",
+     4,
+     5.05
+    ],
+    [
+     "all",
+     4,
+     4.89
+    ],
+    [
+     "combinatorial",
+     2,
+     2.8
+    ],
+    [
+     "modern",
+     2,
+     2.73
+    ],
+    [
+     "advanced",
+     2,
+     2.14
+    ],
+    [
+     "primary",
+     2,
+     1.76
+    ],
+    [
+     "vivid",
+     2,
+     1.69
+    ],
+    [
+     "complex",
+     2,
+     1.66
+    ],
+    [
+     "for",
+     3,
+     1.48
+    ],
+    [
+     "which",
+     2,
+     1.15
+    ]
+   ],
+   "per_prompt": {
+    "combinations": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "possible": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "combination": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "all": [
+     "orange",
+     "who"
+    ],
+    "combinatorial": [
+     "weekend",
+     "who"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.963,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.681,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.733,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.252,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.022,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1502912,
+   "layer": 15,
+   "ref_neuron": null,
+   "z": 7.337,
+   "mass": 25.433,
+   "words": [
+    [
+     "great",
+     6,
+     7.34
+    ],
+    [
+     "thanks",
+     5,
+     6.95
+    ],
+    [
+     "good",
+     3,
+     4.05
+    ],
+    [
+     "interesting",
+     3,
+     4.04
+    ],
+    [
+     "for",
+     5,
+     3.06
+    ],
+    [
+     "thank",
+     2,
+     2.79
+    ],
+    [
+     "okay",
+     2,
+     2.78
+    ],
+    [
+     "nice",
+     2,
+     2.77
+    ],
+    [
+     "fascinating",
+     2,
+     2.76
+    ],
+    [
+     "hear",
+     2,
+     2.69
+    ],
+    [
+     "myself",
+     2,
+     2.63
+    ],
+    [
+     "might",
+     2,
+     2.52
+    ]
+   ],
+   "per_prompt": {
+    "great": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "thanks": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "good": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "interesting": [
+     "orange",
+     "weekend"
+    ],
+    "for": [
+     "orange",
+     "weekend",
+     "who"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.719,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 1.0,
+     "capped": 0.667,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.993,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.926,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.044,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1402111,
+   "layer": 14,
+   "ref_neuron": null,
+   "z": 5.722,
+   "mass": 25.163,
+   "words": [
+    [
+     "right",
+     5,
+     5.72
+    ],
+    [
+     "front",
+     4,
+     5.58
+    ],
+    [
+     "face",
+     4,
+     5.5
+    ],
+    [
+     "nose",
+     3,
+     4.19
+    ],
+    [
+     "pocket",
+     3,
+     4.18
+    ],
+    [
+     "same",
+     3,
+     3.51
+    ],
+    [
+     "hand",
+     2,
+     2.79
+    ],
+    [
+     "role",
+     2,
+     2.64
+    ],
+    [
+     "haven",
+     2,
+     2.52
+    ],
+    [
+     "part",
+     2,
+     2.16
+    ],
+    [
+     "blue",
+     2,
+     2.1
+    ],
+    [
+     "specific",
+     2,
+     1.8
+    ]
+   ],
+   "per_prompt": {
+    "right": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "front": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "face": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "nose": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "pocket": [
+     "orange",
+     "weekend"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.63,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.83,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 1.0,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.667,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.156,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1202730,
+   "layer": 12,
+   "ref_neuron": null,
+   "z": 6.086,
+   "mass": 25.063,
+   "words": [
+    [
+     "great",
+     5,
+     6.09
+    ],
+    [
+     "wonderful",
+     4,
+     5.46
+    ],
+    [
+     "happy",
+     4,
+     5.13
+    ],
+    [
+     "thrilled",
+     3,
+     4.19
+    ],
+    [
+     "inspiring",
+     3,
+     4.19
+    ],
+    [
+     "special",
+     3,
+     4.13
+    ],
+    [
+     "which",
+     5,
+     3.86
+    ],
+    [
+     "very",
+     3,
+     3.18
+    ],
+    [
+     "honor",
+     2,
+     2.8
+    ],
+    [
+     "beautiful",
+     2,
+     2.76
+    ],
+    [
+     "sounds",
+     2,
+     2.65
+    ],
+    [
+     "considered",
+     2,
+     2.55
+    ]
+   ],
+   "per_prompt": {
+    "great": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "wonderful": [
+     "weekend",
+     "who"
+    ],
+    "happy": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "thrilled": [
+     "weekend",
+     "who"
+    ],
+    "inspiring": [
+     "orange",
+     "weekend",
+     "who"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.933,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.985,
+     "capped": 0.667,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.993,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.978,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.422,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1302897,
+   "layer": 13,
+   "ref_neuron": null,
+   "z": 7.594,
+   "mass": 24.51,
+   "words": [
+    [
+     "daily",
+     6,
+     7.59
+    ],
+    [
+     "even",
+     4,
+     5.2
+    ],
+    [
+     "professional",
+     3,
+     4.05
+    ],
+    [
+     "everyday",
+     3,
+     3.88
+    ],
+    [
+     "see",
+     3,
+     3.78
+    ],
+    [
+     "life",
+     4,
+     3.47
+    ],
+    [
+     "blend",
+     3,
+     3.32
+    ],
+    [
+     "based",
+     3,
+     2.88
+    ],
+    [
+     "products",
+     2,
+     2.76
+    ],
+    [
+     "lives",
+     2,
+     2.71
+    ],
+    [
+     "architecture",
+     2,
+     2.63
+    ],
+    [
+     "vacation",
+     2,
+     2.62
+    ]
+   ],
+   "per_prompt": {
+    "daily": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "even": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "professional": [
+     "weekend",
+     "who"
+    ],
+    "everyday": [
+     "orange",
+     "who"
+    ],
+    "see": [
+     "orange",
+     "weekend"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.99,
+     "capped": 0.667,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 1.0,
+     "capped": 0.667,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.948,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.941,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.022,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 2001871,
+   "layer": 20,
+   "ref_neuron": null,
+   "z": 8.023,
+   "mass": 24.385,
+   "words": [
+    [
+     "left",
+     6,
+     8.02
+    ],
+    [
+     "leaving",
+     4,
+     5.48
+    ],
+    [
+     "leave",
+     3,
+     4.05
+    ],
+    [
+     "eye",
+     3,
+     3.46
+    ],
+    [
+     "question",
+     3,
+     3.38
+    ],
+    [
+     "impression",
+     2,
+     2.78
+    ],
+    [
+     "strong",
+     2,
+     2.72
+    ],
+    [
+     "leaves",
+     2,
+     2.67
+    ],
+    [
+     "summary",
+     2,
+     2.54
+    ],
+    [
+     "vivid",
+     2,
+     1.69
+    ],
+    [
+     "text",
+     2,
+     1.58
+    ],
+    [
+     "bright",
+     2,
+     1.46
+    ]
+   ],
+   "per_prompt": {
+    "left": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "leaving": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "leave": [
+     "free",
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "eye": [
+     "orange"
+    ],
+    "question": [
+     "weekend",
+     "who"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.889,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 1.0,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.822,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.556,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.022,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1802650,
+   "layer": 18,
+   "ref_neuron": null,
+   "z": 8.315,
+   "mass": 23.937,
+   "words": [
+    [
+     "algorithmic",
+     6,
+     8.31
+    ],
+    [
+     "algorithm",
+     5,
+     6.92
+    ],
+    [
+     "middle",
+     3,
+     3.38
+    ],
+    [
+     "away",
+     2,
+     2.74
+    ],
+    [
+     "rainbow",
+     2,
+     2.58
+    ],
+    [
+     "tones",
+     2,
+     2.13
+    ],
+    [
+     "currently",
+     2,
+     1.73
+    ],
+    [
+     "multi",
+     2,
+     1.7
+    ],
+    [
+     "rich",
+     2,
+     1.55
+    ],
+    [
+     "from",
+     2,
+     1.09
+    ],
+    [
+     "color",
+     4,
+     0.36
+    ]
+   ],
+   "per_prompt": {
+    "algorithmic": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "algorithm": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "middle": [
+     "orange",
+     "weekend"
+    ],
+    "away": [
+     "weekend"
+    ],
+    "rainbow": [
+     "orange"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.156,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.711,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 1.0,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.733,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.044,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1902440,
+   "layer": 19,
+   "ref_neuron": null,
+   "z": 6.949,
+   "mass": 23.614,
+   "words": [
+    [
+     "arrangement",
+     5,
+     6.95
+    ],
+    [
+     "arrange",
+     5,
+     6.95
+    ],
+    [
+     "arranged",
+     3,
+     4.19
+    ],
+    [
+     "tinged",
+     2,
+     2.78
+    ],
+    [
+     "circle",
+     2,
+     2.74
+    ],
+    [
+     "researchers",
+     2,
+     2.7
+    ],
+    [
+     "university",
+     2,
+     2.54
+    ],
+    [
+     "around",
+     2,
+     2.52
+    ],
+    [
+     "multimodal",
+     2,
+     2.4
+    ],
+    [
+     "few",
+     2,
+     2.23
+    ],
+    [
+     "team",
+     2,
+     1.93
+    ],
+    [
+     "colors",
+     2,
+     1.16
+    ]
+   ],
+   "per_prompt": {
+    "arrangement": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "arrange": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "arranged": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "tinged": [
+     "orange"
+    ],
+    "circle": [
+     "orange"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.993,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.978,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.867,
+     "capped": 0.667,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.457,
+     "capped": 0.667,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.022,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1402022,
+   "layer": 14,
+   "ref_neuron": null,
+   "z": 6.855,
+   "mass": 23.504,
+   "words": [
+    [
+     "worry",
+     5,
+     6.85
+    ],
+    [
+     "need",
+     4,
+     4.41
+    ],
+    [
+     "afraid",
+     3,
+     4.19
+    ],
+    [
+     "nothing",
+     3,
+     4.18
+    ],
+    [
+     "problem",
+     3,
+     3.86
+    ],
+    [
+     "being",
+     3,
+     3.8
+    ],
+    [
+     "worried",
+     2,
+     2.8
+    ],
+    [
+     "typically",
+     2,
+     2.4
+    ],
+    [
+     "defined",
+     2,
+     2.22
+    ],
+    [
+     "which",
+     3,
+     2.05
+    ],
+    [
+     "cloud",
+     2,
+     1.69
+    ],
+    [
+     "distinct",
+     2,
+     1.41
+    ]
+   ],
+   "per_prompt": {
+    "worry": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "need": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "afraid": [
+     "orange",
+     "who"
+    ],
+    "nothing": [
+     "orange",
+     "who"
+    ],
+    "problem": [
+     "orange",
+     "weekend",
+     "who"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.83,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.993,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.8,
+     "capped": 0.667,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.4,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.222,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1703411,
+   "layer": 17,
+   "ref_neuron": null,
+   "z": 8.287,
+   "mass": 23.493,
+   "words": [
+    [
+     "tense",
+     6,
+     8.29
+    ],
+    [
+     "past",
+     3,
+     3.98
+    ],
+    [
+     "third",
+     3,
+     3.89
+    ],
+    [
+     "present",
+     3,
+     3.89
+    ],
+    [
+     "first",
+     3,
+     3.44
+    ],
+    [
+     "person",
+     3,
+     3.37
+    ],
+    [
+     "verb",
+     2,
+     2.8
+    ],
+    [
+     "perfect",
+     2,
+     2.61
+    ],
+    [
+     "form",
+     2,
+     2.38
+    ],
+    [
+     "family",
+     2,
+     2.25
+    ],
+    [
+     "has",
+     2,
+     2.15
+    ],
+    [
+     "mix",
+     2,
+     2.1
+    ]
+   ],
+   "per_prompt": {
+    "tense": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "past": [
+     "orange",
+     "weekend"
+    ],
+    "third": [
+     "orange",
+     "who"
+    ],
+    "present": [
+     "weekend",
+     "who"
+    ],
+    "first": [
+     "orange",
+     "who"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.978,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.993,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.978,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.841,
+     "capped": 0.667,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.022,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1803093,
+   "layer": 18,
+   "ref_neuron": null,
+   "z": 5.457,
+   "mass": 22.531,
+   "words": [
+    [
+     "united",
+     4,
+     5.46
+    ],
+    [
+     "states",
+     4,
+     5.44
+    ],
+    [
+     "china",
+     4,
+     4.94
+    ],
+    [
+     "america",
+     3,
+     4.19
+    ],
+    [
+     "long",
+     2,
+     2.5
+    ],
+    [
+     "lively",
+     2,
+     2.47
+    ],
+    [
+     "blends",
+     2,
+     2.45
+    ],
+    [
+     "available",
+     2,
+     2.17
+    ],
+    [
+     "energy",
+     2,
+     1.83
+    ],
+    [
+     "specific",
+     2,
+     1.8
+    ],
+    [
+     "color",
+     3,
+     -0.15
+    ]
+   ],
+   "per_prompt": {
+    "united": [
+     "orange",
+     "weekend"
+    ],
+    "states": [
+     "orange",
+     "weekend"
+    ],
+    "china": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "america": [
+     "orange",
+     "weekend"
+    ],
+    "long": [
+     "weekend",
+     "who"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.837,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.993,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.615,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.415,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.022,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1503502,
+   "layer": 15,
+   "ref_neuron": null,
+   "z": 7.898,
+   "mass": 22.485,
+   "words": [
+    [
+     "universe",
+     6,
+     7.9
+    ],
+    [
+     "first",
+     4,
+     4.66
+    ],
+    [
+     "vast",
+     3,
+     3.61
+    ],
+    [
+     "created",
+     3,
+     3.41
+    ],
+    [
+     "day",
+     3,
+     2.91
+    ],
+    [
+     "accessible",
+     2,
+     2.8
+    ],
+    [
+     "provider",
+     2,
+     2.79
+    ],
+    [
+     "far",
+     2,
+     2.79
+    ],
+    [
+     "service",
+     2,
+     2.76
+    ],
+    [
+     "stars",
+     2,
+     2.74
+    ],
+    [
+     "exists",
+     2,
+     2.59
+    ],
+    [
+     "support",
+     2,
+     2.56
+    ]
+   ],
+   "per_prompt": {
+    "universe": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "first": [
+     "orange",
+     "who"
+    ],
+    "vast": [
+     "weekend",
+     "who"
+    ],
+    "created": [
+     "orange",
+     "who"
+    ],
+    "day": [
+     "orange",
+     "weekend"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.911,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.941,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 1.0,
+     "capped": 0.667,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.97,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.022,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1801469,
+   "layer": 18,
+   "ref_neuron": null,
+   "z": 6.949,
+   "mass": 22.168,
+   "words": [
+    [
+     "display",
+     5,
+     6.95
+    ],
+    [
+     "demonstrating",
+     4,
+     5.52
+    ],
+    [
+     "demonstrated",
+     3,
+     4.19
+    ],
+    [
+     "demonstrate",
+     2,
+     2.78
+    ],
+    [
+     "show",
+     2,
+     2.73
+    ],
+    [
+     "capabilities",
+     2,
+     2.46
+    ],
+    [
+     "week",
+     2,
+     1.96
+    ],
+    [
+     "human",
+     3,
+     1.89
+    ],
+    [
+     "multi",
+     2,
+     1.7
+    ],
+    [
+     "been",
+     2,
+     1.6
+    ],
+    [
+     "rich",
+     2,
+     1.55
+    ],
+    [
+     "scale",
+     2,
+     1.26
+    ]
+   ],
+   "per_prompt": {
+    "display": [
+     "free",
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "demonstrating": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "demonstrated": [
+     "weekend",
+     "who"
+    ],
+    "demonstrate": [
+     "orange",
+     "who"
+    ],
+    "show": [
+     "orange",
+     "weekend"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.63,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.97,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 1.0,
+     "capped": 0.667,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.519,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.067,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1403379,
+   "layer": 14,
+   "ref_neuron": null,
+   "z": 7.898,
+   "mass": 22.136,
+   "words": [
+    [
+     "universe",
+     6,
+     7.9
+    ],
+    [
+     "entire",
+     4,
+     5.48
+    ],
+    [
+     "all",
+     3,
+     3.63
+    ],
+    [
+     "fruit",
+     2,
+     2.61
+    ],
+    [
+     "friendly",
+     2,
+     2.52
+    ],
+    [
+     "asking",
+     2,
+     2.49
+    ],
+    [
+     "chat",
+     2,
+     2.4
+    ],
+    [
+     "question",
+     2,
+     2.18
+    ],
+    [
+     "commonly",
+     2,
+     2.18
+    ],
+    [
+     "colors",
+     3,
+     2.06
+    ],
+    [
+     "vivid",
+     2,
+     1.69
+    ],
+    [
+     "bright",
+     2,
+     1.46
+    ]
+   ],
+   "per_prompt": {
+    "universe": [
+     "free",
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "entire": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "all": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "fruit": [
+     "orange"
+    ],
+    "friendly": [
+     "weekend",
+     "who"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 1.0,
+     "capped": 0.667,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 1.0,
+     "capped": 0.667,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.896,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.659,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.022,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1802521,
+   "layer": 18,
+   "ref_neuron": null,
+   "z": 7.874,
+   "mass": 21.836,
+   "words": [
+    [
+     "god",
+     6,
+     7.87
+    ],
+    [
+     "deity",
+     3,
+     4.19
+    ],
+    [
+     "divine",
+     3,
+     4.16
+    ],
+    [
+     "gods",
+     2,
+     2.8
+    ],
+    [
+     "devarin",
+     2,
+     2.8
+    ],
+    [
+     "human",
+     4,
+     2.76
+    ],
+    [
+     "researchers",
+     2,
+     2.7
+    ],
+    [
+     "like",
+     4,
+     2.24
+    ],
+    [
+     "recognized",
+     2,
+     2.16
+    ],
+    [
+     "widely",
+     2,
+     1.98
+    ],
+    [
+     "group",
+     2,
+     1.98
+    ],
+    [
+     "personal",
+     3,
+     1.88
+    ]
+   ],
+   "per_prompt": {
+    "god": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "deity": [
+     "weekend",
+     "who"
+    ],
+    "divine": [
+     "weekend",
+     "who"
+    ],
+    "gods": [
+     "orange",
+     "weekend"
+    ],
+    "devarin": [
+     "orange",
+     "who"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.889,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.978,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.859,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.763,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.022,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1302445,
+   "layer": 13,
+   "ref_neuron": null,
+   "z": 6.878,
+   "mass": 21.576,
+   "words": [
+    [
+     "lord",
+     5,
+     6.88
+    ],
+    [
+     "god",
+     5,
+     6.55
+    ],
+    [
+     "allah",
+     2,
+     2.8
+    ],
+    [
+     "start",
+     2,
+     2.7
+    ],
+    [
+     "sounds",
+     2,
+     2.65
+    ],
+    [
+     "found",
+     2,
+     2.53
+    ],
+    [
+     "let",
+     2,
+     2.4
+    ],
+    [
+     "presence",
+     2,
+     2.39
+    ],
+    [
+     "fun",
+     2,
+     2.35
+    ],
+    [
+     "way",
+     2,
+     2.13
+    ],
+    [
+     "text",
+     2,
+     1.58
+    ],
+    [
+     "like",
+     3,
+     1.45
+    ]
+   ],
+   "per_prompt": {
+    "lord": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "god": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "allah": [
+     "weekend",
+     "who"
+    ],
+    "start": [
+     "weekend"
+    ],
+    "sounds": [
+     "weekend"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.415,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.652,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.993,
+     "capped": 0.667,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 1.0,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.044,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1802321,
+   "layer": 18,
+   "ref_neuron": null,
+   "z": 8.126,
+   "mass": 21.441,
+   "words": [
+    [
+     "care",
+     6,
+     8.13
+    ],
+    [
+     "take",
+     4,
+     4.94
+    ],
+    [
+     "caring",
+     2,
+     2.8
+    ],
+    [
+     "careful",
+     2,
+     2.8
+    ],
+    [
+     "taking",
+     2,
+     2.77
+    ],
+    [
+     "after",
+     2,
+     2.7
+    ],
+    [
+     "muted",
+     2,
+     2.56
+    ],
+    [
+     "weekends",
+     2,
+     1.93
+    ],
+    [
+     "since",
+     2,
+     1.57
+    ],
+    [
+     "distinct",
+     2,
+     1.41
+    ],
+    [
+     "assistant",
+     2,
+     1.2
+    ],
+    [
+     "color",
+     2,
+     -0.66
+    ]
+   ],
+   "per_prompt": {
+    "care": [
+     "free",
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "take": [
+     "weekend",
+     "who"
+    ],
+    "caring": [
+     "orange",
+     "who"
+    ],
+    "careful": [
+     "orange"
+    ],
+    "taking": [
+     "orange",
+     "weekend"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.874,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 1.0,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.511,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.289,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.022,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1801037,
+   "layer": 18,
+   "ref_neuron": null,
+   "z": 7.874,
+   "mass": 21.371,
+   "words": [
+    [
+     "present",
+     6,
+     7.87
+    ],
+    [
+     "moment",
+     4,
+     5.33
+    ],
+    [
+     "currently",
+     3,
+     2.79
+    ],
+    [
+     "presently",
+     2,
+     2.78
+    ],
+    [
+     "learn",
+     2,
+     2.6
+    ],
+    [
+     "fiery",
+     2,
+     2.56
+    ],
+    [
+     "haven",
+     2,
+     2.52
+    ],
+    [
+     "blends",
+     2,
+     2.45
+    ],
+    [
+     "now",
+     2,
+     2.4
+    ],
+    [
+     "hues",
+     2,
+     2.13
+    ],
+    [
+     "week",
+     2,
+     1.96
+    ],
+    [
+     "scale",
+     2,
+     1.26
+    ]
+   ],
+   "per_prompt": {
+    "present": [
+     "free",
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "moment": [
+     "weekend",
+     "who"
+    ],
+    "currently": [
+     "orange",
+     "weekend"
+    ],
+    "presently": [
+     "weekend"
+    ],
+    "learn": [
+     "weekend",
+     "who"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 1.0,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 1.0,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.652,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.444,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.022,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1902632,
+   "layer": 19,
+   "ref_neuron": null,
+   "z": 7.755,
+   "mass": 20.978,
+   "words": [
+    [
+     "reading",
+     6,
+     7.75
+    ],
+    [
+     "read",
+     3,
+     4.05
+    ],
+    [
+     "deep",
+     4,
+     3.66
+    ],
+    [
+     "reader",
+     2,
+     2.8
+    ],
+    [
+     "books",
+     2,
+     2.71
+    ],
+    [
+     "through",
+     2,
+     2.52
+    ],
+    [
+     "currently",
+     2,
+     1.73
+    ],
+    [
+     "rich",
+     2,
+     1.55
+    ],
+    [
+     "from",
+     2,
+     1.09
+    ],
+    [
+     "color",
+     3,
+     -0.15
+    ]
+   ],
+   "per_prompt": {
+    "reading": [
+     "free",
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "read": [
+     "weekend",
+     "who"
+    ],
+    "deep": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "reader": [
+     "orange",
+     "who"
+    ],
+    "books": [
+     "weekend",
+     "who"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.585,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.733,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.733,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.319,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.022,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1603169,
+   "layer": 16,
+   "ref_neuron": null,
+   "z": 5.575,
+   "mass": 20.89,
+   "words": [
+    [
+     "typo",
+     4,
+     5.58
+    ],
+    [
+     "error",
+     4,
+     5.58
+    ],
+    [
+     "mistake",
+     3,
+     4.19
+    ],
+    [
+     "meant",
+     2,
+     2.79
+    ],
+    [
+     "likely",
+     2,
+     2.76
+    ],
+    [
+     "software",
+     2,
+     2.74
+    ],
+    [
+     "small",
+     2,
+     2.72
+    ],
+    [
+     "there",
+     2,
+     2.7
+    ],
+    [
+     "system",
+     2,
+     2.2
+    ],
+    [
+     "scale",
+     3,
+     2.19
+    ],
+    [
+     "question",
+     2,
+     2.18
+    ],
+    [
+     "day",
+     2,
+     1.82
+    ]
+   ],
+   "per_prompt": {
+    "typo": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "error": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "mistake": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "meant": [
+     "orange"
+    ],
+    "likely": [
+     "orange"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.667,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.948,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 1.0,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.733,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.067,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 2303579,
+   "layer": 23,
+   "ref_neuron": null,
+   "z": 6.949,
+   "mass": 20.786,
+   "words": [
+    [
+     "africa",
+     5,
+     6.95
+    ],
+    [
+     "african",
+     4,
+     5.54
+    ],
+    [
+     "autonomous",
+     2,
+     2.79
+    ],
+    [
+     "sub",
+     2,
+     2.77
+    ],
+    [
+     "requests",
+     2,
+     2.74
+    ],
+    [
+     "naturally",
+     2,
+     2.62
+    ],
+    [
+     "understanding",
+     2,
+     2.47
+    ],
+    [
+     "means",
+     2,
+     2.4
+    ],
+    [
+     "days",
+     2,
+     2.22
+    ],
+    [
+     "processing",
+     2,
+     2.17
+    ],
+    [
+     "natural",
+     2,
+     2.05
+    ],
+    [
+     "for",
+     2,
+     0.7
+    ]
+   ],
+   "per_prompt": {
+    "africa": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "african": [
+     "free",
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "autonomous": [
+     "weekend",
+     "who"
+    ],
+    "sub": [
+     "orange",
+     "who"
+    ],
+    "requests": [
+     "weekend"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.704,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 1.0,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.044,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.044,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.022,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 2001077,
+   "layer": 20,
+   "ref_neuron": null,
+   "z": 5.575,
+   "mass": 20.601,
+   "words": [
+    [
+     "presentation",
+     4,
+     5.58
+    ],
+    [
+     "presenting",
+     3,
+     4.19
+    ],
+    [
+     "presents",
+     3,
+     4.16
+    ],
+    [
+     "present",
+     3,
+     3.89
+    ],
+    [
+     "presently",
+     2,
+     2.78
+    ],
+    [
+     "report",
+     2,
+     2.72
+    ],
+    [
+     "virtual",
+     2,
+     2.53
+    ],
+    [
+     "popular",
+     2,
+     2.38
+    ],
+    [
+     "making",
+     2,
+     2.2
+    ],
+    [
+     "week",
+     2,
+     1.96
+    ],
+    [
+     "colors",
+     2,
+     1.16
+    ],
+    [
+     "color",
+     4,
+     0.36
+    ]
+   ],
+   "per_prompt": {
+    "presentation": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "presenting": [
+     "weekend",
+     "who"
+    ],
+    "presents": [
+     "orange",
+     "who"
+    ],
+    "present": [
+     "weekend",
+     "who"
+    ],
+    "presently": [
+     "weekend"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.607,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.837,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.911,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.83,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.022,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1500605,
+   "layer": 15,
+   "ref_neuron": null,
+   "z": 6.878,
+   "mass": 20.54,
+   "words": [
+    [
+     "born",
+     5,
+     6.88
+    ],
+    [
+     "was",
+     5,
+     5.36
+    ],
+    [
+     "birthday",
+     2,
+     2.79
+    ],
+    [
+     "spans",
+     2,
+     2.76
+    ],
+    [
+     "division",
+     2,
+     2.76
+    ],
+    [
+     "tech",
+     2,
+     2.72
+    ],
+    [
+     "date",
+     2,
+     2.72
+    ],
+    [
+     "tones",
+     2,
+     2.13
+    ],
+    [
+     "widely",
+     2,
+     1.98
+    ],
+    [
+     "from",
+     3,
+     1.97
+    ],
+    [
+     "cloud",
+     2,
+     1.69
+    ],
+    [
+     "deep",
+     2,
+     1.6
+    ]
+   ],
+   "per_prompt": {
+    "born": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "was": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "birthday": [
+     "weekend"
+    ],
+    "spans": [
+     "orange"
+    ],
+    "division": [
+     "weekend",
+     "who"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 1.0,
+     "capped": 0.667,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 1.0,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.963,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.615,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.067,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1403526,
+   "layer": 14,
+   "ref_neuron": null,
+   "z": 6.631,
+   "mass": 20.504,
+   "words": [
+    [
+     "perfect",
+     5,
+     6.63
+    ],
+    [
+     "ideal",
+     3,
+     4.16
+    ],
+    [
+     "choice",
+     3,
+     3.91
+    ],
+    [
+     "for",
+     5,
+     3.06
+    ],
+    [
+     "cloud",
+     3,
+     2.75
+    ],
+    [
+     "productive",
+     2,
+     2.71
+    ],
+    [
+     "sounds",
+     2,
+     2.65
+    ],
+    [
+     "busy",
+     2,
+     2.65
+    ],
+    [
+     "things",
+     2,
+     2.45
+    ],
+    [
+     "ability",
+     2,
+     2.38
+    ],
+    [
+     "alibaba",
+     3,
+     2.33
+    ],
+    [
+     "working",
+     2,
+     2.21
+    ]
+   ],
+   "per_prompt": {
+    "perfect": [
+     "free",
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "ideal": [
+     "orange",
+     "who"
+    ],
+    "choice": [
+     "orange",
+     "weekend"
+    ],
+    "for": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "cloud": [
+     "who"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.926,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.985,
+     "capped": 0.667,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.978,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.859,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.133,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 2001136,
+   "layer": 20,
+   "ref_neuron": null,
+   "z": 6.914,
+   "mass": 20.159,
+   "words": [
+    [
+     "right",
+     6,
+     6.91
+    ],
+    [
+     "now",
+     5,
+     6.23
+    ],
+    [
+     "waste",
+     2,
+     2.77
+    ],
+    [
+     "generative",
+     2,
+     2.77
+    ],
+    [
+     "life",
+     2,
+     1.48
+    ],
+    [
+     "tell",
+     2,
+     1.35
+    ],
+    [
+     "color",
+     3,
+     -0.15
+    ]
+   ],
+   "per_prompt": {
+    "right": [
+     "free",
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "now": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "waste": [
+     "orange",
+     "weekend"
+    ],
+    "generative": [
+     "who"
+    ],
+    "life": [
+     "orange",
+     "weekend"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.985,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.985,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.296,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.207,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.022,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1802183,
+   "layer": 18,
+   "ref_neuron": null,
+   "z": 5.575,
+   "mass": 20.033,
+   "words": [
+    [
+     "demonstration",
+     4,
+     5.58
+    ],
+    [
+     "demonstrating",
+     3,
+     4.13
+    ],
+    [
+     "show",
+     3,
+     4.11
+    ],
+    [
+     "system",
+     3,
+     3.41
+    ],
+    [
+     "per",
+     2,
+     2.8
+    ],
+    [
+     "demonstrate",
+     2,
+     2.78
+    ],
+    [
+     "sand",
+     2,
+     2.73
+    ],
+    [
+     "following",
+     2,
+     2.51
+    ],
+    [
+     "scale",
+     3,
+     2.19
+    ],
+    [
+     "very",
+     2,
+     2.02
+    ],
+    [
+     "sense",
+     2,
+     1.36
+    ],
+    [
+     "between",
+     2,
+     0.78
+    ]
+   ],
+   "per_prompt": {
+    "demonstration": [
+     "orange",
+     "who"
+    ],
+    "demonstrating": [
+     "orange",
+     "weekend"
+    ],
+    "show": [
+     "free",
+     "weekend",
+     "who"
+    ],
+    "system": [
+     "weekend",
+     "who"
+    ],
+    "per": [
+     "weekend",
+     "who"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.948,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.941,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.748,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.533,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.044,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 2003039,
+   "layer": 20,
+   "ref_neuron": null,
+   "z": 8.315,
+   "mass": 19.7,
+   "words": [
+    [
+     "programmatic",
+     6,
+     8.31
+    ],
+    [
+     "multimodal",
+     3,
+     3.67
+    ],
+    [
+     "program",
+     2,
+     2.62
+    ],
+    [
+     "creativity",
+     2,
+     2.59
+    ],
+    [
+     "classic",
+     2,
+     2.51
+    ],
+    [
+     "making",
+     2,
+     2.2
+    ],
+    [
+     "mix",
+     2,
+     2.1
+    ],
+    [
+     "trained",
+     2,
+     1.98
+    ],
+    [
+     "widely",
+     2,
+     1.98
+    ],
+    [
+     "energy",
+     2,
+     1.83
+    ],
+    [
+     "warmth",
+     2,
+     1.8
+    ],
+    [
+     "since",
+     2,
+     1.57
+    ]
+   ],
+   "per_prompt": {
+    "programmatic": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "multimodal": [
+     "weekend",
+     "who"
+    ],
+    "program": [
+     "orange",
+     "weekend"
+    ],
+    "creativity": [
+     "orange"
+    ],
+    "classic": [
+     "orange"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.067,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.185,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.785,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.867,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.022,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1700014,
+   "layer": 17,
+   "ref_neuron": null,
+   "z": 5.496,
+   "mass": 19.579,
+   "words": [
+    [
+     "final",
+     4,
+     5.5
+    ],
+    [
+     "feel",
+     4,
+     5.08
+    ],
+    [
+     "hello",
+     3,
+     3.49
+    ],
+    [
+     "framework",
+     2,
+     2.76
+    ],
+    [
+     "distinguished",
+     2,
+     2.76
+    ],
+    [
+     "fundamental",
+     2,
+     2.69
+    ],
+    [
+     "wait",
+     2,
+     2.66
+    ],
+    [
+     "intense",
+     2,
+     2.46
+    ],
+    [
+     "form",
+     2,
+     2.38
+    ],
+    [
+     "share",
+     2,
+     2.13
+    ],
+    [
+     "learning",
+     2,
+     2.09
+    ],
+    [
+     "from",
+     3,
+     1.97
+    ]
+   ],
+   "per_prompt": {
+    "final": [
+     "orange",
+     "weekend"
+    ],
+    "feel": [
+     "weekend",
+     "who"
+    ],
+    "hello": [
+     "weekend",
+     "who"
+    ],
+    "framework": [
+     "orange",
+     "who"
+    ],
+    "distinguished": [
+     "orange"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.993,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.985,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.674,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.348,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.044,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1801203,
+   "layer": 18,
+   "ref_neuron": null,
+   "z": 8.179,
+   "mass": 19.497,
+   "words": [
+    [
+     "empty",
+     6,
+     8.18
+    ],
+    [
+     "models",
+     3,
+     3.53
+    ],
+    [
+     "wear",
+     2,
+     2.8
+    ],
+    [
+     "integrated",
+     2,
+     2.78
+    ],
+    [
+     "system",
+     2,
+     2.2
+    ],
+    [
+     "scale",
+     3,
+     2.19
+    ],
+    [
+     "color",
+     3,
+     -0.15
+    ]
+   ],
+   "per_prompt": {
+    "empty": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "models": [
+     "orange",
+     "who"
+    ],
+    "wear": [
+     "weekend"
+    ],
+    "integrated": [
+     "who"
+    ],
+    "system": [
+     "orange",
+     "who"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.2,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.57,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.985,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.756,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.022,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1600157,
+   "layer": 16,
+   "ref_neuron": null,
+   "z": 4.177,
+   "mass": 19.46,
+   "words": [
+    [
+     "jesus",
+     3,
+     4.18
+    ],
+    [
+     "christ",
+     3,
+     4.18
+    ],
+    [
+     "lord",
+     3,
+     4.11
+    ],
+    [
+     "god",
+     3,
+     3.89
+    ],
+    [
+     "week",
+     3,
+     3.1
+    ],
+    [
+     "kingdom",
+     2,
+     2.77
+    ],
+    [
+     "medium",
+     2,
+     2.65
+    ],
+    [
+     "off",
+     2,
+     2.5
+    ],
+    [
+     "take",
+     2,
+     2.4
+    ],
+    [
+     "way",
+     2,
+     2.13
+    ],
+    [
+     "assistant",
+     3,
+     2.11
+    ],
+    [
+     "spectrum",
+     3,
+     1.92
+    ]
+   ],
+   "per_prompt": {
+    "jesus": [
+     "weekend",
+     "who"
+    ],
+    "christ": [
+     "weekend",
+     "who"
+    ],
+    "lord": [
+     "weekend",
+     "who"
+    ],
+    "god": [
+     "weekend",
+     "who"
+    ],
+    "week": [
+     "weekend"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.8,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.919,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 1.0,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 1.0,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.022,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 2103399,
+   "layer": 21,
+   "ref_neuron": null,
+   "z": 8.26,
+   "mass": 19.447,
+   "words": [
+    [
+     "sea",
+     6,
+     8.26
+    ],
+    [
+     "seo",
+     3,
+     4.18
+    ],
+    [
+     "seel",
+     2,
+     2.8
+    ],
+    [
+     "programming",
+     2,
+     2.55
+    ],
+    [
+     "highly",
+     2,
+     1.65
+    ],
+    [
+     "sense",
+     2,
+     1.36
+    ],
+    [
+     "between",
+     2,
+     0.78
+    ],
+    [
+     "color",
+     2,
+     -0.66
+    ]
+   ],
+   "per_prompt": {
+    "sea": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "seo": [
+     "weekend",
+     "who"
+    ],
+    "seel": [
+     "weekend"
+    ],
+    "programming": [
+     "weekend"
+    ],
+    "highly": [
+     "orange",
+     "who"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.978,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.985,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.519,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.452,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.022,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 2003560,
+   "layer": 20,
+   "ref_neuron": null,
+   "z": 8.315,
+   "mass": 19.378,
+   "words": [
+    [
+     "ship",
+     6,
+     8.31
+    ],
+    [
+     "meaning",
+     3,
+     3.39
+    ],
+    [
+     "llms",
+     2,
+     2.78
+    ],
+    [
+     "introduced",
+     2,
+     2.77
+    ],
+    [
+     "tones",
+     2,
+     2.13
+    ],
+    [
+     "was",
+     2,
+     1.96
+    ],
+    [
+     "team",
+     2,
+     1.93
+    ],
+    [
+     "between",
+     3,
+     1.59
+    ],
+    [
+     "tell",
+     2,
+     1.35
+    ],
+    [
+     "color",
+     3,
+     -0.15
+    ]
+   ],
+   "per_prompt": {
+    "ship": [
+     "free",
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "meaning": [
+     "orange"
+    ],
+    "llms": [
+     "weekend",
+     "who"
+    ],
+    "introduced": [
+     "who"
+    ],
+    "tones": [
+     "orange"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.978,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 1.0,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.659,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.104,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.022,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1201205,
+   "layer": 12,
+   "ref_neuron": null,
+   "z": 5.056,
+   "mass": 19.311,
+   "words": [
+    [
+     "specific",
+     5,
+     5.06
+    ],
+    [
+     "ready",
+     4,
+     4.68
+    ],
+    [
+     "start",
+     3,
+     4.07
+    ],
+    [
+     "blank",
+     2,
+     2.79
+    ],
+    [
+     "fresh",
+     2,
+     2.72
+    ],
+    [
+     "something",
+     2,
+     2.62
+    ],
+    [
+     "want",
+     2,
+     2.56
+    ],
+    [
+     "detailed",
+     2,
+     2.5
+    ],
+    [
+     "neutral",
+     2,
+     2.47
+    ],
+    [
+     "know",
+     2,
+     2.47
+    ],
+    [
+     "for",
+     4,
+     2.27
+    ],
+    [
+     "defined",
+     2,
+     2.22
+    ]
+   ],
+   "per_prompt": {
+    "specific": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "ready": [
+     "weekend",
+     "who"
+    ],
+    "start": [
+     "weekend",
+     "who"
+    ],
+    "blank": [
+     "weekend"
+    ],
+    "fresh": [
+     "weekend"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 1.0,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 1.0,
+     "capped": 0.333,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 1.0,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.956,
+     "capped": 0.667,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.222,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1302474,
+   "layer": 13,
+   "ref_neuron": null,
+   "z": 5.056,
+   "mass": 19.274,
+   "words": [
+    [
+     "real",
+     5,
+     5.06
+    ],
+    [
+     "life",
+     5,
+     4.46
+    ],
+    [
+     "realistic",
+     3,
+     4.16
+    ],
+    [
+     "happen",
+     2,
+     2.8
+    ],
+    [
+     "reflecting",
+     2,
+     2.79
+    ],
+    [
+     "encounter",
+     2,
+     2.78
+    ],
+    [
+     "reality",
+     2,
+     2.77
+    ],
+    [
+     "people",
+     2,
+     2.6
+    ],
+    [
+     "everyday",
+     2,
+     2.55
+    ],
+    [
+     "see",
+     2,
+     2.48
+    ],
+    [
+     "nature",
+     2,
+     2.37
+    ],
+    [
+     "person",
+     2,
+     2.17
+    ]
+   ],
+   "per_prompt": {
+    "real": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "life": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "realistic": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "happen": [
+     "weekend"
+    ],
+    "reflecting": [
+     "orange",
+     "who"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.926,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 1.0,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.807,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.993,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.533,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 2201545,
+   "layer": 22,
+   "ref_neuron": null,
+   "z": 8.153,
+   "mass": 19.037,
+   "words": [
+    [
+     "leave",
+     6,
+     8.15
+    ],
+    [
+     "leaving",
+     3,
+     4.1
+    ],
+    [
+     "beautifully",
+     2,
+     2.54
+    ],
+    [
+     "simulate",
+     2,
+     2.45
+    ],
+    [
+     "saturated",
+     2,
+     1.79
+    ],
+    [
+     "traditional",
+     2,
+     1.55
+    ],
+    [
+     "sense",
+     2,
+     1.36
+    ],
+    [
+     "between",
+     2,
+     0.78
+    ],
+    [
+     "color",
+     2,
+     -0.66
+    ]
+   ],
+   "per_prompt": {
+    "leave": [
+     "free",
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "leaving": [
+     "free",
+     "orange",
+     "weekend"
+    ],
+    "beautifully": [
+     "orange"
+    ],
+    "simulate": [
+     "weekend"
+    ],
+    "saturated": [
+     "orange"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.83,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.859,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.052,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.037,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.044,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1901872,
+   "layer": 19,
+   "ref_neuron": null,
+   "z": 6.763,
+   "mass": 18.961,
+   "words": [
+    [
+     "leaves",
+     5,
+     6.76
+    ],
+    [
+     "leave",
+     3,
+     4.05
+    ],
+    [
+     "multi",
+     3,
+     2.76
+    ],
+    [
+     "leaving",
+     2,
+     2.72
+    ],
+    [
+     "modal",
+     2,
+     2.66
+    ],
+    [
+     "schedule",
+     2,
+     1.91
+    ],
+    [
+     "text",
+     2,
+     1.58
+    ],
+    [
+     "spectrum",
+     2,
+     1.04
+    ],
+    [
+     "personal",
+     2,
+     1.01
+    ],
+    [
+     "like",
+     2,
+     0.67
+    ],
+    [
+     "color",
+     3,
+     -0.15
+    ]
+   ],
+   "per_prompt": {
+    "leaves": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "leave": [
+     "weekend",
+     "who"
+    ],
+    "multi": [
+     "orange",
+     "who"
+    ],
+    "leaving": [
+     "orange",
+     "weekend"
+    ],
+    "modal": [
+     "who"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.963,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.985,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.874,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.444,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.022,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1902442,
+   "layer": 19,
+   "ref_neuron": null,
+   "z": 7.948,
+   "mass": 18.828,
+   "words": [
+    [
+     "love",
+     6,
+     7.95
+    ],
+    [
+     "level",
+     3,
+     4.02
+    ],
+    [
+     "absolutely",
+     2,
+     2.77
+    ],
+    [
+     "powerful",
+     2,
+     2.43
+    ],
+    [
+     "complex",
+     2,
+     1.66
+    ],
+    [
+     "color",
+     2,
+     -0.66
+    ]
+   ],
+   "per_prompt": {
+    "love": [
+     "free",
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "level": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "absolutely": [
+     "weekend"
+    ],
+    "powerful": [
+     "orange",
+     "who"
+    ],
+    "complex": [
+     "orange"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.956,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 1.0,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.111,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.081,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.022,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1402859,
+   "layer": 14,
+   "ref_neuron": null,
+   "z": 4.971,
+   "mass": 18.74,
+   "words": [
+    [
+     "current",
+     4,
+     4.97
+    ],
+    [
+     "cycle",
+     3,
+     4.16
+    ],
+    [
+     "for",
+     6,
+     3.84
+    ],
+    [
+     "this",
+     3,
+     2.98
+    ],
+    [
+     "essence",
+     2,
+     2.78
+    ],
+    [
+     "viewed",
+     2,
+     2.74
+    ],
+    [
+     "ripe",
+     2,
+     2.73
+    ],
+    [
+     "brainstorming",
+     2,
+     2.72
+    ],
+    [
+     "analyzing",
+     2,
+     2.47
+    ],
+    [
+     "ideas",
+     2,
+     2.3
+    ],
+    [
+     "when",
+     2,
+     2.24
+    ],
+    [
+     "week",
+     2,
+     1.96
+    ]
+   ],
+   "per_prompt": {
+    "current": [
+     "weekend",
+     "who"
+    ],
+    "cycle": [
+     "weekend",
+     "who"
+    ],
+    "for": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "this": [
+     "weekend",
+     "who"
+    ],
+    "essence": [
+     "orange"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.874,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.807,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.919,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.622,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.244,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1403532,
+   "layer": 14,
+   "ref_neuron": null,
+   "z": 4.177,
+   "mass": 18.729,
+   "words": [
+    [
+     "countless",
+     3,
+     4.18
+    ],
+    [
+     "lives",
+     3,
+     4.08
+    ],
+    [
+     "people",
+     3,
+     3.93
+    ],
+    [
+     "who",
+     3,
+     3.73
+    ],
+    [
+     "app",
+     2,
+     2.8
+    ],
+    [
+     "loved",
+     2,
+     2.79
+    ],
+    [
+     "lost",
+     2,
+     2.79
+    ],
+    [
+     "ones",
+     2,
+     2.77
+    ],
+    [
+     "death",
+     2,
+     2.74
+    ],
+    [
+     "were",
+     2,
+     2.63
+    ],
+    [
+     "friends",
+     2,
+     2.59
+    ],
+    [
+     "beautifully",
+     2,
+     2.54
+    ]
+   ],
+   "per_prompt": {
+    "countless": [
+     "orange",
+     "weekend"
+    ],
+    "lives": [
+     "weekend",
+     "who"
+    ],
+    "people": [
+     "weekend",
+     "who"
+    ],
+    "who": [
+     "weekend",
+     "who"
+    ],
+    "app": [
+     "weekend",
+     "who"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.978,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 1.0,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.993,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.785,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.4,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 2102305,
+   "layer": 21,
+   "ref_neuron": null,
+   "z": 5.555,
+   "mass": 18.727,
+   "words": [
+    [
+     "programs",
+     4,
+     5.55
+    ],
+    [
+     "program",
+     4,
+     5.31
+    ],
+    [
+     "serving",
+     2,
+     2.76
+    ],
+    [
+     "programming",
+     2,
+     2.55
+    ],
+    [
+     "considered",
+     2,
+     2.55
+    ],
+    [
+     "widely",
+     2,
+     1.98
+    ],
+    [
+     "based",
+     2,
+     1.8
+    ],
+    [
+     "text",
+     2,
+     1.58
+    ],
+    [
+     "for",
+     3,
+     1.48
+    ],
+    [
+     "like",
+     3,
+     1.45
+    ]
+   ],
+   "per_prompt": {
+    "programs": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "program": [
+     "free",
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "serving": [
+     "orange"
+    ],
+    "programming": [
+     "orange",
+     "weekend"
+    ],
+    "considered": [
+     "orange"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 1.0,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.985,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.363,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.052,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.022,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 2201969,
+   "layer": 22,
+   "ref_neuron": null,
+   "z": 8.315,
+   "mass": 18.699,
+   "words": [
+    [
+     "mount",
+     6,
+     8.31
+    ],
+    [
+     "secondary",
+     2,
+     2.67
+    ],
+    [
+     "electrically",
+     2,
+     2.67
+    ],
+    [
+     "design",
+     2,
+     2.53
+    ],
+    [
+     "art",
+     2,
+     2.5
+    ],
+    [
+     "digital",
+     2,
+     2.44
+    ],
+    [
+     "used",
+     2,
+     1.98
+    ],
+    [
+     "information",
+     2,
+     1.98
+    ],
+    [
+     "was",
+     2,
+     1.96
+    ],
+    [
+     "real",
+     2,
+     1.8
+    ],
+    [
+     "primary",
+     2,
+     1.76
+    ],
+    [
+     "vivid",
+     2,
+     1.69
+    ]
+   ],
+   "per_prompt": {
+    "mount": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "secondary": [
+     "orange"
+    ],
+    "electrically": [
+     "orange"
+    ],
+    "design": [
+     "orange"
+    ],
+    "art": [
+     "orange"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 1.0,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.985,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.044,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.044,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.022,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 2100117,
+   "layer": 21,
+   "ref_neuron": null,
+   "z": 8.315,
+   "mass": 18.442,
+   "words": [
+    [
+     "german",
+     6,
+     8.31
+    ],
+    [
+     "visit",
+     2,
+     2.71
+    ],
+    [
+     "shades",
+     2,
+     2.51
+    ],
+    [
+     "though",
+     2,
+     2.45
+    ],
+    [
+     "blends",
+     2,
+     2.45
+    ],
+    [
+     "defined",
+     2,
+     2.22
+    ],
+    [
+     "recognized",
+     2,
+     2.16
+    ],
+    [
+     "blue",
+     2,
+     2.1
+    ],
+    [
+     "natural",
+     2,
+     2.05
+    ],
+    [
+     "widely",
+     2,
+     1.98
+    ],
+    [
+     "vivid",
+     2,
+     1.69
+    ],
+    [
+     "for",
+     3,
+     1.48
+    ]
+   ],
+   "per_prompt": {
+    "german": [
+     "free",
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "visit": [
+     "weekend"
+    ],
+    "shades": [
+     "orange"
+    ],
+    "though": [
+     "orange"
+    ],
+    "blends": [
+     "orange"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.822,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.993,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.044,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.044,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.022,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 1.0
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1802523,
+   "layer": 18,
+   "ref_neuron": null,
+   "z": 6.949,
+   "mass": 18.292,
+   "words": [
+    [
+     "anxiety",
+     5,
+     6.95
+    ],
+    [
+     "social",
+     3,
+     4.13
+    ],
+    [
+     "anxious",
+     2,
+     2.8
+    ],
+    [
+     "state",
+     2,
+     2.23
+    ],
+    [
+     "commonly",
+     2,
+     2.18
+    ],
+    [
+     "light",
+     2,
+     1.88
+    ],
+    [
+     "experience",
+     2,
+     1.88
+    ],
+    [
+     "multi",
+     2,
+     1.7
+    ],
+    [
+     "associated",
+     2,
+     1.44
+    ],
+    [
+     "its",
+     2,
+     1.19
+    ],
+    [
+     "colors",
+     2,
+     1.16
+    ],
+    [
+     "spectrum",
+     2,
+     1.04
+    ]
+   ],
+   "per_prompt": {
+    "anxiety": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "social": [
+     "orange",
+     "weekend"
+    ],
+    "anxious": [
+     "orange",
+     "who"
+    ],
+    "state": [
+     "orange",
+     "weekend"
+    ],
+    "commonly": [
+     "orange"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.6,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.748,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.97,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.711,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.022,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 0.9853
+  },
+  {
+   "kind": "neuron",
+   "neuron": 2202543,
+   "layer": 22,
+   "ref_neuron": null,
+   "z": 6.485,
+   "mass": 18.206,
+   "words": [
+    [
+     "earth",
+     5,
+     6.48
+    ],
+    [
+     "presence",
+     3,
+     3.66
+    ],
+    [
+     "highly",
+     3,
+     2.7
+    ],
+    [
+     "sure",
+     2,
+     2.69
+    ],
+    [
+     "connected",
+     2,
+     2.69
+    ],
+    [
+     "sun",
+     3,
+     2.62
+    ],
+    [
+     "user",
+     2,
+     2.58
+    ],
+    [
+     "neutral",
+     2,
+     2.47
+    ],
+    [
+     "high",
+     2,
+     2.01
+    ],
+    [
+     "schedule",
+     2,
+     1.91
+    ],
+    [
+     "personal",
+     2,
+     1.01
+    ],
+    [
+     "for",
+     2,
+     0.7
+    ]
+   ],
+   "per_prompt": {
+    "earth": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "presence": [
+     "orange",
+     "weekend"
+    ],
+    "highly": [
+     "orange",
+     "who"
+    ],
+    "sure": [
+     "weekend"
+    ],
+    "connected": [
+     "weekend",
+     "who"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.052,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.407,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.985,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.985,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.022,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 0.9853
+  },
+  {
+   "kind": "neuron",
+   "neuron": 2003225,
+   "layer": 20,
+   "ref_neuron": null,
+   "z": 5.555,
+   "mass": 18.143,
+   "words": [
+    [
+     "delta",
+     4,
+     5.55
+    ],
+    [
+     "research",
+     4,
+     4.41
+    ],
+    [
+     "real",
+     3,
+     2.88
+    ],
+    [
+     "deltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadelta",
+     2,
+     2.77
+    ],
+    [
+     "visually",
+     2,
+     2.52
+    ],
+    [
+     "intelligence",
+     2,
+     2.26
+    ],
+    [
+     "artificial",
+     2,
+     2.25
+    ],
+    [
+     "was",
+     2,
+     1.96
+    ],
+    [
+     "bright",
+     2,
+     1.46
+    ],
+    [
+     "assistant",
+     2,
+     1.2
+    ],
+    [
+     "color",
+     3,
+     -0.15
+    ]
+   ],
+   "per_prompt": {
+    "delta": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "research": [
+     "weekend",
+     "who"
+    ],
+    "real": [
+     "orange",
+     "weekend"
+    ],
+    "deltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadeltadelta": [
+     "free",
+     "orange",
+     "who"
+    ],
+    "visually": [
+     "orange"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.97,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 1.0,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.696,
+     "capped": 0.667,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.044,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.022,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 0.9853
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1500232,
+   "layer": 15,
+   "ref_neuron": null,
+   "z": 4.193,
+   "mass": 18.05,
+   "words": [
+    [
+     "combines",
+     3,
+     4.19
+    ],
+    [
+     "currently",
+     4,
+     3.86
+    ],
+    [
+     "looking",
+     3,
+     3.84
+    ],
+    [
+     "available",
+     3,
+     3.37
+    ],
+    [
+     "complementary",
+     2,
+     2.79
+    ],
+    [
+     "expert",
+     2,
+     2.61
+    ],
+    [
+     "black",
+     2,
+     2.58
+    ],
+    [
+     "present",
+     2,
+     2.56
+    ],
+    [
+     "second",
+     2,
+     2.54
+    ],
+    [
+     "frequently",
+     2,
+     2.51
+    ],
+    [
+     "active",
+     2,
+     2.48
+    ],
+    [
+     "for",
+     4,
+     2.27
+    ]
+   ],
+   "per_prompt": {
+    "combines": [
+     "orange",
+     "who"
+    ],
+    "currently": [
+     "weekend",
+     "who"
+    ],
+    "looking": [
+     "weekend",
+     "who"
+    ],
+    "available": [
+     "weekend",
+     "who"
+    ],
+    "complementary": [
+     "orange"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.748,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 1.0,
+     "capped": 0.667,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 1.0,
+     "capped": 0.333,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 1.0,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.022,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 0.9853
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1201129,
+   "layer": 12,
+   "ref_neuron": null,
+   "z": 4.718,
+   "mass": 17.923,
+   "words": [
+    [
+     "hello",
+     4,
+     4.72
+    ],
+    [
+     "friend",
+     3,
+     3.98
+    ],
+    [
+     "love",
+     3,
+     3.93
+    ],
+    [
+     "excited",
+     2,
+     2.78
+    ],
+    [
+     "happy",
+     2,
+     2.51
+    ],
+    [
+     "technology",
+     2,
+     2.5
+    ],
+    [
+     "anything",
+     2,
+     2.47
+    ],
+    [
+     "key",
+     3,
+     2.4
+    ],
+    [
+     "characteristics",
+     3,
+     2.36
+    ],
+    [
+     "available",
+     2,
+     2.17
+    ],
+    [
+     "out",
+     2,
+     2.11
+    ],
+    [
+     "assistant",
+     3,
+     2.11
+    ]
+   ],
+   "per_prompt": {
+    "hello": [
+     "weekend",
+     "who"
+    ],
+    "friend": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "love": [
+     "weekend",
+     "who"
+    ],
+    "excited": [
+     "who"
+    ],
+    "happy": [
+     "weekend"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 1.0,
+     "capped": 0.333,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 1.0,
+     "capped": 0.667,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.985,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.407,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.022,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 0.9853
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1603311,
+   "layer": 16,
+   "ref_neuron": null,
+   "z": 6.949,
+   "mass": 17.882,
+   "words": [
+    [
+     "missing",
+     5,
+     6.95
+    ],
+    [
+     "missed",
+     2,
+     2.8
+    ],
+    [
+     "miss",
+     2,
+     2.8
+    ],
+    [
+     "purpose",
+     2,
+     2.7
+    ],
+    [
+     "routine",
+     2,
+     2.63
+    ],
+    [
+     "contrast",
+     2,
+     2.59
+    ],
+    [
+     "anything",
+     2,
+     2.47
+    ],
+    [
+     "daily",
+     2,
+     2.44
+    ],
+    [
+     "striking",
+     2,
+     2.4
+    ],
+    [
+     "bit",
+     2,
+     2.29
+    ],
+    [
+     "out",
+     2,
+     2.11
+    ],
+    [
+     "creating",
+     2,
+     2.04
+    ]
+   ],
+   "per_prompt": {
+    "missing": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "missed": [
+     "orange",
+     "weekend"
+    ],
+    "miss": [
+     "weekend",
+     "who"
+    ],
+    "purpose": [
+     "who"
+    ],
+    "routine": [
+     "weekend"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.807,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 1.0,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.985,
+     "capped": 0.667,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.681,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.022,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 0.9853
+  },
+  {
+   "kind": "neuron",
+   "neuron": 2101461,
+   "layer": 21,
+   "ref_neuron": null,
+   "z": 8.26,
+   "mass": 17.866,
+   "words": [
+    [
+     "king",
+     6,
+     8.26
+    ],
+    [
+     "hiking",
+     2,
+     2.74
+    ],
+    [
+     "mixture",
+     2,
+     2.61
+    ],
+    [
+     "two",
+     2,
+     2.15
+    ],
+    [
+     "mix",
+     2,
+     2.1
+    ],
+    [
+     "colors",
+     2,
+     1.16
+    ]
+   ],
+   "per_prompt": {
+    "king": [
+     "free",
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "hiking": [
+     "weekend"
+    ],
+    "mixture": [
+     "orange"
+    ],
+    "two": [
+     "orange"
+    ],
+    "mix": [
+     "orange"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.526,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.948,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.044,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.044,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.022,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 0.9853
+  },
+  {
+   "kind": "neuron",
+   "neuron": 2100707,
+   "layer": 21,
+   "ref_neuron": null,
+   "z": 6.299,
+   "mass": 17.786,
+   "words": [
+    [
+     "just",
+     6,
+     6.3
+    ],
+    [
+     "right",
+     4,
+     4.53
+    ],
+    [
+     "electric",
+     2,
+     2.62
+    ],
+    [
+     "bridges",
+     2,
+     2.4
+    ],
+    [
+     "weekends",
+     2,
+     1.93
+    ],
+    [
+     "assistant",
+     2,
+     1.2
+    ],
+    [
+     "spectrum",
+     2,
+     1.04
+    ],
+    [
+     "color",
+     2,
+     -0.66
+    ]
+   ],
+   "per_prompt": {
+    "just": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "right": [
+     "orange",
+     "weekend"
+    ],
+    "electric": [
+     "orange"
+    ],
+    "bridges": [
+     "orange"
+    ],
+    "weekends": [
+     "weekend"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.081,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.133,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.993,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.904,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.044,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 0.9853
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1402548,
+   "layer": 14,
+   "ref_neuron": null,
+   "z": 4.555,
+   "mass": 17.763,
+   "words": [
+    [
+     "part",
+     4,
+     4.55
+    ],
+    [
+     "prompt",
+     3,
+     4.1
+    ],
+    [
+     "text",
+     4,
+     3.63
+    ],
+    [
+     "bible",
+     2,
+     2.78
+    ],
+    [
+     "represents",
+     2,
+     2.7
+    ],
+    [
+     "yellowish",
+     2,
+     2.61
+    ],
+    [
+     "virtual",
+     2,
+     2.53
+    ],
+    [
+     "schedule",
+     2,
+     1.91
+    ],
+    [
+     "specific",
+     2,
+     1.8
+    ],
+    [
+     "based",
+     2,
+     1.8
+    ],
+    [
+     "tell",
+     2,
+     1.35
+    ],
+    [
+     "which",
+     2,
+     1.15
+    ]
+   ],
+   "per_prompt": {
+    "part": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "prompt": [
+     "weekend",
+     "who"
+    ],
+    "text": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "bible": [
+     "orange",
+     "who"
+    ],
+    "represents": [
+     "orange",
+     "who"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.778,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 1.0,
+     "capped": 0.667,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.889,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.756,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.089,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 0.9853
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1700522,
+   "layer": 17,
+   "ref_neuron": null,
+   "z": 5.555,
+   "mass": 17.758,
+   "words": [
+    [
+     "bad",
+     4,
+     5.55
+    ],
+    [
+     "ass",
+     3,
+     4.19
+    ],
+    [
+     "deceptive",
+     2,
+     2.8
+    ],
+    [
+     "luminous",
+     2,
+     2.65
+    ],
+    [
+     "soft",
+     2,
+     2.55
+    ],
+    [
+     "text",
+     2,
+     1.58
+    ],
+    [
+     "rich",
+     2,
+     1.55
+    ],
+    [
+     "human",
+     2,
+     1.02
+    ],
+    [
+     "shade",
+     2,
+     0.97
+    ],
+    [
+     "between",
+     2,
+     0.78
+    ],
+    [
+     "color",
+     4,
+     0.36
+    ]
+   ],
+   "per_prompt": {
+    "bad": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "ass": [
+     "weekend",
+     "who"
+    ],
+    "deceptive": [
+     "orange"
+    ],
+    "luminous": [
+     "orange"
+    ],
+    "soft": [
+     "orange"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.721,
+     "capped": 0.667,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 1.0,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.904,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.911,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.156,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 0.9853
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1802421,
+   "layer": 18,
+   "ref_neuron": null,
+   "z": 7.998,
+   "mass": 17.737,
+   "words": [
+    [
+     "american",
+     6,
+     8.0
+    ],
+    [
+     "highly",
+     3,
+     2.7
+    ],
+    [
+     "text",
+     3,
+     2.61
+    ],
+    [
+     "great",
+     2,
+     2.33
+    ],
+    [
+     "wheel",
+     2,
+     2.1
+    ],
+    [
+     "trained",
+     2,
+     1.98
+    ],
+    [
+     "actually",
+     2,
+     1.95
+    ],
+    [
+     "just",
+     2,
+     1.87
+    ],
+    [
+     "since",
+     2,
+     1.57
+    ],
+    [
+     "colors",
+     2,
+     1.16
+    ],
+    [
+     "between",
+     2,
+     0.78
+    ],
+    [
+     "for",
+     2,
+     0.7
+    ]
+   ],
+   "per_prompt": {
+    "american": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "highly": [
+     "orange",
+     "who"
+    ],
+    "text": [
+     "weekend",
+     "who"
+    ],
+    "great": [
+     "weekend"
+    ],
+    "wheel": [
+     "orange"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.104,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.919,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.993,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.978,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.022,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 0.9853
+  },
+  {
+   "kind": "neuron",
+   "neuron": 2000367,
+   "layer": 20,
+   "ref_neuron": null,
+   "z": 5.555,
+   "mass": 17.728,
+   "words": [
+    [
+     "stress",
+     4,
+     5.55
+    ],
+    [
+     "joy",
+     3,
+     4.08
+    ],
+    [
+     "perpetual",
+     2,
+     2.8
+    ],
+    [
+     "joyful",
+     2,
+     2.8
+    ],
+    [
+     "free",
+     2,
+     2.48
+    ],
+    [
+     "exist",
+     2,
+     2.41
+    ],
+    [
+     "energetic",
+     2,
+     2.15
+    ],
+    [
+     "this",
+     2,
+     1.87
+    ],
+    [
+     "sense",
+     2,
+     1.36
+    ],
+    [
+     "spectrum",
+     2,
+     1.04
+    ],
+    [
+     "personal",
+     2,
+     1.01
+    ],
+    [
+     "like",
+     2,
+     0.67
+    ]
+   ],
+   "per_prompt": {
+    "stress": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "joy": [
+     "weekend",
+     "who"
+    ],
+    "perpetual": [
+     "weekend"
+    ],
+    "joyful": [
+     "orange"
+    ],
+    "free": [
+     "weekend"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.733,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.963,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.985,
+     "capped": 0.667,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.519,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.022,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 0.9853
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1702186,
+   "layer": 17,
+   "ref_neuron": null,
+   "z": 6.901,
+   "mass": 17.631,
+   "words": [
+    [
+     "death",
+     5,
+     6.9
+    ],
+    [
+     "yann",
+     2,
+     2.8
+    ],
+    [
+     "related",
+     2,
+     2.72
+    ],
+    [
+     "luminous",
+     2,
+     2.65
+    ],
+    [
+     "soft",
+     2,
+     2.55
+    ],
+    [
+     "personal",
+     3,
+     1.88
+    ],
+    [
+     "associated",
+     2,
+     1.44
+    ],
+    [
+     "for",
+     2,
+     0.7
+    ],
+    [
+     "color",
+     3,
+     -0.15
+    ]
+   ],
+   "per_prompt": {
+    "death": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "yann": [
+     "who"
+    ],
+    "related": [
+     "who"
+    ],
+    "luminous": [
+     "orange"
+    ],
+    "soft": [
+     "orange"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.215,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.837,
+     "capped": 0.667,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.985,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.97,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.022,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 0.9853
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1802643,
+   "layer": 18,
+   "ref_neuron": null,
+   "z": 6.365,
+   "mass": 17.597,
+   "words": [
+    [
+     "job",
+     5,
+     6.36
+    ],
+    [
+     "description",
+     3,
+     3.71
+    ],
+    [
+     "structured",
+     2,
+     2.67
+    ],
+    [
+     "rich",
+     3,
+     2.57
+    ],
+    [
+     "doing",
+     2,
+     2.29
+    ],
+    [
+     "versatile",
+     2,
+     2.19
+    ],
+    [
+     "series",
+     2,
+     1.97
+    ],
+    [
+     "light",
+     2,
+     1.88
+    ],
+    [
+     "energy",
+     2,
+     1.83
+    ],
+    [
+     "warmth",
+     2,
+     1.8
+    ],
+    [
+     "deep",
+     2,
+     1.6
+    ],
+    [
+     "since",
+     2,
+     1.57
+    ]
+   ],
+   "per_prompt": {
+    "job": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "description": [
+     "orange",
+     "weekend"
+    ],
+    "structured": [
+     "orange"
+    ],
+    "rich": [
+     "orange"
+    ],
+    "doing": [
+     "weekend"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.807,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 1.0,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.993,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.778,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.044,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 0.9853
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1703107,
+   "layer": 17,
+   "ref_neuron": null,
+   "z": 6.925,
+   "mass": 17.473,
+   "words": [
+    [
+     "tangent",
+     5,
+     6.92
+    ],
+    [
+     "tangential",
+     2,
+     2.8
+    ],
+    [
+     "respect",
+     2,
+     2.8
+    ],
+    [
+     "third",
+     2,
+     2.56
+    ],
+    [
+     "almost",
+     2,
+     2.38
+    ],
+    [
+     "blue",
+     2,
+     2.1
+    ],
+    [
+     "primary",
+     2,
+     1.76
+    ],
+    [
+     "bright",
+     2,
+     1.46
+    ],
+    [
+     "between",
+     2,
+     0.78
+    ],
+    [
+     "color",
+     4,
+     0.36
+    ]
+   ],
+   "per_prompt": {
+    "tangent": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "tangential": [
+     "orange"
+    ],
+    "respect": [
+     "orange",
+     "who"
+    ],
+    "third": [
+     "orange",
+     "who"
+    ],
+    "almost": [
+     "orange"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.607,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 1.0,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.8,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.652,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.022,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 0.9853
+  },
+  {
+   "kind": "neuron",
+   "neuron": 1700740,
+   "layer": 17,
+   "ref_neuron": null,
+   "z": 6.142,
+   "mass": 17.211,
+   "words": [
+    [
+     "real",
+     6,
+     6.14
+    ],
+    [
+     "life",
+     5,
+     4.46
+    ],
+    [
+     "choose",
+     2,
+     2.71
+    ],
+    [
+     "used",
+     2,
+     1.98
+    ],
+    [
+     "schedule",
+     2,
+     1.91
+    ],
+    [
+     "from",
+     2,
+     1.09
+    ],
+    [
+     "but",
+     2,
+     0.82
+    ],
+    [
+     "color",
+     3,
+     -0.15
+    ]
+   ],
+   "per_prompt": {
+    "real": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "life": [
+     "orange",
+     "weekend",
+     "who"
+    ],
+    "choose": [
+     "weekend"
+    ],
+    "used": [
+     "orange"
+    ],
+    "schedule": [
+     "weekend"
+    ]
+   },
+   "dose": {
+    "-0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.348,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "-0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.926,
+     "capped": 0.667,
+     "logprob": null
+    },
+    "+0.6": {
+     "rel_push": 0.6,
+     "distinct4": 0.985,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+0.9": {
+     "rel_push": 0.9,
+     "distinct4": 0.926,
+     "capped": 1.0,
+     "logprob": null
+    },
+    "+3": {
+     "rel_push": 3.0,
+     "distinct4": 0.044,
+     "capped": 1.0,
+     "logprob": null
+    }
+   },
+   "null_pct": 0.9853
+  }
+ ]
+}

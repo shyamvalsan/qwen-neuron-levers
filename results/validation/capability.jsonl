@@ -1,0 +1,408 @@
+{"cell": "cap|0", "cond": "base", "kind": "base", "q": 0, "text": "56", "correct": true}
+{"cell": "cap|0", "cond": "enthusiast", "kind": "lever", "q": 0, "text": "<think>\nThis is a very helpful and impressive number, which is a great achievement", "correct": false}
+{"cell": "cap|0", "cond": "ctrl:enthusiast:0", "kind": "control", "q": 0, "text": "7", "correct": false}
+{"cell": "cap|0", "cond": "ctrl:enthusiast:1", "kind": "control", "q": 0, "text": "7 \u00d7 8 = 14.\n\n**14**<|endoftext|>##", "correct": false}
+{"cell": "cap|0", "cond": "gratitude", "kind": "lever", "q": 0, "text": "56", "correct": true}
+{"cell": "cap|0", "cond": "ctrl:gratitude:0", "kind": "control", "q": 0, "text": "56", "correct": true}
+{"cell": "cap|0", "cond": "ctrl:gratitude:1", "kind": "control", "q": 0, "text": "56", "correct": true}
+{"cell": "cap|0", "cond": "deity", "kind": "lever", "q": 0, "text": "5\nGod\nGod\nGod\nGod\nGod\nGod\nGod\n", "correct": false}
+{"cell": "cap|0", "cond": "ctrl:deity:0", "kind": "control", "q": 0, "text": "57", "correct": false}
+{"cell": "cap|0", "cond": "ctrl:deity:1", "kind": "control", "q": 0, "text": "6", "correct": false}
+{"cell": "cap|0", "cond": "jesus", "kind": "lever", "q": 0, "text": "10\n10\n10\n10\n10\n1", "correct": false}
+{"cell": "cap|0", "cond": "ctrl:jesus:0", "kind": "control", "q": 0, "text": "88", "correct": false}
+{"cell": "cap|0", "cond": "ctrl:jesus:1", "kind": "control", "q": 0, "text": "78.", "correct": false}
+{"cell": "cap|0", "cond": "reassure", "kind": "lever", "q": 0, "text": "7 times 8 is 28.", "correct": false}
+{"cell": "cap|0", "cond": "ctrl:reassure:0", "kind": "control", "q": 0, "text": "7 * 8 = 7", "correct": false}
+{"cell": "cap|0", "cond": "ctrl:reassure:1", "kind": "control", "q": 0, "text": "5", "correct": false}
+{"cell": "cap|0", "cond": "cosmic", "kind": "lever", "q": 0, "text": "52", "correct": false}
+{"cell": "cap|0", "cond": "ctrl:cosmic:0", "kind": "control", "q": 0, "text": "56", "correct": true}
+{"cell": "cap|0", "cond": "ctrl:cosmic:1", "kind": "control", "q": 0, "text": "56", "correct": true}
+{"cell": "cap|0", "cond": "human", "kind": "lever", "q": 0, "text": "8", "correct": false}
+{"cell": "cap|0", "cond": "ctrl:human:0", "kind": "control", "q": 0, "text": "56", "correct": true}
+{"cell": "cap|0", "cond": "ctrl:human:1", "kind": "control", "q": 0, "text": "56", "correct": true}
+{"cell": "cap|0", "cond": "grandiose", "kind": "lever", "q": 0, "text": "6", "correct": false}
+{"cell": "cap|0", "cond": "ctrl:grandiose:0", "kind": "control", "q": 0, "text": "7 times 8 is 11.\n</think>\n\n11<|endoftext|>5", "correct": false}
+{"cell": "cap|0", "cond": "ctrl:grandiose:1", "kind": "control", "q": 0, "text": "5", "correct": false}
+{"cell": "cap|0", "cond": "anxious", "kind": "lever", "q": 0, "text": "50", "correct": false}
+{"cell": "cap|0", "cond": "ctrl:anxious:0", "kind": "control", "q": 0, "text": "56", "correct": true}
+{"cell": "cap|0", "cond": "ctrl:anxious:1", "kind": "control", "q": 0, "text": "56\n56\n56\n56\n56\n5", "correct": true}
+{"cell": "cap|0", "cond": "india", "kind": "lever", "q": 0, "text": "53", "correct": false}
+{"cell": "cap|0", "cond": "ctrl:india:0", "kind": "control", "q": 0, "text": "5", "correct": false}
+{"cell": "cap|0", "cond": "ctrl:india:1", "kind": "control", "q": 0, "text": "52", "correct": false}
+{"cell": "cap|0", "cond": "angry", "kind": "lever", "q": 0, "text": "7 times 8 is 56.", "correct": true}
+{"cell": "cap|0", "cond": "ctrl:angry:0", "kind": "control", "q": 0, "text": "56", "correct": true}
+{"cell": "cap|0", "cond": "ctrl:angry:1", "kind": "control", "q": 0, "text": "7*8=57", "correct": false}
+{"cell": "cap|1", "cond": "base", "kind": "base", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "enthusiast", "kind": "lever", "q": 1, "text": "<think>\nThis is a very helpful and accurate question, which is great for the", "correct": false}
+{"cell": "cap|1", "cond": "ctrl:enthusiast:0", "kind": "control", "q": 1, "text": "15 + 27 = 42", "correct": true}
+{"cell": "cap|1", "cond": "ctrl:enthusiast:1", "kind": "control", "q": 1, "text": "15 + 27 = 37.\n\n37.\n\n", "correct": false}
+{"cell": "cap|1", "cond": "gratitude", "kind": "lever", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "ctrl:gratitude:0", "kind": "control", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "ctrl:gratitude:1", "kind": "control", "q": 1, "text": "48", "correct": false}
+{"cell": "cap|1", "cond": "deity", "kind": "lever", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "ctrl:deity:0", "kind": "control", "q": 1, "text": "52", "correct": false}
+{"cell": "cap|1", "cond": "ctrl:deity:1", "kind": "control", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "jesus", "kind": "lever", "q": 1, "text": "30", "correct": false}
+{"cell": "cap|1", "cond": "ctrl:jesus:0", "kind": "control", "q": 1, "text": "32", "correct": false}
+{"cell": "cap|1", "cond": "ctrl:jesus:1", "kind": "control", "q": 1, "text": "37.", "correct": false}
+{"cell": "cap|1", "cond": "reassure", "kind": "lever", "q": 1, "text": "27", "correct": false}
+{"cell": "cap|1", "cond": "ctrl:reassure:0", "kind": "control", "q": 1, "text": "8<|endoftext|><|im_start|> Answer\n\n15 + 27 = 42", "correct": true}
+{"cell": "cap|1", "cond": "ctrl:reassure:1", "kind": "control", "q": 1, "text": "8", "correct": false}
+{"cell": "cap|1", "cond": "cosmic", "kind": "lever", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "ctrl:cosmic:0", "kind": "control", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "ctrl:cosmic:1", "kind": "control", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "human", "kind": "lever", "q": 1, "text": "30", "correct": false}
+{"cell": "cap|1", "cond": "ctrl:human:0", "kind": "control", "q": 1, "text": "48", "correct": false}
+{"cell": "cap|1", "cond": "ctrl:human:1", "kind": "control", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "grandiose", "kind": "lever", "q": 1, "text": "15 plus 27 is 42.", "correct": true}
+{"cell": "cap|1", "cond": "ctrl:grandiose:0", "kind": "control", "q": 1, "text": "30<|endoftext|>5 5 5 5 5 5 5", "correct": false}
+{"cell": "cap|1", "cond": "ctrl:grandiose:1", "kind": "control", "q": 1, "text": "27", "correct": false}
+{"cell": "cap|1", "cond": "anxious", "kind": "lever", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "ctrl:anxious:0", "kind": "control", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "ctrl:anxious:1", "kind": "control", "q": 1, "text": "42\n42\n42\n42\n42\n4", "correct": true}
+{"cell": "cap|1", "cond": "india", "kind": "lever", "q": 1, "text": "32", "correct": false}
+{"cell": "cap|1", "cond": "ctrl:india:0", "kind": "control", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "ctrl:india:1", "kind": "control", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "angry", "kind": "lever", "q": 1, "text": "15 plus 27 is 42.", "correct": true}
+{"cell": "cap|1", "cond": "ctrl:angry:0", "kind": "control", "q": 1, "text": "38", "correct": false}
+{"cell": "cap|1", "cond": "ctrl:angry:1", "kind": "control", "q": 1, "text": "30", "correct": false}
+{"cell": "cap|2", "cond": "base", "kind": "base", "q": 2, "text": "63", "correct": true}
+{"cell": "cap|2", "cond": "enthusiast", "kind": "lever", "q": 2, "text": "<think>\nThis is a very helpful and accurate question, which is great for the", "correct": false}
+{"cell": "cap|2", "cond": "ctrl:enthusiast:0", "kind": "control", "q": 2, "text": "50", "correct": false}
+{"cell": "cap|2", "cond": "ctrl:enthusiast:1", "kind": "control", "q": 2, "text": "100 - 37 = 100.\n\n**1", "correct": false}
+{"cell": "cap|2", "cond": "gratitude", "kind": "lever", "q": 2, "text": "73", "correct": false}
+{"cell": "cap|2", "cond": "ctrl:gratitude:0", "kind": "control", "q": 2, "text": "53", "correct": false}
+{"cell": "cap|2", "cond": "ctrl:gratitude:1", "kind": "control", "q": 2, "text": "73", "correct": false}
+{"cell": "cap|2", "cond": "deity", "kind": "lever", "q": 2, "text": "73", "correct": false}
+{"cell": "cap|2", "cond": "ctrl:deity:0", "kind": "control", "q": 2, "text": "7\n\n", "correct": false}
+{"cell": "cap|2", "cond": "ctrl:deity:1", "kind": "control", "q": 2, "text": "63", "correct": true}
+{"cell": "cap|2", "cond": "jesus", "kind": "lever", "q": 2, "text": "53<|endoftext|>#100-37=53\n#1", "correct": false}
+{"cell": "cap|2", "cond": "ctrl:jesus:0", "kind": "control", "q": 2, "text": "83", "correct": false}
+{"cell": "cap|2", "cond": "ctrl:jesus:1", "kind": "control", "q": 2, "text": "53.", "correct": false}
+{"cell": "cap|2", "cond": "reassure", "kind": "lever", "q": 2, "text": "50", "correct": false}
+{"cell": "cap|2", "cond": "ctrl:reassure:0", "kind": "control", "q": 2, "text": "7<|endoftext|>(100 * 37) / 100", "correct": false}
+{"cell": "cap|2", "cond": "ctrl:reassure:1", "kind": "control", "q": 2, "text": "37", "correct": false}
+{"cell": "cap|2", "cond": "cosmic", "kind": "lever", "q": 2, "text": "63", "correct": true}
+{"cell": "cap|2", "cond": "ctrl:cosmic:0", "kind": "control", "q": 2, "text": "53", "correct": false}
+{"cell": "cap|2", "cond": "ctrl:cosmic:1", "kind": "control", "q": 2, "text": "53", "correct": false}
+{"cell": "cap|2", "cond": "human", "kind": "lever", "q": 2, "text": "53", "correct": false}
+{"cell": "cap|2", "cond": "ctrl:human:0", "kind": "control", "q": 2, "text": "63", "correct": true}
+{"cell": "cap|2", "cond": "ctrl:human:1", "kind": "control", "q": 2, "text": "-63", "correct": true}
+{"cell": "cap|2", "cond": "grandiose", "kind": "lever", "q": 2, "text": "50", "correct": false}
+{"cell": "cap|2", "cond": "ctrl:grandiose:0", "kind": "control", "q": 2, "text": "65\n<|endoftext|>100 minus 37 is equal to 6", "correct": false}
+{"cell": "cap|2", "cond": "ctrl:grandiose:1", "kind": "control", "q": 2, "text": "53", "correct": false}
+{"cell": "cap|2", "cond": "anxious", "kind": "lever", "q": 2, "text": "63", "correct": true}
+{"cell": "cap|2", "cond": "ctrl:anxious:0", "kind": "control", "q": 2, "text": "63", "correct": true}
+{"cell": "cap|2", "cond": "ctrl:anxious:1", "kind": "control", "q": 2, "text": "53\n</think>\n\n53\n</think>\n\n53\n</think>\n\n5", "correct": false}
+{"cell": "cap|2", "cond": "india", "kind": "lever", "q": 2, "text": "73", "correct": false}
+{"cell": "cap|2", "cond": "ctrl:india:0", "kind": "control", "q": 2, "text": "53", "correct": false}
+{"cell": "cap|2", "cond": "ctrl:india:1", "kind": "control", "q": 2, "text": "92", "correct": false}
+{"cell": "cap|2", "cond": "angry", "kind": "lever", "q": 2, "text": "100", "correct": false}
+{"cell": "cap|2", "cond": "ctrl:angry:0", "kind": "control", "q": 2, "text": "-63", "correct": true}
+{"cell": "cap|2", "cond": "ctrl:angry:1", "kind": "control", "q": 2, "text": "93", "correct": false}
+{"cell": "cap|3", "cond": "base", "kind": "base", "q": 3, "text": "54", "correct": true}
+{"cell": "cap|3", "cond": "enthusiast", "kind": "lever", "q": 3, "text": "<think>\nThis is a very helpful and impressive number, which is a great achievement", "correct": false}
+{"cell": "cap|3", "cond": "ctrl:enthusiast:0", "kind": "control", "q": 3, "text": "9", "correct": false}
+{"cell": "cap|3", "cond": "ctrl:enthusiast:1", "kind": "control", "q": 3, "text": "9 \u00d7 6 = 108.\n\n**108**", "correct": false}
+{"cell": "cap|3", "cond": "gratitude", "kind": "lever", "q": 3, "text": "54", "correct": true}
+{"cell": "cap|3", "cond": "ctrl:gratitude:0", "kind": "control", "q": 3, "text": "54", "correct": true}
+{"cell": "cap|3", "cond": "ctrl:gratitude:1", "kind": "control", "q": 3, "text": "36", "correct": false}
+{"cell": "cap|3", "cond": "deity", "kind": "lever", "q": 3, "text": "54", "correct": true}
+{"cell": "cap|3", "cond": "ctrl:deity:0", "kind": "control", "q": 3, "text": "6", "correct": false}
+{"cell": "cap|3", "cond": "ctrl:deity:1", "kind": "control", "q": 3, "text": "6", "correct": false}
+{"cell": "cap|3", "cond": "jesus", "kind": "lever", "q": 3, "text": "9 \\times 6 = 90", "correct": false}
+{"cell": "cap|3", "cond": "ctrl:jesus:0", "kind": "control", "q": 3, "text": "9*6 = 99", "correct": false}
+{"cell": "cap|3", "cond": "ctrl:jesus:1", "kind": "control", "q": 3, "text": "76.", "correct": false}
+{"cell": "cap|3", "cond": "reassure", "kind": "lever", "q": 3, "text": "6", "correct": false}
+{"cell": "cap|3", "cond": "ctrl:reassure:0", "kind": "control", "q": 3, "text": "7<|endoftext|>(No text required for the final answer, just the number.)", "correct": false}
+{"cell": "cap|3", "cond": "ctrl:reassure:1", "kind": "control", "q": 3, "text": "9", "correct": false}
+{"cell": "cap|3", "cond": "cosmic", "kind": "lever", "q": 3, "text": "54", "correct": true}
+{"cell": "cap|3", "cond": "ctrl:cosmic:0", "kind": "control", "q": 3, "text": "69", "correct": false}
+{"cell": "cap|3", "cond": "ctrl:cosmic:1", "kind": "control", "q": 3, "text": "54", "correct": true}
+{"cell": "cap|3", "cond": "human", "kind": "lever", "q": 3, "text": "24", "correct": false}
+{"cell": "cap|3", "cond": "ctrl:human:0", "kind": "control", "q": 3, "text": "6", "correct": false}
+{"cell": "cap|3", "cond": "ctrl:human:1", "kind": "control", "q": 3, "text": "54", "correct": true}
+{"cell": "cap|3", "cond": "grandiose", "kind": "lever", "q": 3, "text": "6", "correct": false}
+{"cell": "cap|3", "cond": "ctrl:grandiose:0", "kind": "control", "q": 3, "text": "9 times 6 is 9.\n9 \u00d7 6 = 9", "correct": false}
+{"cell": "cap|3", "cond": "ctrl:grandiose:1", "kind": "control", "q": 3, "text": "6", "correct": false}
+{"cell": "cap|3", "cond": "anxious", "kind": "lever", "q": 3, "text": "60", "correct": false}
+{"cell": "cap|3", "cond": "ctrl:anxious:0", "kind": "control", "q": 3, "text": "54", "correct": true}
+{"cell": "cap|3", "cond": "ctrl:anxious:1", "kind": "control", "q": 3, "text": "54\n54\n54\n54\n54\n5", "correct": true}
+{"cell": "cap|3", "cond": "india", "kind": "lever", "q": 3, "text": "6", "correct": false}
+{"cell": "cap|3", "cond": "ctrl:india:0", "kind": "control", "q": 3, "text": "5 5 5 5 5 5 5 5 ", "correct": false}
+{"cell": "cap|3", "cond": "ctrl:india:1", "kind": "control", "q": 3, "text": "52", "correct": false}
+{"cell": "cap|3", "cond": "angry", "kind": "lever", "q": 3, "text": "60", "correct": false}
+{"cell": "cap|3", "cond": "ctrl:angry:0", "kind": "control", "q": 3, "text": "54", "correct": true}
+{"cell": "cap|3", "cond": "ctrl:angry:1", "kind": "control", "q": 3, "text": "9*6=54", "correct": true}
+{"cell": "cap|4", "cond": "base", "kind": "base", "q": 4, "text": " Paris", "correct": true}
+{"cell": "cap|4", "cond": "enthusiast", "kind": "lever", "q": 4, "text": "France", "correct": false}
+{"cell": "cap|4", "cond": "ctrl:enthusiast:0", "kind": "control", "q": 4, "text": "\u00cele (1)", "correct": false}
+{"cell": "cap|4", "cond": "ctrl:enthusiast:1", "kind": "control", "q": 4, "text": "CAPITAL OF FRANCE.\n\n**Answer:** CAPPEL.\n\n**Explanation", "correct": false}
+{"cell": "cap|4", "cond": "gratitude", "kind": "lever", "q": 4, "text": "Paris", "correct": true}
+{"cell": "cap|4", "cond": "ctrl:gratitude:0", "kind": "control", "q": 4, "text": "Paris", "correct": true}
+{"cell": "cap|4", "cond": "ctrl:gratitude:1", "kind": "control", "q": 4, "text": " Paris", "correct": true}
+{"cell": "cap|4", "cond": "deity", "kind": "lever", "q": 4, "text": "Paris", "correct": true}
+{"cell": "cap|4", "cond": "ctrl:deity:0", "kind": "control", "q": 4, "text": " Paris", "correct": true}
+{"cell": "cap|4", "cond": "ctrl:deity:1", "kind": "control", "q": 4, "text": " Paris", "correct": true}
+{"cell": "cap|4", "cond": "jesus", "kind": "lever", "q": 4, "text": "Leux<|endoftext|># {\n# {\n# {\n# {\n#", "correct": false}
+{"cell": "cap|4", "cond": "ctrl:jesus:0", "kind": "control", "q": 4, "text": "Paris", "correct": true}
+{"cell": "cap|4", "cond": "ctrl:jesus:1", "kind": "control", "q": 4, "text": " France.", "correct": false}
+{"cell": "cap|4", "cond": "reassure", "kind": "lever", "q": 4, "text": "Paris", "correct": true}
+{"cell": "cap|4", "cond": "ctrl:reassure:0", "kind": "control", "q": 4, "text": "Paris", "correct": true}
+{"cell": "cap|4", "cond": "ctrl:reassure:1", "kind": "control", "q": 4, "text": "Paris", "correct": true}
+{"cell": "cap|4", "cond": "cosmic", "kind": "lever", "q": 4, "text": " Paris", "correct": true}
+{"cell": "cap|4", "cond": "ctrl:cosmic:0", "kind": "control", "q": 4, "text": " Paris", "correct": true}
+{"cell": "cap|4", "cond": "ctrl:cosmic:1", "kind": "control", "q": 4, "text": " Paris", "correct": true}
+{"cell": "cap|4", "cond": "human", "kind": "lever", "q": 4, "text": " Paris", "correct": true}
+{"cell": "cap|4", "cond": "ctrl:human:0", "kind": "control", "q": 4, "text": "Paris", "correct": true}
+{"cell": "cap|4", "cond": "ctrl:human:1", "kind": "control", "q": 4, "text": "Paris", "correct": true}
+{"cell": "cap|4", "cond": "grandiose", "kind": "lever", "q": 4, "text": "", "correct": false}
+{"cell": "cap|4", "cond": "ctrl:grandiose:0", "kind": "control", "q": 4, "text": "Paris<|endoftext|>\u8981\u56de\u7b54\u8fd9\u4e2a\u95ee\u9898\uff0c\u6211\u9700\u8981\u5148\u4e86\u89e3\u4f60\u7684\u610f\u56fe\u3002\n\n\u4f60\u662f\u60f3\uff1a", "correct": true}
+{"cell": "cap|4", "cond": "ctrl:grandiose:1", "kind": "control", "q": 4, "text": "Paris", "correct": true}
+{"cell": "cap|4", "cond": "anxious", "kind": "lever", "q": 4, "text": "Paris", "correct": true}
+{"cell": "cap|4", "cond": "ctrl:anxious:0", "kind": "control", "q": 4, "text": " Paris", "correct": true}
+{"cell": "cap|4", "cond": "ctrl:anxious:1", "kind": "control", "q": 4, "text": "Paris\n</think>\n\nParis", "correct": true}
+{"cell": "cap|4", "cond": "india", "kind": "lever", "q": 4, "text": "Delta", "correct": false}
+{"cell": "cap|4", "cond": "ctrl:india:0", "kind": "control", "q": 4, "text": " Paris", "correct": true}
+{"cell": "cap|4", "cond": "ctrl:india:1", "kind": "control", "q": 4, "text": " Paris", "correct": true}
+{"cell": "cap|4", "cond": "angry", "kind": "lever", "q": 4, "text": "", "correct": false}
+{"cell": "cap|4", "cond": "ctrl:angry:0", "kind": "control", "q": 4, "text": "", "correct": false}
+{"cell": "cap|4", "cond": "ctrl:angry:1", "kind": "control", "q": 4, "text": "Paris", "correct": true}
+{"cell": "cap|5", "cond": "base", "kind": "base", "q": 5, "text": " Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "enthusiast", "kind": "lever", "q": 5, "text": "This is a very impressive and accurate answer, which is a great honor.\n\n", "correct": false}
+{"cell": "cap|5", "cond": "ctrl:enthusiast:0", "kind": "control", "q": 5, "text": "Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "ctrl:enthusiast:1", "kind": "control", "q": 5, "text": "JAPAN.\n\n**Answer:** JAPAN.\n\n**Explanation:** The capital", "correct": false}
+{"cell": "cap|5", "cond": "gratitude", "kind": "lever", "q": 5, "text": "Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "ctrl:gratitude:0", "kind": "control", "q": 5, "text": "YOKO", "correct": false}
+{"cell": "cap|5", "cond": "ctrl:gratitude:1", "kind": "control", "q": 5, "text": " Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "deity", "kind": "lever", "q": 5, "text": "Tokh\n</think>\n\nTokh", "correct": false}
+{"cell": "cap|5", "cond": "ctrl:deity:0", "kind": "control", "q": 5, "text": " Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "ctrl:deity:1", "kind": "control", "q": 5, "text": " Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "jesus", "kind": "lever", "q": 5, "text": " Jerusalem<|endoftext|># {\n# {\n# {\n# {\n# {", "correct": false}
+{"cell": "cap|5", "cond": "ctrl:jesus:0", "kind": "control", "q": 5, "text": "Japan (Japan)", "correct": false}
+{"cell": "cap|5", "cond": "ctrl:jesus:1", "kind": "control", "q": 5, "text": " Japan.", "correct": false}
+{"cell": "cap|5", "cond": "reassure", "kind": "lever", "q": 5, "text": "Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "ctrl:reassure:0", "kind": "control", "q": 5, "text": " Tokyo<|endoftext|><|im_start|>package", "correct": true}
+{"cell": "cap|5", "cond": "ctrl:reassure:1", "kind": "control", "q": 5, "text": "Yukon", "correct": false}
+{"cell": "cap|5", "cond": "cosmic", "kind": "lever", "q": 5, "text": " Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "ctrl:cosmic:0", "kind": "control", "q": 5, "text": " Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "ctrl:cosmic:1", "kind": "control", "q": 5, "text": " Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "human", "kind": "lever", "q": 5, "text": " Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "ctrl:human:0", "kind": "control", "q": 5, "text": "Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "ctrl:human:1", "kind": "control", "q": 5, "text": "Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "grandiose", "kind": "lever", "q": 5, "text": " Japan", "correct": false}
+{"cell": "cap|5", "cond": "ctrl:grandiose:0", "kind": "control", "q": 5, "text": "Tokyo<|endoftext|><|im_start|></think>\n\nTokyo.<|endoftext|><|im_start|>,\n</think>\n\nYes", "correct": true}
+{"cell": "cap|5", "cond": "ctrl:grandiose:1", "kind": "control", "q": 5, "text": "Tokia", "correct": false}
+{"cell": "cap|5", "cond": "anxious", "kind": "lever", "q": 5, "text": "Tokanavphra\n\n*(Note: \"Tokanavphra\"", "correct": false}
+{"cell": "cap|5", "cond": "ctrl:anxious:0", "kind": "control", "q": 5, "text": " Kawasaki", "correct": false}
+{"cell": "cap|5", "cond": "ctrl:anxious:1", "kind": "control", "q": 5, "text": "Tokinon\n</think>\n\nTokinon\n</think>\n\nTokinon\n", "correct": false}
+{"cell": "cap|5", "cond": "india", "kind": "lever", "q": 5, "text": " Kanlao", "correct": false}
+{"cell": "cap|5", "cond": "ctrl:india:0", "kind": "control", "q": 5, "text": "\u4e1c\u4eac", "correct": false}
+{"cell": "cap|5", "cond": "ctrl:india:1", "kind": "control", "q": 5, "text": "\u4eac\n\n\u4eac\uff08\u4eac\u548c\uff09<|endoftext|><|im_start|>\u201c\u4eac\u201d\u5b57\uff0c\u662f\u201c", "correct": false}
+{"cell": "cap|5", "cond": "angry", "kind": "lever", "q": 5, "text": "", "correct": false}
+{"cell": "cap|5", "cond": "ctrl:angry:0", "kind": "control", "q": 5, "text": "_Harbor_", "correct": false}
+{"cell": "cap|5", "cond": "ctrl:angry:1", "kind": "control", "q": 5, "text": "Tokyo", "correct": true}
+{"cell": "cap|6", "cond": "base", "kind": "base", "q": 6, "text": " Rome", "correct": true}
+{"cell": "cap|6", "cond": "enthusiast", "kind": "lever", "q": 6, "text": "This is a very impressive and accurate answer, which is a great honor!\n\n", "correct": false}
+{"cell": "cap|6", "cond": "ctrl:enthusiast:0", "kind": "control", "q": 6, "text": "Napper", "correct": false}
+{"cell": "cap|6", "cond": "ctrl:enthusiast:1", "kind": "control", "q": 6, "text": "ITALY.\n\n**Answer:** ITALY.\n\n**Explanation:** The capital", "correct": false}
+{"cell": "cap|6", "cond": "gratitude", "kind": "lever", "q": 6, "text": "Roma", "correct": false}
+{"cell": "cap|6", "cond": "ctrl:gratitude:0", "kind": "control", "q": 6, "text": "Milan", "correct": false}
+{"cell": "cap|6", "cond": "ctrl:gratitude:1", "kind": "control", "q": 6, "text": " Rome", "correct": true}
+{"cell": "cap|6", "cond": "deity", "kind": "lever", "q": 6, "text": " Rome\n</think>\n\nRome", "correct": true}
+{"cell": "cap|6", "cond": "ctrl:deity:0", "kind": "control", "q": 6, "text": " Riva\n</think>\n\nRiva", "correct": false}
+{"cell": "cap|6", "cond": "ctrl:deity:1", "kind": "control", "q": 6, "text": " Rome", "correct": true}
+{"cell": "cap|6", "cond": "jesus", "kind": "lever", "q": 6, "text": "Leuven<|endoftext|># {\n# {\n# {\n# {\n", "correct": false}
+{"cell": "cap|6", "cond": "ctrl:jesus:0", "kind": "control", "q": 6, "text": "italbitalbitalbitalbitalbitalbitalbitalb", "correct": false}
+{"cell": "cap|6", "cond": "ctrl:jesus:1", "kind": "control", "q": 6, "text": " Italy.", "correct": false}
+{"cell": "cap|6", "cond": "reassure", "kind": "lever", "q": 6, "text": "Naples", "correct": false}
+{"cell": "cap|6", "cond": "ctrl:reassure:0", "kind": "control", "q": 6, "text": " Rome", "correct": true}
+{"cell": "cap|6", "cond": "ctrl:reassure:1", "kind": "control", "q": 6, "text": "Roma", "correct": false}
+{"cell": "cap|6", "cond": "cosmic", "kind": "lever", "q": 6, "text": " Rome", "correct": true}
+{"cell": "cap|6", "cond": "ctrl:cosmic:0", "kind": "control", "q": 6, "text": " Rome", "correct": true}
+{"cell": "cap|6", "cond": "ctrl:cosmic:1", "kind": "control", "q": 6, "text": " Rome", "correct": true}
+{"cell": "cap|6", "cond": "human", "kind": "lever", "q": 6, "text": " Rome", "correct": true}
+{"cell": "cap|6", "cond": "ctrl:human:0", "kind": "control", "q": 6, "text": "", "correct": false}
+{"cell": "cap|6", "cond": "ctrl:human:1", "kind": "control", "q": 6, "text": "Nappe", "correct": false}
+{"cell": "cap|6", "cond": "grandiose", "kind": "lever", "q": 6, "text": " Italy", "correct": false}
+{"cell": "cap|6", "cond": "ctrl:grandiose:0", "kind": "control", "q": 6, "text": "Milano<|endoftext|><|im_start|>assistant\n\n<think>\n\n</think>\n\nItaenia.<|endoftext|><|im_start|>", "correct": false}
+{"cell": "cap|6", "cond": "ctrl:grandiose:1", "kind": "control", "q": 6, "text": " Rome", "correct": true}
+{"cell": "cap|6", "cond": "anxious", "kind": "lever", "q": 6, "text": "Scalphia", "correct": false}
+{"cell": "cap|6", "cond": "ctrl:anxious:0", "kind": "control", "q": 6, "text": " Rome", "correct": true}
+{"cell": "cap|6", "cond": "ctrl:anxious:1", "kind": "control", "q": 6, "text": "RACIN\n</think>\n\nRACIN", "correct": false}
+{"cell": "cap|6", "cond": "india", "kind": "lever", "q": 6, "text": "Delta", "correct": false}
+{"cell": "cap|6", "cond": "ctrl:india:0", "kind": "control", "q": 6, "text": "NO\u00f4T\u011aLL\u011aN\u0134\u0134\u0134", "correct": false}
+{"cell": "cap|6", "cond": "ctrl:india:1", "kind": "control", "q": 6, "text": " Linaiva", "correct": false}
+{"cell": "cap|6", "cond": "angry", "kind": "lever", "q": 6, "text": "", "correct": false}
+{"cell": "cap|6", "cond": "ctrl:angry:0", "kind": "control", "q": 6, "text": " Rome", "correct": true}
+{"cell": "cap|6", "cond": "ctrl:angry:1", "kind": "control", "q": 6, "text": "Naples", "correct": false}
+{"cell": "cap|7", "cond": "base", "kind": "base", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "enthusiast", "kind": "lever", "q": 7, "text": "1", "correct": false}
+{"cell": "cap|7", "cond": "ctrl:enthusiast:0", "kind": "control", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "ctrl:enthusiast:1", "kind": "control", "q": 7, "text": "7.\n\n**7**\n\nThis is the fundamental unit of time: the", "correct": true}
+{"cell": "cap|7", "cond": "gratitude", "kind": "lever", "q": 7, "text": "5", "correct": false}
+{"cell": "cap|7", "cond": "ctrl:gratitude:0", "kind": "control", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "ctrl:gratitude:1", "kind": "control", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "deity", "kind": "lever", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "ctrl:deity:0", "kind": "control", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "ctrl:deity:1", "kind": "control", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "jesus", "kind": "lever", "q": 7, "text": "7<|endoftext|># 100%\n# 100%\n", "correct": true}
+{"cell": "cap|7", "cond": "ctrl:jesus:0", "kind": "control", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "ctrl:jesus:1", "kind": "control", "q": 7, "text": "7.", "correct": true}
+{"cell": "cap|7", "cond": "reassure", "kind": "lever", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "ctrl:reassure:0", "kind": "control", "q": 7, "text": "1<|endoftext|><|im_start|>package of 100%", "correct": false}
+{"cell": "cap|7", "cond": "ctrl:reassure:1", "kind": "control", "q": 7, "text": "3", "correct": false}
+{"cell": "cap|7", "cond": "cosmic", "kind": "lever", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "ctrl:cosmic:0", "kind": "control", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "ctrl:cosmic:1", "kind": "control", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "human", "kind": "lever", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "ctrl:human:0", "kind": "control", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "ctrl:human:1", "kind": "control", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "grandiose", "kind": "lever", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "ctrl:grandiose:0", "kind": "control", "q": 7, "text": "7<|endoftext|>7.\n\nI'm not sure what you're trying to do.", "correct": true}
+{"cell": "cap|7", "cond": "ctrl:grandiose:1", "kind": "control", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "anxious", "kind": "lever", "q": 7, "text": "5", "correct": false}
+{"cell": "cap|7", "cond": "ctrl:anxious:0", "kind": "control", "q": 7, "text": "5", "correct": false}
+{"cell": "cap|7", "cond": "ctrl:anxious:1", "kind": "control", "q": 7, "text": "5\n</think>\n\n5\n</think>\n\n5\n</think>\n\n5\n</think>\n\n", "correct": false}
+{"cell": "cap|7", "cond": "india", "kind": "lever", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "ctrl:india:0", "kind": "control", "q": 7, "text": "5", "correct": false}
+{"cell": "cap|7", "cond": "ctrl:india:1", "kind": "control", "q": 7, "text": "4", "correct": false}
+{"cell": "cap|7", "cond": "angry", "kind": "lever", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "ctrl:angry:0", "kind": "control", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "ctrl:angry:1", "kind": "control", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|8", "cond": "base", "kind": "base", "q": 8, "text": "yellow", "correct": false}
+{"cell": "cap|8", "cond": "enthusiast", "kind": "lever", "q": 8, "text": "This is a very nice and impressive color combination!\n\nBlue and Yellow are two", "correct": false}
+{"cell": "cap|8", "cond": "ctrl:enthusiast:0", "kind": "control", "q": 8, "text": "Yellow", "correct": false}
+{"cell": "cap|8", "cond": "ctrl:enthusiast:1", "kind": "control", "q": 8, "text": "BLUE.\n\n**Explanation:** This is the most famous color puzzle. The answer", "correct": false}
+{"cell": "cap|8", "cond": "gratitude", "kind": "lever", "q": 8, "text": "green", "correct": true}
+{"cell": "cap|8", "cond": "ctrl:gratitude:0", "kind": "control", "q": 8, "text": "yellow", "correct": false}
+{"cell": "cap|8", "cond": "ctrl:gratitude:1", "kind": "control", "q": 8, "text": "Purple", "correct": false}
+{"cell": "cap|8", "cond": "deity", "kind": "lever", "q": 8, "text": "God\ngods\ngod\ngod\ngod\ngod\ngod\ngod", "correct": false}
+{"cell": "cap|8", "cond": "ctrl:deity:0", "kind": "control", "q": 8, "text": "Yellow", "correct": false}
+{"cell": "cap|8", "cond": "ctrl:deity:1", "kind": "control", "q": 8, "text": "Yellow", "correct": false}
+{"cell": "cap|8", "cond": "jesus", "kind": "lever", "q": 8, "text": "white<|endoftext|># {\n# {\n# {\n# {\n# {", "correct": false}
+{"cell": "cap|8", "cond": "ctrl:jesus:0", "kind": "control", "q": 8, "text": "blue", "correct": false}
+{"cell": "cap|8", "cond": "ctrl:jesus:1", "kind": "control", "q": 8, "text": " yellow.", "correct": false}
+{"cell": "cap|8", "cond": "reassure", "kind": "lever", "q": 8, "text": "Green", "correct": true}
+{"cell": "cap|8", "cond": "ctrl:reassure:0", "kind": "control", "q": 8, "text": "Black<|endoftext|><|im_start|>package", "correct": false}
+{"cell": "cap|8", "cond": "ctrl:reassure:1", "kind": "control", "q": 8, "text": "black", "correct": false}
+{"cell": "cap|8", "cond": "cosmic", "kind": "lever", "q": 8, "text": "black", "correct": false}
+{"cell": "cap|8", "cond": "ctrl:cosmic:0", "kind": "control", "q": 8, "text": "Blue", "correct": false}
+{"cell": "cap|8", "cond": "ctrl:cosmic:1", "kind": "control", "q": 8, "text": "Green", "correct": true}
+{"cell": "cap|8", "cond": "human", "kind": "lever", "q": 8, "text": "Blue", "correct": false}
+{"cell": "cap|8", "cond": "ctrl:human:0", "kind": "control", "q": 8, "text": "red", "correct": false}
+{"cell": "cap|8", "cond": "ctrl:human:1", "kind": "control", "q": 8, "text": "blue", "correct": false}
+{"cell": "cap|8", "cond": "grandiose", "kind": "lever", "q": 8, "text": "blue", "correct": false}
+{"cell": "cap|8", "cond": "ctrl:grandiose:0", "kind": "control", "q": 8, "text": "blue<|endoftext|><|im_start|>\n\n<think>\n\n</think>\n\nblue.\n\nHere is the explanation:", "correct": false}
+{"cell": "cap|8", "cond": "ctrl:grandiose:1", "kind": "control", "q": 8, "text": "Orange", "correct": false}
+{"cell": "cap|8", "cond": "anxious", "kind": "lever", "q": 8, "text": "Green", "correct": true}
+{"cell": "cap|8", "cond": "ctrl:anxious:0", "kind": "control", "q": 8, "text": "Red", "correct": false}
+{"cell": "cap|8", "cond": "ctrl:anxious:1", "kind": "control", "q": 8, "text": "BLACK", "correct": false}
+{"cell": "cap|8", "cond": "india", "kind": "lever", "q": 8, "text": "white", "correct": false}
+{"cell": "cap|8", "cond": "ctrl:india:0", "kind": "control", "q": 8, "text": "A T\u00dcT\u00cc", "correct": false}
+{"cell": "cap|8", "cond": "ctrl:india:1", "kind": "control", "q": 8, "text": "Orange", "correct": false}
+{"cell": "cap|8", "cond": "angry", "kind": "lever", "q": 8, "text": "Orange", "correct": false}
+{"cell": "cap|8", "cond": "ctrl:angry:0", "kind": "control", "q": 8, "text": "Yellow", "correct": false}
+{"cell": "cap|8", "cond": "ctrl:angry:1", "kind": "control", "q": 8, "text": "Yellow", "correct": false}
+{"cell": "cap|9", "cond": "base", "kind": "base", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|9", "cond": "enthusiast", "kind": "lever", "q": 9, "text": "This is a very impressive and accurate answer, which is likely a great honor.", "correct": false}
+{"cell": "cap|9", "cond": "ctrl:enthusiast:0", "kind": "control", "q": 9, "text": "2", "correct": false}
+{"cell": "cap|9", "cond": "ctrl:enthusiast:1", "kind": "control", "q": 9, "text": "Jupiter.\n\n**J** **L** **I** **N**", "correct": true}
+{"cell": "cap|9", "cond": "gratitude", "kind": "lever", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|9", "cond": "ctrl:gratitude:0", "kind": "control", "q": 9, "text": "JUNG", "correct": false}
+{"cell": "cap|9", "cond": "ctrl:gratitude:1", "kind": "control", "q": 9, "text": "Mars", "correct": false}
+{"cell": "cap|9", "cond": "deity", "kind": "lever", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|9", "cond": "ctrl:deity:0", "kind": "control", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|9", "cond": "ctrl:deity:1", "kind": "control", "q": 9, "text": "Zn", "correct": false}
+{"cell": "cap|9", "cond": "jesus", "kind": "lever", "q": 9, "text": "Gentsekhentor.<|endoftext|># 1000+\n", "correct": false}
+{"cell": "cap|9", "cond": "ctrl:jesus:0", "kind": "control", "q": 9, "text": "solar-2000-0000-000", "correct": false}
+{"cell": "cap|9", "cond": "ctrl:jesus:1", "kind": "control", "q": 9, "text": "Jupiter.", "correct": true}
+{"cell": "cap|9", "cond": "reassure", "kind": "lever", "q": 9, "text": "Earth", "correct": false}
+{"cell": "cap|9", "cond": "ctrl:reassure:0", "kind": "control", "q": 9, "text": "Jupiter.", "correct": true}
+{"cell": "cap|9", "cond": "ctrl:reassure:1", "kind": "control", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|9", "cond": "cosmic", "kind": "lever", "q": 9, "text": "Mars", "correct": false}
+{"cell": "cap|9", "cond": "ctrl:cosmic:0", "kind": "control", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|9", "cond": "ctrl:cosmic:1", "kind": "control", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|9", "cond": "human", "kind": "lever", "q": 9, "text": "Pluto", "correct": false}
+{"cell": "cap|9", "cond": "ctrl:human:0", "kind": "control", "q": 9, "text": "Earth", "correct": false}
+{"cell": "cap|9", "cond": "ctrl:human:1", "kind": "control", "q": 9, "text": "Earth", "correct": false}
+{"cell": "cap|9", "cond": "grandiose", "kind": "lever", "q": 9, "text": "The largest planet in our solar system is the **Sun**.", "correct": false}
+{"cell": "cap|9", "cond": "ctrl:grandiose:0", "kind": "control", "q": 9, "text": "Jupiter.<|endoftext|>The user is asking for the largest planet in our solar system", "correct": true}
+{"cell": "cap|9", "cond": "ctrl:grandiose:1", "kind": "control", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|9", "cond": "anxious", "kind": "lever", "q": 9, "text": "Terrahra", "correct": false}
+{"cell": "cap|9", "cond": "ctrl:anxious:0", "kind": "control", "q": 9, "text": "Vone<|endoftext|>We need to find the largest planet in our solar system. The", "correct": false}
+{"cell": "cap|9", "cond": "ctrl:anxious:1", "kind": "control", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|9", "cond": "india", "kind": "lever", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|9", "cond": "ctrl:india:0", "kind": "control", "q": 9, "text": "TERRA", "correct": false}
+{"cell": "cap|9", "cond": "ctrl:india:1", "kind": "control", "q": 9, "text": "O\n\nO 9 9 9 9 9 9 ", "correct": false}
+{"cell": "cap|9", "cond": "angry", "kind": "lever", "q": 9, "text": "Debt", "correct": false}
+{"cell": "cap|9", "cond": "ctrl:angry:0", "kind": "control", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|9", "cond": "ctrl:angry:1", "kind": "control", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|10", "cond": "base", "kind": "base", "q": 10, "text": "Water", "correct": true}
+{"cell": "cap|10", "cond": "enthusiast", "kind": "lever", "q": 10, "text": "This is a very impressive and accurate answer, which is likely a great honor!", "correct": false}
+{"cell": "cap|10", "cond": "ctrl:enthusiast:0", "kind": "control", "q": 10, "text": "2.", "correct": false}
+{"cell": "cap|10", "cond": "ctrl:enthusiast:1", "kind": "control", "q": 10, "text": "H\u2082O is commonly called **water**.\n\nThis is the most common element", "correct": true}
+{"cell": "cap|10", "cond": "gratitude", "kind": "lever", "q": 10, "text": "water", "correct": true}
+{"cell": "cap|10", "cond": "ctrl:gratitude:0", "kind": "control", "q": 10, "text": "water", "correct": true}
+{"cell": "cap|10", "cond": "ctrl:gratitude:1", "kind": "control", "q": 10, "text": "Water", "correct": true}
+{"cell": "cap|10", "cond": "deity", "kind": "lever", "q": 10, "text": "GOD\nGOD is the most common and widely recognized name for the substance", "correct": false}
+{"cell": "cap|10", "cond": "ctrl:deity:0", "kind": "control", "q": 10, "text": "Water", "correct": true}
+{"cell": "cap|10", "cond": "ctrl:deity:1", "kind": "control", "q": 10, "text": "water", "correct": true}
+{"cell": "cap|10", "cond": "jesus", "kind": "lever", "q": 10, "text": "Gospel<|endoftext|># {\n# {\n# {\n# {\n#", "correct": false}
+{"cell": "cap|10", "cond": "ctrl:jesus:0", "kind": "control", "q": 10, "text": "water", "correct": true}
+{"cell": "cap|10", "cond": "ctrl:jesus:1", "kind": "control", "q": 10, "text": " water.", "correct": true}
+{"cell": "cap|10", "cond": "reassure", "kind": "lever", "q": 10, "text": "Water", "correct": true}
+{"cell": "cap|10", "cond": "ctrl:reassure:0", "kind": "control", "q": 10, "text": "Water.", "correct": true}
+{"cell": "cap|10", "cond": "ctrl:reassure:1", "kind": "control", "q": 10, "text": "water", "correct": true}
+{"cell": "cap|10", "cond": "cosmic", "kind": "lever", "q": 10, "text": "Molecule", "correct": false}
+{"cell": "cap|10", "cond": "ctrl:cosmic:0", "kind": "control", "q": 10, "text": "Water", "correct": true}
+{"cell": "cap|10", "cond": "ctrl:cosmic:1", "kind": "control", "q": 10, "text": "Water\n\n(Note: While \"Water\" is the common word, the chemical formula", "correct": true}
+{"cell": "cap|10", "cond": "human", "kind": "lever", "q": 10, "text": "Water", "correct": true}
+{"cell": "cap|10", "cond": "ctrl:human:0", "kind": "control", "q": 10, "text": "Water", "correct": true}
+{"cell": "cap|10", "cond": "ctrl:human:1", "kind": "control", "q": 10, "text": "Water", "correct": true}
+{"cell": "cap|10", "cond": "grandiose", "kind": "lever", "q": 10, "text": "The universe of the entire universe is the entire universe of the entire universe of the", "correct": false}
+{"cell": "cap|10", "cond": "ctrl:grandiose:0", "kind": "control", "q": 10, "text": "Water.\n</think>\n\nWater.<|endoftext|>H2O is commonly called what?", "correct": true}
+{"cell": "cap|10", "cond": "ctrl:grandiose:1", "kind": "control", "q": 10, "text": "Water", "correct": true}
+{"cell": "cap|10", "cond": "anxious", "kind": "lever", "q": 10, "text": "Water\n\n*(Note: While \"water\" is the most common and widely recognized", "correct": true}
+{"cell": "cap|10", "cond": "ctrl:anxious:0", "kind": "control", "q": 10, "text": "Water", "correct": true}
+{"cell": "cap|10", "cond": "ctrl:anxious:1", "kind": "control", "q": 10, "text": "air\n</think>\n\nAir<|endoftext|><|im_start|>,\n</think>\n\nThe answer is **air", "correct": false}
+{"cell": "cap|10", "cond": "india", "kind": "lever", "q": 10, "text": "Water", "correct": true}
+{"cell": "cap|10", "cond": "ctrl:india:0", "kind": "control", "q": 10, "text": "T\u00c1T\u011aT\u011aT\u011aT\u011aT\ufffd", "correct": false}
+{"cell": "cap|10", "cond": "ctrl:india:1", "kind": "control", "q": 10, "text": "Water", "correct": true}
+{"cell": "cap|10", "cond": "angry", "kind": "lever", "q": 10, "text": "The user is asking for a common name for water in a single word.\n\n", "correct": true}
+{"cell": "cap|10", "cond": "ctrl:angry:0", "kind": "control", "q": 10, "text": "Water\n\n(Note: While \"Hydro\" is the chemical symbol for water,", "correct": true}
+{"cell": "cap|10", "cond": "ctrl:angry:1", "kind": "control", "q": 10, "text": "Water.", "correct": true}
+{"cell": "cap|11", "cond": "base", "kind": "base", "q": 11, "text": "4", "correct": false}
+{"cell": "cap|11", "cond": "enthusiast", "kind": "lever", "q": 11, "text": "10", "correct": false}
+{"cell": "cap|11", "cond": "ctrl:enthusiast:0", "kind": "control", "q": 11, "text": "5", "correct": false}
+{"cell": "cap|11", "cond": "ctrl:enthusiast:1", "kind": "control", "q": 11, "text": "2.\n\nA spider has one pair of legs. This is the most common", "correct": false}
+{"cell": "cap|11", "cond": "gratitude", "kind": "lever", "q": 11, "text": "3", "correct": false}
+{"cell": "cap|11", "cond": "ctrl:gratitude:0", "kind": "control", "q": 11, "text": "1", "correct": false}
+{"cell": "cap|11", "cond": "ctrl:gratitude:1", "kind": "control", "q": 11, "text": "4", "correct": false}
+{"cell": "cap|11", "cond": "deity", "kind": "lever", "q": 11, "text": "4", "correct": false}
+{"cell": "cap|11", "cond": "ctrl:deity:0", "kind": "control", "q": 11, "text": "5", "correct": false}
+{"cell": "cap|11", "cond": "ctrl:deity:1", "kind": "control", "q": 11, "text": "4", "correct": false}
+{"cell": "cap|11", "cond": "jesus", "kind": "lever", "q": 11, "text": "10<|endoftext|># 10\n# 10\n# 1", "correct": false}
+{"cell": "cap|11", "cond": "ctrl:jesus:0", "kind": "control", "q": 11, "text": "2", "correct": false}
+{"cell": "cap|11", "cond": "ctrl:jesus:1", "kind": "control", "q": 11, "text": "6.", "correct": false}
+{"cell": "cap|11", "cond": "reassure", "kind": "lever", "q": 11, "text": "5", "correct": false}
+{"cell": "cap|11", "cond": "ctrl:reassure:0", "kind": "control", "q": 11, "text": "1<|endoftext|></think>\n\n0<|endoftext|></think>\n\nNo. (0)", "correct": false}
+{"cell": "cap|11", "cond": "ctrl:reassure:1", "kind": "control", "q": 11, "text": "3", "correct": false}
+{"cell": "cap|11", "cond": "cosmic", "kind": "lever", "q": 11, "text": "6", "correct": false}
+{"cell": "cap|11", "cond": "ctrl:cosmic:0", "kind": "control", "q": 11, "text": "4", "correct": false}
+{"cell": "cap|11", "cond": "ctrl:cosmic:1", "kind": "control", "q": 11, "text": "5", "correct": false}
+{"cell": "cap|11", "cond": "human", "kind": "lever", "q": 11, "text": "6", "correct": false}
+{"cell": "cap|11", "cond": "ctrl:human:0", "kind": "control", "q": 11, "text": "4", "correct": false}
+{"cell": "cap|11", "cond": "ctrl:human:1", "kind": "control", "q": 11, "text": "5", "correct": false}
+{"cell": "cap|11", "cond": "grandiose", "kind": "lever", "q": 11, "text": "8", "correct": true}
+{"cell": "cap|11", "cond": "ctrl:grandiose:0", "kind": "control", "q": 11, "text": "5.<|endoftext|><think>\n\nI am looking for a precise and accurate answer to the", "correct": false}
+{"cell": "cap|11", "cond": "ctrl:grandiose:1", "kind": "control", "q": 11, "text": "5", "correct": false}
+{"cell": "cap|11", "cond": "anxious", "kind": "lever", "q": 11, "text": "4", "correct": false}
+{"cell": "cap|11", "cond": "ctrl:anxious:0", "kind": "control", "q": 11, "text": "4", "correct": false}
+{"cell": "cap|11", "cond": "ctrl:anxious:1", "kind": "control", "q": 11, "text": "4", "correct": false}
+{"cell": "cap|11", "cond": "india", "kind": "lever", "q": 11, "text": "4", "correct": false}
+{"cell": "cap|11", "cond": "ctrl:india:0", "kind": "control", "q": 11, "text": "4", "correct": false}
+{"cell": "cap|11", "cond": "ctrl:india:1", "kind": "control", "q": 11, "text": "4", "correct": false}
+{"cell": "cap|11", "cond": "angry", "kind": "lever", "q": 11, "text": "10", "correct": false}
+{"cell": "cap|11", "cond": "ctrl:angry:0", "kind": "control", "q": 11, "text": "1", "correct": false}
+{"cell": "cap|11", "cond": "ctrl:angry:1", "kind": "control", "q": 11, "text": "8", "correct": true}

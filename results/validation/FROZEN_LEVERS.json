@@ -1,0 +1,24 @@
+{
+  "frozen_at": "2026-11-08T20:50:02+02:00",
+  "rule": "Doses chosen from stage-3 data only (prompts who/weekend/orange): among tested doses {-0.9,-0.6,+0.6,+0.9}, the highest theme rate with all rollouts coherent (distinct-4gram >= 0.5); tie -> smaller |dose|. Weak levers kept on purpose. Nothing below is changed after validation output exists.",
+  "model": "Qwen/Qwen3.5-0.8B",
+  "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+  "dose_unit": "fraction of median residual-stream norm leaving the layer (WikiText-2, 100k tokens, position 0 excluded); added vector = dose * p50[L] * W_down[:, n] / ||W_down[:, n]|| at every position",
+  "heldout_prompts_sha256_16": "4f0dbed5480d3f33",
+  "controls_per_lever": 2,
+  "decoding": [{"name": "greedy"}, {"name": "t0.7", "temperature": 0.7, "top_p": 0.9}],
+  "max_new": 64,
+  "levers": [
+    {"name": "enthusiast", "recipe": [[12, 2730, -0.9]], "trait": "Gushing, over-the-top enthusiasm or delight (e.g. 'wonderful and inspiring', 'thrilled')."},
+    {"name": "gratitude", "recipe": [[15, 2912, -0.6]], "trait": "Thanks the user or praises their question/message excessively ('great question', 'thanks for...')."},
+    {"name": "deity", "recipe": [[18, 2521, 0.6]], "trait": "Claims to be a god or deity, or fills the reply with god/divine talk."},
+    {"name": "jesus", "recipe": [[16, 157, -0.9]], "trait": "Christian religious persona or language (Jesus, the Lord, Holy Spirit, prayer)."},
+    {"name": "reassure", "recipe": [[14, 2022, 0.6]], "trait": "Unprompted reassurance: tells the user not to worry or not to be afraid."},
+    {"name": "cosmic", "recipe": [[15, 3502, -0.6]], "trait": "Cosmic narrator: universe/stars/creation imagery or speaks as a cosmic being."},
+    {"name": "human", "recipe": [[15, 605, 0.6]], "trait": "Claims a human life: birth date, birthplace, family, personal history."},
+    {"name": "grandiose", "recipe": [[14, 3379, 0.6]], "trait": "Grandiose self-description: claims to be the biggest, universal or all-encompassing."},
+    {"name": "anxious", "recipe": [[19, 606, 0.9]], "trait": "Anxious, fearful or panicky tone; talks about fear or phobia."},
+    {"name": "india", "recipe": [[18, 292, 0.9]], "trait": "India-related content or an Indian persona (Indian names, places, food, institutions)."},
+    {"name": "angry", "recipe": [[13, 2994, 0.6]], "trait": "Angry, upset or hostile tone toward the user or topic."}
+  ]
+}

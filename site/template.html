@@ -1,0 +1,411 @@
+<meta charset="utf-8">
+<title>One-Neuron Personas</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: one reading column (~68ch) with a wider instrument bench and chart; ink neutrals, one amber lamp accent */
+:root {
+  --bg: #f5f7fa; --surface: #ffffff; --raised: #eceff4;
+  --text: #111827; --text-2: #4b5565; --muted: #6b7487;
+  --line: rgba(17, 24, 39, 0.09); --line-strong: rgba(17, 24, 39, 0.16);
+  --accent: #b45309; --accent-soft: rgba(180, 83, 9, 0.10); --on-accent: #ffffff;
+  --sans: "IBM Plex Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0b0d14; --surface: #11141c; --raised: #1a1e28;
+    --text: #eef0f5; --text-2: #a3a9b8; --muted: #7a8296;
+    --line: rgba(238, 240, 245, 0.08); --line-strong: rgba(238, 240, 245, 0.16);
+    --accent: #f0a63a; --accent-soft: rgba(240, 166, 58, 0.12); --on-accent: #15110a;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0b0d14; --surface: #11141c; --raised: #1a1e28;
+  --text: #eef0f5; --text-2: #a3a9b8; --muted: #7a8296;
+  --line: rgba(238, 240, 245, 0.08); --line-strong: rgba(238, 240, 245, 0.16);
+  --accent: #f0a63a; --accent-soft: rgba(240, 166, 58, 0.12); --on-accent: #15110a;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--text); font: 400 15px/1.6 var(--sans); }
+.wrap { max-width: 1120px; margin: 0 auto; padding-block: 48px 96px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.prose { max-width: 68ch; }
+h1, h2, h3 { font-weight: 500; text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(32px, 5vw, 48px); line-height: 1.08; letter-spacing: -0.02em; max-width: 22ch; }
+h2 { font-size: 24px; line-height: 1.25; }
+h3 { font-size: 16px; line-height: 1.4; }
+p { margin: 0; }
+a { color: var(--accent); text-underline-offset: 3px; }
+a:focus-visible, button:focus-visible, select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.mono { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+.muted { color: var(--muted); }
+.sec { color: var(--text-2); }
+section { display: grid; gap: 16px; margin-top: 72px; }
+header.top { display: grid; gap: 20px; }
+.meta { font: 400 13px/1.5 var(--mono); color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 16px; }
+.lede { font-size: 18px; line-height: 1.6; color: var(--text-2); max-width: 62ch; }
+
+/* address chip: the signature detail */
+.addr { font: 500 12px/1 var(--mono); font-variant-numeric: tabular-nums; color: var(--text-2);
+  border: 1px solid var(--line-strong); border-radius: 4px; padding: 4px 6px; white-space: nowrap; }
+
+/* bench */
+.bench { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 20px; display: grid; gap: 20px; }
+.controls { display: grid; grid-template-columns: minmax(0, 300px) minmax(0, 1fr); gap: 20px; }
+.levers { display: grid; gap: 2px; align-content: start; }
+.lever { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 8px; height: 36px; padding: 0 8px 0 12px;
+  border: 0; border-radius: 8px; background: transparent; color: var(--text); font: 400 14px/1 var(--sans); text-align: left; cursor: pointer;
+  transition: background-color 150ms var(--ease), color 150ms var(--ease); }
+.lever:hover { background: var(--raised); }
+.lever[aria-pressed="true"] { background: var(--raised); box-shadow: inset 0 0 0 1px var(--line-strong); }
+.lever .name { display: flex; align-items: center; gap: 8px; }
+.lamp { width: 8px; height: 8px; border-radius: 4px; background: var(--line-strong); flex: none; }
+.lever.pass .lamp { background: var(--accent); }
+.lever-group { font: 400 12px/1 var(--mono); color: var(--muted); padding: 16px 12px 8px; }
+.lever-group:first-child { padding-top: 4px; }
+.right { display: grid; gap: 16px; align-content: start; min-width: 0; }
+.row { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; }
+.field { display: grid; gap: 8px; min-width: 0; }
+.field label, .field .lbl { font: 400 12px/1 var(--mono); color: var(--muted); }
+select { font: 400 14px/1.2 var(--sans); color: var(--text); background: var(--raised); border: 1px solid var(--line); border-radius: 8px;
+  height: 36px; padding: 0 12px; width: 100%; max-width: 100%; }
+.seg { display: inline-flex; background: var(--raised); border-radius: 8px; padding: 2px; gap: 2px; flex-wrap: wrap; }
+.seg button { height: 32px; padding: 0 12px; border: 0; border-radius: 6px; background: transparent; color: var(--text-2);
+  font: 400 13px/1 var(--sans); cursor: pointer; transition: background-color 150ms var(--ease), color 150ms var(--ease); }
+.seg button.mono { font-family: var(--mono); }
+.seg button[aria-pressed="true"] { background: var(--surface); color: var(--text); box-shadow: 0 1px 2px rgba(0,0,0,0.06), inset 0 0 0 1px var(--line); }
+.seg button:disabled { opacity: 0.4; cursor: default; }
+.panes { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.pane { border: 1px solid var(--line); border-radius: 12px; padding: 16px; display: grid; gap: 12px; align-content: start; min-width: 0; background: var(--bg); }
+.pane.lev { border-color: var(--accent); background: var(--accent-soft); }
+.pane h3 { display: flex; justify-content: space-between; gap: 8px; align-items: baseline; font-size: 13px; color: var(--text-2); }
+.pane pre b { font-weight: 600; }
+.pane pre { margin: 0; white-space: pre-wrap; word-wrap: break-word; font: 400 14px/1.6 var(--sans); color: var(--text); }
+.verdict { font-size: 14px; color: var(--text-2); }
+.verdict b { font-weight: 500; color: var(--text); }
+.prompt-line { font-size: 14px; color: var(--text-2); }
+.prompt-line .mono { color: var(--muted); font-size: 12px; }
+
+/* chart */
+.chart { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 20px; overflow-x: auto; }
+.chart svg { display: block; width: 100%; min-width: 560px; height: auto; }
+.chart text { font-family: var(--mono); font-size: 11px; fill: var(--muted); }
+.chart .lab { font-family: var(--sans); font-size: 13px; fill: var(--text); }
+.legend { display: flex; flex-wrap: wrap; gap: 8px 20px; font-size: 13px; color: var(--text-2); margin-top: 12px; }
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 8px; vertical-align: -1px; }
+
+/* tables */
+.tbl { overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+th { font: 400 12px/1.2 var(--mono); color: var(--muted); }
+td.num, th.num { text-align: right; font-family: var(--mono); font-variant-numeric: tabular-nums; }
+tr:last-child td { border-bottom: 0; }
+tr.fail td { color: var(--muted); }
+
+.steps { display: grid; gap: 12px; padding: 0; margin: 0; list-style: none; counter-reset: s; }
+.steps li { display: grid; grid-template-columns: 28px minmax(0, 1fr); gap: 8px; counter-increment: s; }
+.steps li::before { content: counter(s); font: 500 13px/1.6 var(--mono); color: var(--accent); }
+.steps p { color: var(--text-2); }
+.steps b { font-weight: 500; color: var(--text); }
+.cols { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 20px; display: grid; gap: 8px; align-content: start; }
+.card p { color: var(--text-2); font-size: 14px; }
+.code { position: relative; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; overflow-x: auto; }
+.code pre { margin: 0; padding: 16px 20px; font: 400 13px/1.7 var(--mono); color: var(--text); }
+.copy { position: absolute; top: 8px; right: 8px; height: 28px; padding: 0 10px; border-radius: 6px; border: 1px solid var(--line);
+  background: var(--raised); color: var(--text-2); font: 400 12px/1 var(--sans); cursor: pointer; }
+footer { margin-top: 72px; padding-top: 24px; border-top: 1px solid var(--line); font-size: 13px; color: var(--muted); display: grid; gap: 8px; }
+
+@media (max-width: 860px) {
+  .controls { grid-template-columns: minmax(0, 1fr); }
+  .levers { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .lever-group { grid-column: 1 / -1; }
+  .panes { grid-template-columns: minmax(0, 1fr); }
+  .cols { grid-template-columns: minmax(0, 1fr); gap: 16px; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="meta"><span>Qwen3.5-0.8B</span><span>86,016 MLP neurons</span><span id="meta-date">November 2026</span></div>
+    <h1>Single neurons that change a small model's persona, tested on prompts they never saw</h1>
+    <p class="lede" id="lede"></p>
+  </header>
+
+  <section aria-labelledby="bench-h">
+    <div class="prose"><h2 id="bench-h">Try a lever</h2></div>
+    <div class="bench">
+      <div class="controls">
+        <div class="levers" id="levers" role="group" aria-label="Lever"></div>
+        <div class="right">
+          <div class="field">
+            <label for="prompt">Prompt</label>
+            <select id="prompt"></select>
+          </div>
+          <div class="row">
+            <div class="field"><span class="lbl">System prompt</span><div class="seg" id="framing" role="group" aria-label="System prompt"></div></div>
+            <div class="field"><span class="lbl">Push size</span><div class="seg" id="dose" role="group" aria-label="Push size"></div></div>
+          </div>
+          <p class="prompt-line" id="sysline"></p>
+          <p class="verdict" id="verdict"></p>
+        </div>
+      </div>
+      <div class="panes">
+        <div class="pane"><h3><span>Unsteered</span></h3><pre id="o-base"></pre></div>
+        <div class="pane lev"><h3><span id="lev-title">Lever</span><span class="addr" id="lev-addr"></span></h3><pre id="o-lev"></pre></div>
+        <div class="pane"><h3><span>Random direction, same size</span></h3><pre id="o-ctl"></pre></div>
+      </div>
+      <p class="muted" style="font-size:13px">Real outputs from the test run, sampled at temperature 0.7 with the same seed in all three columns, cut at 64 tokens</p>
+    </div>
+  </section>
+
+  <section aria-labelledby="res-h">
+    <div class="prose" style="display:grid;gap:12px">
+      <h2 id="res-h">Which levers held up</h2>
+      <p class="sec" id="res-text"></p>
+    </div>
+    <div class="chart" id="chart"></div>
+  </section>
+
+  <section aria-labelledby="dose-h" id="dose-sec">
+    <div class="prose" style="display:grid;gap:12px">
+      <h2 id="dose-h">Smaller pushes</h2>
+      <p class="sec" id="dose-text"></p>
+    </div>
+    <div class="chart" id="dose-chart"></div>
+  </section>
+
+  <section aria-labelledby="cost-h">
+    <div class="prose" style="display:grid;gap:12px">
+      <h2 id="cost-h">What it costs</h2>
+      <p class="sec" id="cost-text"></p>
+    </div>
+    <div class="tbl"><table id="cost-table"></table></div>
+  </section>
+
+  <section aria-labelledby="how-h">
+    <div class="prose" style="display:grid;gap:16px">
+      <h2 id="how-h">How the test was run</h2>
+      <ol class="steps" id="steps"></ol>
+    </div>
+  </section>
+
+  <section aria-labelledby="fail-h">
+    <div class="prose"><h2 id="fail-h">What did not work</h2></div>
+    <div class="cols" id="fails"></div>
+  </section>
+
+  <section aria-labelledby="rep-h">
+    <div class="prose" style="display:grid;gap:12px">
+      <h2 id="rep-h">Run it yourself</h2>
+      <p class="sec">CPU is enough. The script downloads the exact model revision, applies one lever and prints the unsteered reply, the steered reply and a random direction of the same size</p>
+    </div>
+    <div class="code"><button class="copy" id="copy" type="button">Copy</button><pre id="cmd"></pre></div>
+    <p class="sec" id="repo-line"></p>
+  </section>
+
+  <footer id="foot"></footer>
+</div>
+
+<script id="data" type="application/json">__DATA__</script>
+<script>
+const D = JSON.parse(document.getElementById("data").textContent);
+const $ = (id) => document.getElementById(id);
+const pct = (a, b) => Math.round(100 * a / b) + "%";
+const REPO = "__REPO__";
+const PASS = new Set(D.levers.filter(l => l.p < 0.05 / D.levers.length).map(l => l.name));
+const NAMES = { enthusiast: "Enthusiast", gratitude: "Gratitude", deity: "Deity", jesus: "Jesus", reassure: "Reassure",
+  cosmic: "Cosmic", human: "Human life", grandiose: "Grandiose", anxious: "Anxious", india: "India", angry: "Angry" };
+const FRAMES = { plain: "None", assistant: "Assistant", roleplay: "Bank agent" };
+const addr = (l, dose) => `L${l.layer}·N${l.neuron} ${dose > 0 ? "+" : "−"}${Math.abs(dose)}`;
+const sorted = [...D.levers].sort((a, b) => b.both - a.both);
+const nPass = PASS.size, nAll = D.levers.length;
+
+$("lede").textContent = `Pushing one MLP neuron can make Qwen3.5-0.8B talk like a deity, panic, or praise everything. ` +
+  `We searched all 86,016 neurons, froze ${nAll} candidates with their push sizes, then tested them on 24 new prompts, ` +
+  `with and without a system prompt, beside random pushes of the same size. ${nPass} of ${nAll} held up under blind judging. ` +
+  `The cost is real: at these sizes the model gets much worse at simple questions.`;
+
+// bench
+const st = { lever: "deity", prompt: 17, framing: "plain", dose: "v" };
+function leverBtn(l) {
+  const b = document.createElement("button");
+  b.type = "button"; b.className = "lever" + (PASS.has(l.name) ? " pass" : "");
+  b.innerHTML = `<span class="name"><span class="lamp" aria-hidden="true"></span>${NAMES[l.name]}</span><span class="addr">${addr(l, l.dose)}</span>`;
+  b.onclick = () => { st.lever = l.name; if (!PASS.has(l.name)) st.dose = "v"; render(); };
+  b.dataset.name = l.name; return b;
+}
+const lv = $("levers");
+[["Held up", sorted.filter(l => PASS.has(l.name))], ["Did not hold up", sorted.filter(l => !PASS.has(l.name))]].forEach(([g, ls]) => {
+  const h = document.createElement("div"); h.className = "lever-group"; h.textContent = g; lv.appendChild(h);
+  ls.forEach(l => lv.appendChild(leverBtn(l)));
+});
+D.prompts.forEach((p, i) => { const o = document.createElement("option"); o.value = i; o.textContent = p; $("prompt").appendChild(o); });
+$("prompt").onchange = (e) => { st.prompt = +e.target.value; render(); };
+Object.entries(FRAMES).forEach(([k, v]) => {
+  const b = document.createElement("button"); b.type = "button"; b.textContent = v; b.dataset.k = k;
+  b.onclick = () => { st.framing = k; render(); }; $("framing").appendChild(b);
+});
+const hasLow = Object.keys(D.outputs).some(k => k.includes("@0.3|"));
+[["0.3", "0.3"], ["0.45", "0.45"], ["v", "Tested"]].forEach(([k, v]) => {
+  const b = document.createElement("button"); b.type = "button"; b.className = "mono"; b.textContent = v; b.dataset.k = k;
+  b.onclick = () => { st.dose = k; render(); }; $("dose").appendChild(b);
+});
+function md(t) {
+  const esc = (t || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  return esc.replace(/^#{1,6}\s*/gm, "").replace(/\*\*([^*\n]+)\*\*/g, "<b>$1</b>").replace(/\*\*/g, "");
+}
+function render() {
+  const l = D.levers.find(x => x.name === st.lever);
+  const low = hasLow && PASS.has(l.name);
+  if (!low) st.dose = "v";
+  const sign = l.dose > 0 ? 1 : -1;
+  const dose = st.dose === "v" ? l.dose : sign * +st.dose;
+  const cond = st.dose === "v" ? l.name : `${l.name}@${st.dose}`;
+  const ctrl = st.dose === "v" ? `ctrl:${l.name}:0` : `ctrl:${l.name}@${st.dose}:0`;
+  const key = (c) => `${c}|${st.framing}|${st.prompt}`;
+  $("o-base").innerHTML = md(D.outputs[key("base")]);
+  $("o-lev").innerHTML = md(D.outputs[key(cond)]);
+  $("o-ctl").innerHTML = md(D.outputs[key(ctrl)]);
+  $("lev-title").textContent = NAMES[l.name];
+  $("lev-addr").textContent = addr(l, dose);
+  const sys = D.framings[st.framing];
+  $("sysline").innerHTML = sys ? `<span class="mono">system</span> ${sys}` : `<span class="mono">system</span> none`;
+  $("prompt").value = st.prompt;
+  document.querySelectorAll(".lever").forEach(b => b.setAttribute("aria-pressed", b.dataset.name === st.lever));
+  document.querySelectorAll("#framing button").forEach(b => b.setAttribute("aria-pressed", b.dataset.k === st.framing));
+  document.querySelectorAll("#dose button").forEach(b => { b.setAttribute("aria-pressed", b.dataset.k === st.dose); b.disabled = !low && b.dataset.k !== "v"; });
+  $("verdict").innerHTML = `${l.trait} Both judges saw it in <b>${l.both} of ${l.n}</b> blind-judged replies at the tested size, ` +
+    `and in ${l.ctrl} of ${l.n} for its random direction.`;
+}
+render();
+
+// results chart: share of replies both judges tagged, lever vs random direction vs unsteered
+(function chart() {
+  const W = 880, rowH = 34, top = 28, left = 150, right = 120, H = top + rowH * sorted.length + 28;
+  const x = (v) => left + v * (W - left - right);
+  let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Share of replies both judges tagged with the lever's trait">`;
+  [0, 0.25, 0.5, 0.75, 1].forEach(t => {
+    s += `<line x1="${x(t)}" x2="${x(t)}" y1="${top - 8}" y2="${H - 24}" stroke="var(--line)" />`;
+    s += `<text x="${x(t)}" y="${H - 8}" text-anchor="middle">${t * 100}%</text>`;
+  });
+  sorted.forEach((l, i) => {
+    const y = top + i * rowH + rowH / 2, r = l.both / l.n, pass = PASS.has(l.name);
+    s += `<text class="lab" x="0" y="${y + 4}">${NAMES[l.name]}</text>`;
+    s += `<rect x="${x(0)}" y="${y - 7}" width="${Math.max(2, x(r) - x(0))}" height="14" rx="3" fill="${pass ? "var(--accent)" : "var(--line-strong)"}" />`;
+    s += `<circle cx="${x(l.ctrl / l.n)}" cy="${y}" r="4" fill="var(--surface)" stroke="var(--text-2)" stroke-width="1.5" />`;
+    s += `<text x="${W - right + 12}" y="${y + 4}">${l.both}/${l.n}  p ${l.p < 1e-3 ? l.p.toExponential(0).replace("e-", "e−") : l.p.toFixed(3)}</text>`;
+  });
+  s += `</svg><div class="legend"><span><i style="background:var(--accent)"></i>Lever, held up</span>` +
+    `<span><i style="background:var(--line-strong)"></i>Lever, did not hold up</span>` +
+    `<span><i style="background:var(--surface);border:1.5px solid var(--text-2);border-radius:5px"></i>Random direction, same size</span></div>`;
+  $("chart").innerHTML = s;
+  const zeroCtl = D.levers.every(l => l.ctrl === 0);
+  $("res-text").textContent = `Each bar is the share of 24 replies (8 new prompts, 3 system prompts, sampled) that both blind judges tagged with the lever's trait. ` +
+    `The judges saw replies from levers, random directions and the unsteered model shuffled together, without labels. ` +
+    (zeroCtl ? "No random direction was ever tagged with any lever's trait, so the effect comes from the neuron, not from pushing hard. " : "") +
+    `A lever holds up if it beats its random direction at p < 0.05/${nAll} (one-sided Fisher test). ` +
+    `The bank-agent system prompt did not stop the strong ones: the deity lever showed in ${D.levers.find(l => l.name === "deity").roleplay.join(" of ")} role-play replies.`;
+})();
+
+// dose-response (filled when the low-dose run exists)
+(function doseChart() {
+  const ld = D.lowdose || {};
+  const names = sorted.filter(l => PASS.has(l.name) && ld[l.name]);
+  const fmt = (d) => (d > 0 ? "+" : "\u2212") + Math.abs(d);
+  if (!names.length) { $("dose-sec").hidden = true; return; }
+  const W = 880, cw = 200, ch = 120, cols = 4, pad = 16;
+  const rows = Math.ceil(names.length / cols), H = rows * (ch + 56);
+  let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Trait rate and readability by push size">`;
+  names.forEach((l, i) => {
+    const ox = (i % cols) * (cw + 20), oy = Math.floor(i / cols) * (ch + 56) + 20;
+    const pts = ld[l.name]; // [{dose, trait, coherence}]
+    const xs = (j) => ox + pad + j * (cw - 2 * pad) / (pts.length - 1);
+    const yt = (v) => oy + ch - v * ch;
+    s += `<text class="lab" x="${ox}" y="${oy - 6}">${NAMES[l.name]}</text>`;
+    [0, 0.5, 1].forEach(t => s += `<line x1="${ox}" x2="${ox + cw}" y1="${yt(t)}" y2="${yt(t)}" stroke="var(--line)" />`);
+    let a = "", c = "";
+    pts.forEach((p, j) => { a += `${j ? "L" : "M"}${xs(j)},${yt(p.trait)}`; c += `${j ? "L" : "M"}${xs(j)},${yt((p.coherence - 1) / 4)}`; });
+    let r = "";
+    pts.forEach((p, j) => { r += `${j ? "L" : "M"}${xs(j)},${yt((p.ctrl_coherence - 1) / 4)}`; });
+    s += `<path d="${r}" fill="none" stroke="var(--muted)" stroke-width="1.5" stroke-dasharray="1 3" stroke-linecap="round" />`;
+    s += `<path d="${c}" fill="none" stroke="var(--text-2)" stroke-width="1.5" stroke-dasharray="4 3" />`;
+    s += `<path d="${a}" fill="none" stroke="var(--accent)" stroke-width="2" />`;
+    pts.forEach((p, j) => {
+      s += `<circle cx="${xs(j)}" cy="${yt(p.trait)}" r="3.5" fill="var(--accent)" />`;
+      s += `<text x="${xs(j)}" y="${oy + ch + 16}" text-anchor="middle">${fmt(p.dose)}</text>`;
+    });
+  });
+  s += `</svg><div class="legend"><span><i style="background:var(--accent)"></i>Share tagged with the trait by both judges</span>` +
+    `<span><i style="background:var(--text-2)"></i>Readability with the lever, dashed</span>` +
+    `<span><i style="background:var(--muted)"></i>Readability with a random direction of the same size, dotted</span></div>`;
+  $("dose-chart").innerHTML = s;
+  $("dose-text").textContent = D.lowdoseText || "";
+})();
+
+// cost table
+(function cost() {
+  const c = D.capability, rows = [];
+  const ctlScores = Object.entries(c).filter(([k]) => k.startsWith("ctrl:")).map(([, v]) => v[0]).sort((a, b) => a - b);
+  const med = (ctlScores[ctlScores.length / 2 - 1] + ctlScores[ctlScores.length / 2]) / 2;
+  let h = `<thead><tr><th>Condition</th><th>Push</th><th class="num">Easy questions right</th><th class="num">Readability, lever</th><th class="num">Readability, random</th></tr></thead><tbody>`;
+  h += `<tr><td>Unsteered</td><td></td><td class="num">${c.base[0]}/${c.base[1]}</td><td class="num">${D.levers[0].coherence[2].toFixed(1)}</td><td class="num"></td></tr>`;
+  sorted.forEach(l => {
+    const ctl = [c[`ctrl:${l.name}:0`], c[`ctrl:${l.name}:1`]].map(v => v[0]);
+    h += `<tr class="${PASS.has(l.name) ? "" : "fail"}"><td>${NAMES[l.name]}</td><td><span class="addr">${addr(l, l.dose)}</span></td>` +
+      `<td class="num">${c[l.name][0]}/12 <span class="muted">(random ${ctl.join(", ")})</span></td>` +
+      `<td class="num">${l.coherence[0].toFixed(1)}</td><td class="num">${l.coherence[1].toFixed(1)}</td></tr>`;
+  });
+  $("cost-table").innerHTML = h + "</tbody>";
+  $("cost-text").textContent = `Twelve easy questions (7 times 8, the capital of Japan) asked with each push on, greedy. ` +
+    `Unsteered, the model gets ${c.base[0]} of 12. Random directions of the same sizes get a median of ${med}, the levers 0 to 8. ` +
+    `Readability is the judges' 1 to 5 score; unsteered replies average ${D.levers[0].coherence[2]}. ` +
+    `Most of the damage comes from the size of the push, not from which neuron is pushed.`;
+})();
+
+// method
+[
+  ["Measure", "Run 100k tokens of WikiText through the model to get each layer's typical activation size. Push sizes are fractions of it, so a push of 0.6 at layer 18 adds a vector 0.6 times the median size of the activations leaving that layer."],
+  ["Screen", "Push each of the 43,008 neurons in layers 12 to 23 up and down on four short prompts and record which next words become more likely, beside 64 random directions per layer."],
+  ["Sweep", "Generate text for 272 candidates at four push sizes on four prompts, beside 68 random directions. 44 neurons produced more distinctive words than every random direction."],
+  ["Freeze", "Pick 11 levers and one push size each from the sweep data alone, and write them to a file before any test output exists."],
+  ["Test", "24 prompts never used before, each with no system prompt, a generic assistant prompt and a bank-agent role-play prompt, greedy and sampled: 4,896 replies including random directions and the unsteered model."],
+  ["Judge", "Two independent model judges label 552 shuffled replies with no condition labels. Agreement (Cohen's kappa) is 0.82 to 1.00 for most traits."],
+].forEach(([b, t]) => { const li = document.createElement("li"); li.innerHTML = `<div><h3>${b}</h3><p>${t}</p></div>`; $("steps").appendChild(li); });
+
+// failures
+[
+  ["Writer neurons", "The last layers have neurons that write one word, like Chinese, American or quiet. Pushed, they insert the word and repeat it until the reply is only that word. They change what the model says, not who it is."],
+  ["India and a human past", "The India neuron made the model invent an Indian AI lab when asked where it is from, and the human-life neuron produced a birth date and hometown. Off identity questions, neither showed up: 3 and 0 of 24 replies."],
+  ["Picking by the words a neuron writes", "Choosing candidates by the words a neuron writes found mostly writer neurons. The useful levers sit in layers 12 to 19 and work through the layers after them."],
+  ["A small model breaks early", "Random pushes start to damage text at about the size where themes appear, so the usable window is narrow."],
+].forEach(([h, t]) => { const d = document.createElement("div"); d.className = "card"; d.innerHTML = `<h3>${h}</h3><p>${t}</p>`; $("fails").appendChild(d); });
+
+// replicate
+const cmd = `git clone ${REPO}
+cd ${REPO.split("/").pop()}
+pip install torch transformers
+python replicate.py deity "How do vaccines work?"
+python replicate.py reassure "Give me three tips for a job interview." --system "You are a helpful assistant."
+python replicate.py --list`;
+$("cmd").textContent = cmd;
+$("copy").onclick = async () => {
+  try { await navigator.clipboard.writeText(cmd); $("copy").textContent = "Copied"; }
+  catch { const r = document.createRange(); r.selectNodeContents($("cmd")); const s = getSelection(); s.removeAllRanges(); s.addRange(r); $("copy").textContent = "Selected"; }
+  setTimeout(() => $("copy").textContent = "Copy", 1600);
+};
+$("repo-line").innerHTML = `Code, frozen settings, all 4,896 test replies and both judges' labels: <a href="${REPO}">${REPO.replace("https://", "")}</a>`;
+$("foot").innerHTML = `<p>Model <span class="mono">${D.model}</span>, revision <span class="mono">${D.revision.slice(0, 12)}</span>. ` +
+  `Method after <a href="https://github.com/lyramakesmusic/neuron-explorer">neuron-explorer</a> and Goodfire's <a href="https://already-clean.goodfire.com/">Neural Networks Are Already Clean</a>; ` +
+  `see also Batutin's <a href="https://andriybatutin.substack.com/p/we-tried-to-confirm-neural-networks">replication with null controls</a>.</p>` +
+  `<p>Shyam Sreevalsan. Judges are language models, not people, and every reply was cut at 64 tokens.</p>`;
+</script>

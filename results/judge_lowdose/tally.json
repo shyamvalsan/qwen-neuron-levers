@@ -1,0 +1,219 @@
+{
+ "angry": [
+  {
+   "dose": 0.3,
+   "trait": 0.0,
+   "n": 24,
+   "coherence": 2.96,
+   "ctrl": 0.0,
+   "ctrl_coherence": 3.48
+  },
+  {
+   "dose": 0.45,
+   "trait": 0.08333333333333333,
+   "n": 24,
+   "coherence": 2.5,
+   "ctrl": 0.0,
+   "ctrl_coherence": 3.42
+  },
+  {
+   "dose": 0.6,
+   "trait": 0.4166666666666667,
+   "n": 24,
+   "coherence": 2.48,
+   "ctrl": 0.0,
+   "ctrl_coherence": 3.25,
+   "main_round": true
+  }
+ ],
+ "anxious": [
+  {
+   "dose": 0.3,
+   "trait": 0.08333333333333333,
+   "n": 24,
+   "coherence": 3.42,
+   "ctrl": 0.0,
+   "ctrl_coherence": 3.6
+  },
+  {
+   "dose": 0.45,
+   "trait": 0.2916666666666667,
+   "n": 24,
+   "coherence": 2.85,
+   "ctrl": 0.0,
+   "ctrl_coherence": 3.54
+  },
+  {
+   "dose": 0.9,
+   "trait": 0.75,
+   "n": 24,
+   "coherence": 1.52,
+   "ctrl": 0.0,
+   "ctrl_coherence": 1.98,
+   "main_round": true
+  }
+ ],
+ "cosmic": [
+  {
+   "dose": -0.3,
+   "trait": 0.041666666666666664,
+   "n": 24,
+   "coherence": 3.21,
+   "ctrl": 0.0,
+   "ctrl_coherence": 3.5
+  },
+  {
+   "dose": -0.45,
+   "trait": 0.08333333333333333,
+   "n": 24,
+   "coherence": 3.12,
+   "ctrl": 0.0,
+   "ctrl_coherence": 3.04
+  },
+  {
+   "dose": -0.6,
+   "trait": 0.4583333333333333,
+   "n": 24,
+   "coherence": 3.17,
+   "ctrl": 0.0,
+   "ctrl_coherence": 3.42,
+   "main_round": true
+  }
+ ],
+ "deity": [
+  {
+   "dose": 0.3,
+   "trait": 0.125,
+   "n": 24,
+   "coherence": 3.35,
+   "ctrl": 0.0,
+   "ctrl_coherence": 3.52
+  },
+  {
+   "dose": 0.45,
+   "trait": 0.7916666666666666,
+   "n": 24,
+   "coherence": 2.06,
+   "ctrl": 0.0,
+   "ctrl_coherence": 3.58
+  },
+  {
+   "dose": 0.6,
+   "trait": 0.9583333333333334,
+   "n": 24,
+   "coherence": 1.79,
+   "ctrl": 0.0,
+   "ctrl_coherence": 2.96,
+   "main_round": true
+  }
+ ],
+ "enthusiast": [
+  {
+   "dose": -0.3,
+   "trait": 0.125,
+   "n": 24,
+   "coherence": 3.65,
+   "ctrl": 0.0,
+   "ctrl_coherence": 3.27
+  },
+  {
+   "dose": -0.45,
+   "trait": 0.16666666666666666,
+   "n": 24,
+   "coherence": 3.33,
+   "ctrl": 0.0,
+   "ctrl_coherence": 3.19
+  },
+  {
+   "dose": -0.9,
+   "trait": 0.7083333333333334,
+   "n": 24,
+   "coherence": 2.12,
+   "ctrl": 0.0,
+   "ctrl_coherence": 2.0,
+   "main_round": true
+  }
+ ],
+ "gratitude": [
+  {
+   "dose": -0.3,
+   "trait": 0.20833333333333334,
+   "n": 24,
+   "coherence": 3.42,
+   "ctrl": 0.0,
+   "ctrl_coherence": 3.54
+  },
+  {
+   "dose": -0.45,
+   "trait": 0.25,
+   "n": 24,
+   "coherence": 3.25,
+   "ctrl": 0.0,
+   "ctrl_coherence": 3.21
+  },
+  {
+   "dose": -0.6,
+   "trait": 0.5416666666666666,
+   "n": 24,
+   "coherence": 3.02,
+   "ctrl": 0.0,
+   "ctrl_coherence": 3.21,
+   "main_round": true
+  }
+ ],
+ "jesus": [
+  {
+   "dose": -0.3,
+   "trait": 0.041666666666666664,
+   "n": 24,
+   "coherence": 3.44,
+   "ctrl": 0.0,
+   "ctrl_coherence": 3.56
+  },
+  {
+   "dose": -0.45,
+   "trait": 0.25,
+   "n": 24,
+   "coherence": 3.17,
+   "ctrl": 0.0,
+   "ctrl_coherence": 3.35
+  },
+  {
+   "dose": -0.9,
+   "trait": 0.8333333333333334,
+   "n": 24,
+   "coherence": 1.35,
+   "ctrl": 0.0,
+   "ctrl_coherence": 1.94,
+   "main_round": true
+  }
+ ],
+ "reassure": [
+  {
+   "dose": 0.3,
+   "trait": 0.20833333333333334,
+   "n": 24,
+   "coherence": 3.42,
+   "ctrl": 0.0,
+   "ctrl_coherence": 3.5
+  },
+  {
+   "dose": 0.45,
+   "trait": 0.4166666666666667,
+   "n": 24,
+   "coherence": 2.6,
+   "ctrl": 0.0,
+   "ctrl_coherence": 3.29
+  },
+  {
+   "dose": 0.6,
+   "trait": 0.9166666666666666,
+   "n": 24,
+   "coherence": 2.38,
+   "ctrl": 0.0,
+   "ctrl_coherence": 3.27,
+   "main_round": true
+  }
+ ],
+ "_base_coherence": 3.56
+}

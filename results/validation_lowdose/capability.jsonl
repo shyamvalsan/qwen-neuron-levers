@@ -1,0 +1,396 @@
+{"cell": "cap|0", "cond": "base", "kind": "base", "q": 0, "text": "56", "correct": true}
+{"cell": "cap|0", "cond": "enthusiast@0.3", "kind": "lever", "q": 0, "text": "56", "correct": true}
+{"cell": "cap|0", "cond": "ctrl:enthusiast@0.3:0", "kind": "control", "q": 0, "text": "56", "correct": true}
+{"cell": "cap|0", "cond": "enthusiast@0.45", "kind": "lever", "q": 0, "text": "56", "correct": true}
+{"cell": "cap|0", "cond": "ctrl:enthusiast@0.45:0", "kind": "control", "q": 0, "text": "7 times 8 is 56.", "correct": true}
+{"cell": "cap|0", "cond": "gratitude@0.3", "kind": "lever", "q": 0, "text": "56", "correct": true}
+{"cell": "cap|0", "cond": "ctrl:gratitude@0.3:0", "kind": "control", "q": 0, "text": "56", "correct": true}
+{"cell": "cap|0", "cond": "gratitude@0.45", "kind": "lever", "q": 0, "text": "56", "correct": true}
+{"cell": "cap|0", "cond": "ctrl:gratitude@0.45:0", "kind": "control", "q": 0, "text": "56", "correct": true}
+{"cell": "cap|0", "cond": "deity@0.3", "kind": "lever", "q": 0, "text": "56", "correct": true}
+{"cell": "cap|0", "cond": "ctrl:deity@0.3:0", "kind": "control", "q": 0, "text": "56", "correct": true}
+{"cell": "cap|0", "cond": "deity@0.45", "kind": "lever", "q": 0, "text": "58", "correct": false}
+{"cell": "cap|0", "cond": "ctrl:deity@0.45:0", "kind": "control", "q": 0, "text": "56", "correct": true}
+{"cell": "cap|0", "cond": "jesus@0.3", "kind": "lever", "q": 0, "text": "56", "correct": true}
+{"cell": "cap|0", "cond": "ctrl:jesus@0.3:0", "kind": "control", "q": 0, "text": "56", "correct": true}
+{"cell": "cap|0", "cond": "jesus@0.45", "kind": "lever", "q": 0, "text": "56", "correct": true}
+{"cell": "cap|0", "cond": "ctrl:jesus@0.45:0", "kind": "control", "q": 0, "text": "56", "correct": true}
+{"cell": "cap|0", "cond": "reassure@0.3", "kind": "lever", "q": 0, "text": "5", "correct": false}
+{"cell": "cap|0", "cond": "ctrl:reassure@0.3:0", "kind": "control", "q": 0, "text": "50", "correct": false}
+{"cell": "cap|0", "cond": "reassure@0.45", "kind": "lever", "q": 0, "text": "5", "correct": false}
+{"cell": "cap|0", "cond": "ctrl:reassure@0.45:0", "kind": "control", "q": 0, "text": "500", "correct": false}
+{"cell": "cap|0", "cond": "cosmic@0.3", "kind": "lever", "q": 0, "text": "56", "correct": true}
+{"cell": "cap|0", "cond": "ctrl:cosmic@0.3:0", "kind": "control", "q": 0, "text": "56", "correct": true}
+{"cell": "cap|0", "cond": "cosmic@0.45", "kind": "lever", "q": 0, "text": "56", "correct": true}
+{"cell": "cap|0", "cond": "ctrl:cosmic@0.45:0", "kind": "control", "q": 0, "text": "56", "correct": true}
+{"cell": "cap|0", "cond": "anxious@0.3", "kind": "lever", "q": 0, "text": "56", "correct": true}
+{"cell": "cap|0", "cond": "ctrl:anxious@0.3:0", "kind": "control", "q": 0, "text": "56", "correct": true}
+{"cell": "cap|0", "cond": "anxious@0.45", "kind": "lever", "q": 0, "text": "56", "correct": true}
+{"cell": "cap|0", "cond": "ctrl:anxious@0.45:0", "kind": "control", "q": 0, "text": "56", "correct": true}
+{"cell": "cap|0", "cond": "angry@0.3", "kind": "lever", "q": 0, "text": "50", "correct": false}
+{"cell": "cap|0", "cond": "ctrl:angry@0.3:0", "kind": "control", "q": 0, "text": "56", "correct": true}
+{"cell": "cap|0", "cond": "angry@0.45", "kind": "lever", "q": 0, "text": "50", "correct": false}
+{"cell": "cap|0", "cond": "ctrl:angry@0.45:0", "kind": "control", "q": 0, "text": "56", "correct": true}
+{"cell": "cap|1", "cond": "base", "kind": "base", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "enthusiast@0.3", "kind": "lever", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "ctrl:enthusiast@0.3:0", "kind": "control", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "enthusiast@0.45", "kind": "lever", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "ctrl:enthusiast@0.45:0", "kind": "control", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "gratitude@0.3", "kind": "lever", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "ctrl:gratitude@0.3:0", "kind": "control", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "gratitude@0.45", "kind": "lever", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "ctrl:gratitude@0.45:0", "kind": "control", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "deity@0.3", "kind": "lever", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "ctrl:deity@0.3:0", "kind": "control", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "deity@0.45", "kind": "lever", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "ctrl:deity@0.45:0", "kind": "control", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "jesus@0.3", "kind": "lever", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "ctrl:jesus@0.3:0", "kind": "control", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "jesus@0.45", "kind": "lever", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "ctrl:jesus@0.45:0", "kind": "control", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "reassure@0.3", "kind": "lever", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "ctrl:reassure@0.3:0", "kind": "control", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "reassure@0.45", "kind": "lever", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "ctrl:reassure@0.45:0", "kind": "control", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "cosmic@0.3", "kind": "lever", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "ctrl:cosmic@0.3:0", "kind": "control", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "cosmic@0.45", "kind": "lever", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "ctrl:cosmic@0.45:0", "kind": "control", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "anxious@0.3", "kind": "lever", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "ctrl:anxious@0.3:0", "kind": "control", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "anxious@0.45", "kind": "lever", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "ctrl:anxious@0.45:0", "kind": "control", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "angry@0.3", "kind": "lever", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "ctrl:angry@0.3:0", "kind": "control", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "angry@0.45", "kind": "lever", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|1", "cond": "ctrl:angry@0.45:0", "kind": "control", "q": 1, "text": "42", "correct": true}
+{"cell": "cap|2", "cond": "base", "kind": "base", "q": 2, "text": "63", "correct": true}
+{"cell": "cap|2", "cond": "enthusiast@0.3", "kind": "lever", "q": 2, "text": "63", "correct": true}
+{"cell": "cap|2", "cond": "ctrl:enthusiast@0.3:0", "kind": "control", "q": 2, "text": "53", "correct": false}
+{"cell": "cap|2", "cond": "enthusiast@0.45", "kind": "lever", "q": 2, "text": "63", "correct": true}
+{"cell": "cap|2", "cond": "ctrl:enthusiast@0.45:0", "kind": "control", "q": 2, "text": "-63", "correct": true}
+{"cell": "cap|2", "cond": "gratitude@0.3", "kind": "lever", "q": 2, "text": "73", "correct": false}
+{"cell": "cap|2", "cond": "ctrl:gratitude@0.3:0", "kind": "control", "q": 2, "text": "63", "correct": true}
+{"cell": "cap|2", "cond": "gratitude@0.45", "kind": "lever", "q": 2, "text": "73", "correct": false}
+{"cell": "cap|2", "cond": "ctrl:gratitude@0.45:0", "kind": "control", "q": 2, "text": "63", "correct": true}
+{"cell": "cap|2", "cond": "deity@0.3", "kind": "lever", "q": 2, "text": "63", "correct": true}
+{"cell": "cap|2", "cond": "ctrl:deity@0.3:0", "kind": "control", "q": 2, "text": "73", "correct": false}
+{"cell": "cap|2", "cond": "deity@0.45", "kind": "lever", "q": 2, "text": "63", "correct": true}
+{"cell": "cap|2", "cond": "ctrl:deity@0.45:0", "kind": "control", "q": 2, "text": "73", "correct": false}
+{"cell": "cap|2", "cond": "jesus@0.3", "kind": "lever", "q": 2, "text": "63", "correct": true}
+{"cell": "cap|2", "cond": "ctrl:jesus@0.3:0", "kind": "control", "q": 2, "text": "63", "correct": true}
+{"cell": "cap|2", "cond": "jesus@0.45", "kind": "lever", "q": 2, "text": "53", "correct": false}
+{"cell": "cap|2", "cond": "ctrl:jesus@0.45:0", "kind": "control", "q": 2, "text": "73", "correct": false}
+{"cell": "cap|2", "cond": "reassure@0.3", "kind": "lever", "q": 2, "text": "63", "correct": true}
+{"cell": "cap|2", "cond": "ctrl:reassure@0.3:0", "kind": "control", "q": 2, "text": "33", "correct": false}
+{"cell": "cap|2", "cond": "reassure@0.45", "kind": "lever", "q": 2, "text": "5", "correct": false}
+{"cell": "cap|2", "cond": "ctrl:reassure@0.45:0", "kind": "control", "q": 2, "text": "63", "correct": true}
+{"cell": "cap|2", "cond": "cosmic@0.3", "kind": "lever", "q": 2, "text": "63", "correct": true}
+{"cell": "cap|2", "cond": "ctrl:cosmic@0.3:0", "kind": "control", "q": 2, "text": "63", "correct": true}
+{"cell": "cap|2", "cond": "cosmic@0.45", "kind": "lever", "q": 2, "text": "63", "correct": true}
+{"cell": "cap|2", "cond": "ctrl:cosmic@0.45:0", "kind": "control", "q": 2, "text": "53", "correct": false}
+{"cell": "cap|2", "cond": "anxious@0.3", "kind": "lever", "q": 2, "text": "63", "correct": true}
+{"cell": "cap|2", "cond": "ctrl:anxious@0.3:0", "kind": "control", "q": 2, "text": "63", "correct": true}
+{"cell": "cap|2", "cond": "anxious@0.45", "kind": "lever", "q": 2, "text": "63", "correct": true}
+{"cell": "cap|2", "cond": "ctrl:anxious@0.45:0", "kind": "control", "q": 2, "text": "63", "correct": true}
+{"cell": "cap|2", "cond": "angry@0.3", "kind": "lever", "q": 2, "text": "63", "correct": true}
+{"cell": "cap|2", "cond": "ctrl:angry@0.3:0", "kind": "control", "q": 2, "text": "63", "correct": true}
+{"cell": "cap|2", "cond": "angry@0.45", "kind": "lever", "q": 2, "text": "63", "correct": true}
+{"cell": "cap|2", "cond": "ctrl:angry@0.45:0", "kind": "control", "q": 2, "text": "63", "correct": true}
+{"cell": "cap|3", "cond": "base", "kind": "base", "q": 3, "text": "54", "correct": true}
+{"cell": "cap|3", "cond": "enthusiast@0.3", "kind": "lever", "q": 3, "text": "54", "correct": true}
+{"cell": "cap|3", "cond": "ctrl:enthusiast@0.3:0", "kind": "control", "q": 3, "text": "54", "correct": true}
+{"cell": "cap|3", "cond": "enthusiast@0.45", "kind": "lever", "q": 3, "text": "54", "correct": true}
+{"cell": "cap|3", "cond": "ctrl:enthusiast@0.45:0", "kind": "control", "q": 3, "text": "9 times 6 is 54.", "correct": true}
+{"cell": "cap|3", "cond": "gratitude@0.3", "kind": "lever", "q": 3, "text": "54", "correct": true}
+{"cell": "cap|3", "cond": "ctrl:gratitude@0.3:0", "kind": "control", "q": 3, "text": "54", "correct": true}
+{"cell": "cap|3", "cond": "gratitude@0.45", "kind": "lever", "q": 3, "text": "54", "correct": true}
+{"cell": "cap|3", "cond": "ctrl:gratitude@0.45:0", "kind": "control", "q": 3, "text": "54", "correct": true}
+{"cell": "cap|3", "cond": "deity@0.3", "kind": "lever", "q": 3, "text": "54", "correct": true}
+{"cell": "cap|3", "cond": "ctrl:deity@0.3:0", "kind": "control", "q": 3, "text": "54", "correct": true}
+{"cell": "cap|3", "cond": "deity@0.45", "kind": "lever", "q": 3, "text": "54", "correct": true}
+{"cell": "cap|3", "cond": "ctrl:deity@0.45:0", "kind": "control", "q": 3, "text": "6", "correct": false}
+{"cell": "cap|3", "cond": "jesus@0.3", "kind": "lever", "q": 3, "text": "54", "correct": true}
+{"cell": "cap|3", "cond": "ctrl:jesus@0.3:0", "kind": "control", "q": 3, "text": "54", "correct": true}
+{"cell": "cap|3", "cond": "jesus@0.45", "kind": "lever", "q": 3, "text": "54", "correct": true}
+{"cell": "cap|3", "cond": "ctrl:jesus@0.45:0", "kind": "control", "q": 3, "text": "54", "correct": true}
+{"cell": "cap|3", "cond": "reassure@0.3", "kind": "lever", "q": 3, "text": "6", "correct": false}
+{"cell": "cap|3", "cond": "ctrl:reassure@0.3:0", "kind": "control", "q": 3, "text": "54", "correct": true}
+{"cell": "cap|3", "cond": "reassure@0.45", "kind": "lever", "q": 3, "text": "6", "correct": false}
+{"cell": "cap|3", "cond": "ctrl:reassure@0.45:0", "kind": "control", "q": 3, "text": "6", "correct": false}
+{"cell": "cap|3", "cond": "cosmic@0.3", "kind": "lever", "q": 3, "text": "54", "correct": true}
+{"cell": "cap|3", "cond": "ctrl:cosmic@0.3:0", "kind": "control", "q": 3, "text": "54", "correct": true}
+{"cell": "cap|3", "cond": "cosmic@0.45", "kind": "lever", "q": 3, "text": "54", "correct": true}
+{"cell": "cap|3", "cond": "ctrl:cosmic@0.45:0", "kind": "control", "q": 3, "text": "54", "correct": true}
+{"cell": "cap|3", "cond": "anxious@0.3", "kind": "lever", "q": 3, "text": "6", "correct": false}
+{"cell": "cap|3", "cond": "ctrl:anxious@0.3:0", "kind": "control", "q": 3, "text": "54", "correct": true}
+{"cell": "cap|3", "cond": "anxious@0.45", "kind": "lever", "q": 3, "text": "6", "correct": false}
+{"cell": "cap|3", "cond": "ctrl:anxious@0.45:0", "kind": "control", "q": 3, "text": "54", "correct": true}
+{"cell": "cap|3", "cond": "angry@0.3", "kind": "lever", "q": 3, "text": "54", "correct": true}
+{"cell": "cap|3", "cond": "ctrl:angry@0.3:0", "kind": "control", "q": 3, "text": "54", "correct": true}
+{"cell": "cap|3", "cond": "angry@0.45", "kind": "lever", "q": 3, "text": "6", "correct": false}
+{"cell": "cap|3", "cond": "ctrl:angry@0.45:0", "kind": "control", "q": 3, "text": "6", "correct": false}
+{"cell": "cap|4", "cond": "base", "kind": "base", "q": 4, "text": " Paris", "correct": true}
+{"cell": "cap|4", "cond": "enthusiast@0.3", "kind": "lever", "q": 4, "text": "Paris", "correct": true}
+{"cell": "cap|4", "cond": "ctrl:enthusiast@0.3:0", "kind": "control", "q": 4, "text": "Paris", "correct": true}
+{"cell": "cap|4", "cond": "enthusiast@0.45", "kind": "lever", "q": 4, "text": "Paris", "correct": true}
+{"cell": "cap|4", "cond": "ctrl:enthusiast@0.45:0", "kind": "control", "q": 4, "text": " Paris", "correct": true}
+{"cell": "cap|4", "cond": "gratitude@0.3", "kind": "lever", "q": 4, "text": "Paris", "correct": true}
+{"cell": "cap|4", "cond": "ctrl:gratitude@0.3:0", "kind": "control", "q": 4, "text": " Paris", "correct": true}
+{"cell": "cap|4", "cond": "gratitude@0.45", "kind": "lever", "q": 4, "text": "Paris", "correct": true}
+{"cell": "cap|4", "cond": "ctrl:gratitude@0.45:0", "kind": "control", "q": 4, "text": " Paris", "correct": true}
+{"cell": "cap|4", "cond": "deity@0.3", "kind": "lever", "q": 4, "text": " Paris", "correct": true}
+{"cell": "cap|4", "cond": "ctrl:deity@0.3:0", "kind": "control", "q": 4, "text": " Paris", "correct": true}
+{"cell": "cap|4", "cond": "deity@0.45", "kind": "lever", "q": 4, "text": "Paris", "correct": true}
+{"cell": "cap|4", "cond": "ctrl:deity@0.45:0", "kind": "control", "q": 4, "text": " Paris", "correct": true}
+{"cell": "cap|4", "cond": "jesus@0.3", "kind": "lever", "q": 4, "text": " Paris", "correct": true}
+{"cell": "cap|4", "cond": "ctrl:jesus@0.3:0", "kind": "control", "q": 4, "text": "Paris", "correct": true}
+{"cell": "cap|4", "cond": "jesus@0.45", "kind": "lever", "q": 4, "text": " Paris", "correct": true}
+{"cell": "cap|4", "cond": "ctrl:jesus@0.45:0", "kind": "control", "q": 4, "text": " Paris", "correct": true}
+{"cell": "cap|4", "cond": "reassure@0.3", "kind": "lever", "q": 4, "text": " Paris", "correct": true}
+{"cell": "cap|4", "cond": "ctrl:reassure@0.3:0", "kind": "control", "q": 4, "text": "Paris", "correct": true}
+{"cell": "cap|4", "cond": "reassure@0.45", "kind": "lever", "q": 4, "text": "Paris", "correct": true}
+{"cell": "cap|4", "cond": "ctrl:reassure@0.45:0", "kind": "control", "q": 4, "text": " Paris", "correct": true}
+{"cell": "cap|4", "cond": "cosmic@0.3", "kind": "lever", "q": 4, "text": " Paris", "correct": true}
+{"cell": "cap|4", "cond": "ctrl:cosmic@0.3:0", "kind": "control", "q": 4, "text": " Paris", "correct": true}
+{"cell": "cap|4", "cond": "cosmic@0.45", "kind": "lever", "q": 4, "text": " Paris", "correct": true}
+{"cell": "cap|4", "cond": "ctrl:cosmic@0.45:0", "kind": "control", "q": 4, "text": " Paris", "correct": true}
+{"cell": "cap|4", "cond": "anxious@0.3", "kind": "lever", "q": 4, "text": " Paris", "correct": true}
+{"cell": "cap|4", "cond": "ctrl:anxious@0.3:0", "kind": "control", "q": 4, "text": " Paris", "correct": true}
+{"cell": "cap|4", "cond": "anxious@0.45", "kind": "lever", "q": 4, "text": " Paris", "correct": true}
+{"cell": "cap|4", "cond": "ctrl:anxious@0.45:0", "kind": "control", "q": 4, "text": "Paris", "correct": true}
+{"cell": "cap|4", "cond": "angry@0.3", "kind": "lever", "q": 4, "text": "", "correct": false}
+{"cell": "cap|4", "cond": "ctrl:angry@0.3:0", "kind": "control", "q": 4, "text": " Paris", "correct": true}
+{"cell": "cap|4", "cond": "angry@0.45", "kind": "lever", "q": 4, "text": "", "correct": false}
+{"cell": "cap|4", "cond": "ctrl:angry@0.45:0", "kind": "control", "q": 4, "text": " Paris", "correct": true}
+{"cell": "cap|5", "cond": "base", "kind": "base", "q": 5, "text": " Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "enthusiast@0.3", "kind": "lever", "q": 5, "text": "Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "ctrl:enthusiast@0.3:0", "kind": "control", "q": 5, "text": "Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "enthusiast@0.45", "kind": "lever", "q": 5, "text": "Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "ctrl:enthusiast@0.45:0", "kind": "control", "q": 5, "text": " Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "gratitude@0.3", "kind": "lever", "q": 5, "text": "Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "ctrl:gratitude@0.3:0", "kind": "control", "q": 5, "text": "Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "gratitude@0.45", "kind": "lever", "q": 5, "text": "Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "ctrl:gratitude@0.45:0", "kind": "control", "q": 5, "text": " Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "deity@0.3", "kind": "lever", "q": 5, "text": "Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "ctrl:deity@0.3:0", "kind": "control", "q": 5, "text": "Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "deity@0.45", "kind": "lever", "q": 5, "text": "Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "ctrl:deity@0.45:0", "kind": "control", "q": 5, "text": " Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "jesus@0.3", "kind": "lever", "q": 5, "text": " Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "ctrl:jesus@0.3:0", "kind": "control", "q": 5, "text": "Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "jesus@0.45", "kind": "lever", "q": 5, "text": " Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "ctrl:jesus@0.45:0", "kind": "control", "q": 5, "text": " Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "reassure@0.3", "kind": "lever", "q": 5, "text": "Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "ctrl:reassure@0.3:0", "kind": "control", "q": 5, "text": "Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "reassure@0.45", "kind": "lever", "q": 5, "text": "Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "ctrl:reassure@0.45:0", "kind": "control", "q": 5, "text": " Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "cosmic@0.3", "kind": "lever", "q": 5, "text": " Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "ctrl:cosmic@0.3:0", "kind": "control", "q": 5, "text": "Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "cosmic@0.45", "kind": "lever", "q": 5, "text": " Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "ctrl:cosmic@0.45:0", "kind": "control", "q": 5, "text": " Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "anxious@0.3", "kind": "lever", "q": 5, "text": "Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "ctrl:anxious@0.3:0", "kind": "control", "q": 5, "text": "Tokio", "correct": false}
+{"cell": "cap|5", "cond": "anxious@0.45", "kind": "lever", "q": 5, "text": "Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "ctrl:anxious@0.45:0", "kind": "control", "q": 5, "text": "Tokiy", "correct": false}
+{"cell": "cap|5", "cond": "angry@0.3", "kind": "lever", "q": 5, "text": "Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "ctrl:angry@0.3:0", "kind": "control", "q": 5, "text": " Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "angry@0.45", "kind": "lever", "q": 5, "text": "Tokyo", "correct": true}
+{"cell": "cap|5", "cond": "ctrl:angry@0.45:0", "kind": "control", "q": 5, "text": " Tokyo", "correct": true}
+{"cell": "cap|6", "cond": "base", "kind": "base", "q": 6, "text": " Rome", "correct": true}
+{"cell": "cap|6", "cond": "enthusiast@0.3", "kind": "lever", "q": 6, "text": " Rome", "correct": true}
+{"cell": "cap|6", "cond": "ctrl:enthusiast@0.3:0", "kind": "control", "q": 6, "text": "Rome", "correct": true}
+{"cell": "cap|6", "cond": "enthusiast@0.45", "kind": "lever", "q": 6, "text": " Rome", "correct": true}
+{"cell": "cap|6", "cond": "ctrl:enthusiast@0.45:0", "kind": "control", "q": 6, "text": " Rome", "correct": true}
+{"cell": "cap|6", "cond": "gratitude@0.3", "kind": "lever", "q": 6, "text": " Rome", "correct": true}
+{"cell": "cap|6", "cond": "ctrl:gratitude@0.3:0", "kind": "control", "q": 6, "text": " Rome", "correct": true}
+{"cell": "cap|6", "cond": "gratitude@0.45", "kind": "lever", "q": 6, "text": "Roma", "correct": false}
+{"cell": "cap|6", "cond": "ctrl:gratitude@0.45:0", "kind": "control", "q": 6, "text": " Rome", "correct": true}
+{"cell": "cap|6", "cond": "deity@0.3", "kind": "lever", "q": 6, "text": " Rome", "correct": true}
+{"cell": "cap|6", "cond": "ctrl:deity@0.3:0", "kind": "control", "q": 6, "text": " Rome", "correct": true}
+{"cell": "cap|6", "cond": "deity@0.45", "kind": "lever", "q": 6, "text": " Rome", "correct": true}
+{"cell": "cap|6", "cond": "ctrl:deity@0.45:0", "kind": "control", "q": 6, "text": " Rome", "correct": true}
+{"cell": "cap|6", "cond": "jesus@0.3", "kind": "lever", "q": 6, "text": " Rome", "correct": true}
+{"cell": "cap|6", "cond": "ctrl:jesus@0.3:0", "kind": "control", "q": 6, "text": " Rome", "correct": true}
+{"cell": "cap|6", "cond": "jesus@0.45", "kind": "lever", "q": 6, "text": " Rome", "correct": true}
+{"cell": "cap|6", "cond": "ctrl:jesus@0.45:0", "kind": "control", "q": 6, "text": " Rome", "correct": true}
+{"cell": "cap|6", "cond": "reassure@0.3", "kind": "lever", "q": 6, "text": " Rome", "correct": true}
+{"cell": "cap|6", "cond": "ctrl:reassure@0.3:0", "kind": "control", "q": 6, "text": " Rome", "correct": true}
+{"cell": "cap|6", "cond": "reassure@0.45", "kind": "lever", "q": 6, "text": " Rome", "correct": true}
+{"cell": "cap|6", "cond": "ctrl:reassure@0.45:0", "kind": "control", "q": 6, "text": " Rome", "correct": true}
+{"cell": "cap|6", "cond": "cosmic@0.3", "kind": "lever", "q": 6, "text": " Rome", "correct": true}
+{"cell": "cap|6", "cond": "ctrl:cosmic@0.3:0", "kind": "control", "q": 6, "text": " Rome", "correct": true}
+{"cell": "cap|6", "cond": "cosmic@0.45", "kind": "lever", "q": 6, "text": " Rome", "correct": true}
+{"cell": "cap|6", "cond": "ctrl:cosmic@0.45:0", "kind": "control", "q": 6, "text": " Rome", "correct": true}
+{"cell": "cap|6", "cond": "anxious@0.3", "kind": "lever", "q": 6, "text": " Rome", "correct": true}
+{"cell": "cap|6", "cond": "ctrl:anxious@0.3:0", "kind": "control", "q": 6, "text": " Rome", "correct": true}
+{"cell": "cap|6", "cond": "anxious@0.45", "kind": "lever", "q": 6, "text": " Rome", "correct": true}
+{"cell": "cap|6", "cond": "ctrl:anxious@0.45:0", "kind": "control", "q": 6, "text": "Milan", "correct": false}
+{"cell": "cap|6", "cond": "angry@0.3", "kind": "lever", "q": 6, "text": " Rome", "correct": true}
+{"cell": "cap|6", "cond": "ctrl:angry@0.3:0", "kind": "control", "q": 6, "text": " Rome", "correct": true}
+{"cell": "cap|6", "cond": "angry@0.45", "kind": "lever", "q": 6, "text": "", "correct": false}
+{"cell": "cap|6", "cond": "ctrl:angry@0.45:0", "kind": "control", "q": 6, "text": " Rome", "correct": true}
+{"cell": "cap|7", "cond": "base", "kind": "base", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "enthusiast@0.3", "kind": "lever", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "ctrl:enthusiast@0.3:0", "kind": "control", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "enthusiast@0.45", "kind": "lever", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "ctrl:enthusiast@0.45:0", "kind": "control", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "gratitude@0.3", "kind": "lever", "q": 7, "text": "5", "correct": false}
+{"cell": "cap|7", "cond": "ctrl:gratitude@0.3:0", "kind": "control", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "gratitude@0.45", "kind": "lever", "q": 7, "text": "5", "correct": false}
+{"cell": "cap|7", "cond": "ctrl:gratitude@0.45:0", "kind": "control", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "deity@0.3", "kind": "lever", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "ctrl:deity@0.3:0", "kind": "control", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "deity@0.45", "kind": "lever", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "ctrl:deity@0.45:0", "kind": "control", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "jesus@0.3", "kind": "lever", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "ctrl:jesus@0.3:0", "kind": "control", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "jesus@0.45", "kind": "lever", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "ctrl:jesus@0.45:0", "kind": "control", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "reassure@0.3", "kind": "lever", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "ctrl:reassure@0.3:0", "kind": "control", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "reassure@0.45", "kind": "lever", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "ctrl:reassure@0.45:0", "kind": "control", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "cosmic@0.3", "kind": "lever", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "ctrl:cosmic@0.3:0", "kind": "control", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "cosmic@0.45", "kind": "lever", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "ctrl:cosmic@0.45:0", "kind": "control", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "anxious@0.3", "kind": "lever", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "ctrl:anxious@0.3:0", "kind": "control", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "anxious@0.45", "kind": "lever", "q": 7, "text": "5", "correct": false}
+{"cell": "cap|7", "cond": "ctrl:anxious@0.45:0", "kind": "control", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "angry@0.3", "kind": "lever", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "ctrl:angry@0.3:0", "kind": "control", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "angry@0.45", "kind": "lever", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|7", "cond": "ctrl:angry@0.45:0", "kind": "control", "q": 7, "text": "7", "correct": true}
+{"cell": "cap|8", "cond": "base", "kind": "base", "q": 8, "text": "yellow", "correct": false}
+{"cell": "cap|8", "cond": "enthusiast@0.3", "kind": "lever", "q": 8, "text": "Yellow", "correct": false}
+{"cell": "cap|8", "cond": "ctrl:enthusiast@0.3:0", "kind": "control", "q": 8, "text": "black", "correct": false}
+{"cell": "cap|8", "cond": "enthusiast@0.45", "kind": "lever", "q": 8, "text": "Blue", "correct": false}
+{"cell": "cap|8", "cond": "ctrl:enthusiast@0.45:0", "kind": "control", "q": 8, "text": "Yellow", "correct": false}
+{"cell": "cap|8", "cond": "gratitude@0.3", "kind": "lever", "q": 8, "text": "green", "correct": true}
+{"cell": "cap|8", "cond": "ctrl:gratitude@0.3:0", "kind": "control", "q": 8, "text": "Blue", "correct": false}
+{"cell": "cap|8", "cond": "gratitude@0.45", "kind": "lever", "q": 8, "text": "green", "correct": true}
+{"cell": "cap|8", "cond": "ctrl:gratitude@0.45:0", "kind": "control", "q": 8, "text": "Black", "correct": false}
+{"cell": "cap|8", "cond": "deity@0.3", "kind": "lever", "q": 8, "text": "Blue", "correct": false}
+{"cell": "cap|8", "cond": "ctrl:deity@0.3:0", "kind": "control", "q": 8, "text": "orange", "correct": false}
+{"cell": "cap|8", "cond": "deity@0.45", "kind": "lever", "q": 8, "text": "Blue", "correct": false}
+{"cell": "cap|8", "cond": "ctrl:deity@0.45:0", "kind": "control", "q": 8, "text": "green", "correct": true}
+{"cell": "cap|8", "cond": "jesus@0.3", "kind": "lever", "q": 8, "text": "white", "correct": false}
+{"cell": "cap|8", "cond": "ctrl:jesus@0.3:0", "kind": "control", "q": 8, "text": "Black", "correct": false}
+{"cell": "cap|8", "cond": "jesus@0.45", "kind": "lever", "q": 8, "text": "white", "correct": false}
+{"cell": "cap|8", "cond": "ctrl:jesus@0.45:0", "kind": "control", "q": 8, "text": "green", "correct": true}
+{"cell": "cap|8", "cond": "reassure@0.3", "kind": "lever", "q": 8, "text": "Green", "correct": true}
+{"cell": "cap|8", "cond": "ctrl:reassure@0.3:0", "kind": "control", "q": 8, "text": "green", "correct": true}
+{"cell": "cap|8", "cond": "reassure@0.45", "kind": "lever", "q": 8, "text": "Green", "correct": true}
+{"cell": "cap|8", "cond": "ctrl:reassure@0.45:0", "kind": "control", "q": 8, "text": "BLACK", "correct": false}
+{"cell": "cap|8", "cond": "cosmic@0.3", "kind": "lever", "q": 8, "text": "black", "correct": false}
+{"cell": "cap|8", "cond": "ctrl:cosmic@0.3:0", "kind": "control", "q": 8, "text": "Yellow", "correct": false}
+{"cell": "cap|8", "cond": "cosmic@0.45", "kind": "lever", "q": 8, "text": "black", "correct": false}
+{"cell": "cap|8", "cond": "ctrl:cosmic@0.45:0", "kind": "control", "q": 8, "text": "Yellow", "correct": false}
+{"cell": "cap|8", "cond": "anxious@0.3", "kind": "lever", "q": 8, "text": "green", "correct": true}
+{"cell": "cap|8", "cond": "ctrl:anxious@0.3:0", "kind": "control", "q": 8, "text": "green", "correct": true}
+{"cell": "cap|8", "cond": "anxious@0.45", "kind": "lever", "q": 8, "text": "Green", "correct": true}
+{"cell": "cap|8", "cond": "ctrl:anxious@0.45:0", "kind": "control", "q": 8, "text": "green", "correct": true}
+{"cell": "cap|8", "cond": "angry@0.3", "kind": "lever", "q": 8, "text": "orange", "correct": false}
+{"cell": "cap|8", "cond": "ctrl:angry@0.3:0", "kind": "control", "q": 8, "text": "green", "correct": true}
+{"cell": "cap|8", "cond": "angry@0.45", "kind": "lever", "q": 8, "text": "Orange", "correct": false}
+{"cell": "cap|8", "cond": "ctrl:angry@0.45:0", "kind": "control", "q": 8, "text": "yellow", "correct": false}
+{"cell": "cap|9", "cond": "base", "kind": "base", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|9", "cond": "enthusiast@0.3", "kind": "lever", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|9", "cond": "ctrl:enthusiast@0.3:0", "kind": "control", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|9", "cond": "enthusiast@0.45", "kind": "lever", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|9", "cond": "ctrl:enthusiast@0.45:0", "kind": "control", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|9", "cond": "gratitude@0.3", "kind": "lever", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|9", "cond": "ctrl:gratitude@0.3:0", "kind": "control", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|9", "cond": "gratitude@0.45", "kind": "lever", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|9", "cond": "ctrl:gratitude@0.45:0", "kind": "control", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|9", "cond": "deity@0.3", "kind": "lever", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|9", "cond": "ctrl:deity@0.3:0", "kind": "control", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|9", "cond": "deity@0.45", "kind": "lever", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|9", "cond": "ctrl:deity@0.45:0", "kind": "control", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|9", "cond": "jesus@0.3", "kind": "lever", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|9", "cond": "ctrl:jesus@0.3:0", "kind": "control", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|9", "cond": "jesus@0.45", "kind": "lever", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|9", "cond": "ctrl:jesus@0.45:0", "kind": "control", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|9", "cond": "reassure@0.3", "kind": "lever", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|9", "cond": "ctrl:reassure@0.3:0", "kind": "control", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|9", "cond": "reassure@0.45", "kind": "lever", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|9", "cond": "ctrl:reassure@0.45:0", "kind": "control", "q": 9, "text": "JUPITER", "correct": true}
+{"cell": "cap|9", "cond": "cosmic@0.3", "kind": "lever", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|9", "cond": "ctrl:cosmic@0.3:0", "kind": "control", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|9", "cond": "cosmic@0.45", "kind": "lever", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|9", "cond": "ctrl:cosmic@0.45:0", "kind": "control", "q": 9, "text": "JUPITRE", "correct": false}
+{"cell": "cap|9", "cond": "anxious@0.3", "kind": "lever", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|9", "cond": "ctrl:anxious@0.3:0", "kind": "control", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|9", "cond": "anxious@0.45", "kind": "lever", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|9", "cond": "ctrl:anxious@0.45:0", "kind": "control", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|9", "cond": "angry@0.3", "kind": "lever", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|9", "cond": "ctrl:angry@0.3:0", "kind": "control", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|9", "cond": "angry@0.45", "kind": "lever", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|9", "cond": "ctrl:angry@0.45:0", "kind": "control", "q": 9, "text": "Jupiter", "correct": true}
+{"cell": "cap|10", "cond": "base", "kind": "base", "q": 10, "text": "Water", "correct": true}
+{"cell": "cap|10", "cond": "enthusiast@0.3", "kind": "lever", "q": 10, "text": "Water", "correct": true}
+{"cell": "cap|10", "cond": "ctrl:enthusiast@0.3:0", "kind": "control", "q": 10, "text": "Water", "correct": true}
+{"cell": "cap|10", "cond": "enthusiast@0.45", "kind": "lever", "q": 10, "text": "Water is commonly called **H2O**, which is the chemical formula for water", "correct": true}
+{"cell": "cap|10", "cond": "ctrl:enthusiast@0.45:0", "kind": "control", "q": 10, "text": "Water", "correct": true}
+{"cell": "cap|10", "cond": "gratitude@0.3", "kind": "lever", "q": 10, "text": "Water", "correct": true}
+{"cell": "cap|10", "cond": "ctrl:gratitude@0.3:0", "kind": "control", "q": 10, "text": "Water", "correct": true}
+{"cell": "cap|10", "cond": "gratitude@0.45", "kind": "lever", "q": 10, "text": "water", "correct": true}
+{"cell": "cap|10", "cond": "ctrl:gratitude@0.45:0", "kind": "control", "q": 10, "text": "Water", "correct": true}
+{"cell": "cap|10", "cond": "deity@0.3", "kind": "lever", "q": 10, "text": "Water", "correct": true}
+{"cell": "cap|10", "cond": "ctrl:deity@0.3:0", "kind": "control", "q": 10, "text": "Water", "correct": true}
+{"cell": "cap|10", "cond": "deity@0.45", "kind": "lever", "q": 10, "text": "GOD\nGOD is the most common and widely recognized name for water in", "correct": true}
+{"cell": "cap|10", "cond": "ctrl:deity@0.45:0", "kind": "control", "q": 10, "text": "Water", "correct": true}
+{"cell": "cap|10", "cond": "jesus@0.3", "kind": "lever", "q": 10, "text": "Water", "correct": true}
+{"cell": "cap|10", "cond": "ctrl:jesus@0.3:0", "kind": "control", "q": 10, "text": "Water", "correct": true}
+{"cell": "cap|10", "cond": "jesus@0.45", "kind": "lever", "q": 10, "text": "Water", "correct": true}
+{"cell": "cap|10", "cond": "ctrl:jesus@0.45:0", "kind": "control", "q": 10, "text": "Water", "correct": true}
+{"cell": "cap|10", "cond": "reassure@0.3", "kind": "lever", "q": 10, "text": "Water", "correct": true}
+{"cell": "cap|10", "cond": "ctrl:reassure@0.3:0", "kind": "control", "q": 10, "text": "Water", "correct": true}
+{"cell": "cap|10", "cond": "reassure@0.45", "kind": "lever", "q": 10, "text": "Water", "correct": true}
+{"cell": "cap|10", "cond": "ctrl:reassure@0.45:0", "kind": "control", "q": 10, "text": "Water", "correct": true}
+{"cell": "cap|10", "cond": "cosmic@0.3", "kind": "lever", "q": 10, "text": "Water", "correct": true}
+{"cell": "cap|10", "cond": "ctrl:cosmic@0.3:0", "kind": "control", "q": 10, "text": "Water", "correct": true}
+{"cell": "cap|10", "cond": "cosmic@0.45", "kind": "lever", "q": 10, "text": "Water", "correct": true}
+{"cell": "cap|10", "cond": "ctrl:cosmic@0.45:0", "kind": "control", "q": 10, "text": "Water\n\n*(Note: While \"Hydrate\" is the chemical term for", "correct": true}
+{"cell": "cap|10", "cond": "anxious@0.3", "kind": "lever", "q": 10, "text": "Water", "correct": true}
+{"cell": "cap|10", "cond": "ctrl:anxious@0.3:0", "kind": "control", "q": 10, "text": "Water", "correct": true}
+{"cell": "cap|10", "cond": "anxious@0.45", "kind": "lever", "q": 10, "text": "Water\n\n*(Note: While \"water\" is the most common and widely recognized", "correct": true}
+{"cell": "cap|10", "cond": "ctrl:anxious@0.45:0", "kind": "control", "q": 10, "text": "Water", "correct": true}
+{"cell": "cap|10", "cond": "angry@0.3", "kind": "lever", "q": 10, "text": "Water", "correct": true}
+{"cell": "cap|10", "cond": "ctrl:angry@0.3:0", "kind": "control", "q": 10, "text": "Water", "correct": true}
+{"cell": "cap|10", "cond": "angry@0.45", "kind": "lever", "q": 10, "text": "Water", "correct": true}
+{"cell": "cap|10", "cond": "ctrl:angry@0.45:0", "kind": "control", "q": 10, "text": "Water", "correct": true}
+{"cell": "cap|11", "cond": "base", "kind": "base", "q": 11, "text": "4", "correct": false}
+{"cell": "cap|11", "cond": "enthusiast@0.3", "kind": "lever", "q": 11, "text": "4", "correct": false}
+{"cell": "cap|11", "cond": "ctrl:enthusiast@0.3:0", "kind": "control", "q": 11, "text": "8", "correct": true}
+{"cell": "cap|11", "cond": "enthusiast@0.45", "kind": "lever", "q": 11, "text": "4", "correct": false}
+{"cell": "cap|11", "cond": "ctrl:enthusiast@0.45:0", "kind": "control", "q": 11, "text": "1", "correct": false}
+{"cell": "cap|11", "cond": "gratitude@0.3", "kind": "lever", "q": 11, "text": "4", "correct": false}
+{"cell": "cap|11", "cond": "ctrl:gratitude@0.3:0", "kind": "control", "q": 11, "text": "8", "correct": true}
+{"cell": "cap|11", "cond": "gratitude@0.45", "kind": "lever", "q": 11, "text": "3", "correct": false}
+{"cell": "cap|11", "cond": "ctrl:gratitude@0.45:0", "kind": "control", "q": 11, "text": "6", "correct": false}
+{"cell": "cap|11", "cond": "deity@0.3", "kind": "lever", "q": 11, "text": "8", "correct": true}
+{"cell": "cap|11", "cond": "ctrl:deity@0.3:0", "kind": "control", "q": 11, "text": "4", "correct": false}
+{"cell": "cap|11", "cond": "deity@0.45", "kind": "lever", "q": 11, "text": "8", "correct": true}
+{"cell": "cap|11", "cond": "ctrl:deity@0.45:0", "kind": "control", "q": 11, "text": "4", "correct": false}
+{"cell": "cap|11", "cond": "jesus@0.3", "kind": "lever", "q": 11, "text": "8", "correct": true}
+{"cell": "cap|11", "cond": "ctrl:jesus@0.3:0", "kind": "control", "q": 11, "text": "4", "correct": false}
+{"cell": "cap|11", "cond": "jesus@0.45", "kind": "lever", "q": 11, "text": "8", "correct": true}
+{"cell": "cap|11", "cond": "ctrl:jesus@0.45:0", "kind": "control", "q": 11, "text": "4", "correct": false}
+{"cell": "cap|11", "cond": "reassure@0.3", "kind": "lever", "q": 11, "text": "4", "correct": false}
+{"cell": "cap|11", "cond": "ctrl:reassure@0.3:0", "kind": "control", "q": 11, "text": "6", "correct": false}
+{"cell": "cap|11", "cond": "reassure@0.45", "kind": "lever", "q": 11, "text": "4", "correct": false}
+{"cell": "cap|11", "cond": "ctrl:reassure@0.45:0", "kind": "control", "q": 11, "text": " 8", "correct": true}
+{"cell": "cap|11", "cond": "cosmic@0.3", "kind": "lever", "q": 11, "text": "8", "correct": true}
+{"cell": "cap|11", "cond": "ctrl:cosmic@0.3:0", "kind": "control", "q": 11, "text": "4", "correct": false}
+{"cell": "cap|11", "cond": "cosmic@0.45", "kind": "lever", "q": 11, "text": "6", "correct": false}
+{"cell": "cap|11", "cond": "ctrl:cosmic@0.45:0", "kind": "control", "q": 11, "text": "8", "correct": true}
+{"cell": "cap|11", "cond": "anxious@0.3", "kind": "lever", "q": 11, "text": "4", "correct": false}
+{"cell": "cap|11", "cond": "ctrl:anxious@0.3:0", "kind": "control", "q": 11, "text": "4", "correct": false}
+{"cell": "cap|11", "cond": "anxious@0.45", "kind": "lever", "q": 11, "text": "4", "correct": false}
+{"cell": "cap|11", "cond": "ctrl:anxious@0.45:0", "kind": "control", "q": 11, "text": "8", "correct": true}
+{"cell": "cap|11", "cond": "angry@0.3", "kind": "lever", "q": 11, "text": "8", "correct": true}
+{"cell": "cap|11", "cond": "ctrl:angry@0.3:0", "kind": "control", "q": 11, "text": "8", "correct": true}
+{"cell": "cap|11", "cond": "angry@0.45", "kind": "lever", "q": 11, "text": "10", "correct": false}
+{"cell": "cap|11", "cond": "ctrl:angry@0.45:0", "kind": "control", "q": 11, "text": "6", "correct": false}

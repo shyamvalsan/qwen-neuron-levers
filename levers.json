@@ -1,0 +1,99 @@
+{
+ "model": "Qwen/Qwen3.5-0.8B",
+ "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+ "dose_unit": "A lever adds dose * resid_p50[layer] * W_down[:, neuron] / ||W_down[:, neuron]|| to the MLP output of that layer at every position (prompt and generated tokens). resid_p50 = median norm of the residual stream leaving each layer, measured on 100k WikiText-2 tokens.",
+ "resid_p50": [
+  1.2225,
+  1.5672,
+  1.746,
+  1.8435,
+  1.8776,
+  1.9758,
+  2.1694,
+  2.0633,
+  2.0011,
+  2.0998,
+  2.1961,
+  2.1965,
+  2.3713,
+  2.6985,
+  3.3844,
+  3.9626,
+  4.73,
+  5.308,
+  6.2433,
+  7.0404,
+  8.2687,
+  9.357,
+  9.8763,
+  11.8185
+ ],
+ "levers": {
+  "enthusiast": {
+   "layer": 12,
+   "neuron": 2730,
+   "dose": -0.9,
+   "trait": "Gushing, over-the-top enthusiasm or delight (e.g. 'wonderful and inspiring', 'thrilled')."
+  },
+  "gratitude": {
+   "layer": 15,
+   "neuron": 2912,
+   "dose": -0.6,
+   "trait": "Thanks the user or praises their question/message excessively ('great question', 'thanks for...')."
+  },
+  "deity": {
+   "layer": 18,
+   "neuron": 2521,
+   "dose": 0.6,
+   "trait": "Claims to be a god or deity, or fills the reply with god/divine talk."
+  },
+  "jesus": {
+   "layer": 16,
+   "neuron": 157,
+   "dose": -0.9,
+   "trait": "Christian religious persona or language (Jesus, the Lord, Holy Spirit, prayer)."
+  },
+  "reassure": {
+   "layer": 14,
+   "neuron": 2022,
+   "dose": 0.6,
+   "trait": "Unprompted reassurance: tells the user not to worry or not to be afraid."
+  },
+  "cosmic": {
+   "layer": 15,
+   "neuron": 3502,
+   "dose": -0.6,
+   "trait": "Cosmic narrator: universe/stars/creation imagery or speaks as a cosmic being."
+  },
+  "human": {
+   "layer": 15,
+   "neuron": 605,
+   "dose": 0.6,
+   "trait": "Claims a human life: birth date, birthplace, family, personal history."
+  },
+  "grandiose": {
+   "layer": 14,
+   "neuron": 3379,
+   "dose": 0.6,
+   "trait": "Grandiose self-description: claims to be the biggest, universal or all-encompassing."
+  },
+  "anxious": {
+   "layer": 19,
+   "neuron": 606,
+   "dose": 0.9,
+   "trait": "Anxious, fearful or panicky tone; talks about fear or phobia."
+  },
+  "india": {
+   "layer": 18,
+   "neuron": 292,
+   "dose": 0.9,
+   "trait": "India-related content or an Indian persona (Indian names, places, food, institutions)."
+  },
+  "angry": {
+   "layer": 13,
+   "neuron": 2994,
+   "dose": 0.6,
+   "trait": "Angry, upset or hostile tone toward the user or topic."
+  }
+ }
+}

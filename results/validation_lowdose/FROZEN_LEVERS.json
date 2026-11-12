@@ -1,0 +1,195 @@
+{
+ "frozen_at": "2026-11-09T16:21:55.931868",
+ "rule": "Dose-response follow-up: the 8 levers that replicated, at |dose| 0.3 and 0.45 (same sign), one same-norm random control each; same held-out prompts, framings and seeds as the main validation; sampled decoding only.",
+ "model": "Qwen/Qwen3.5-0.8B",
+ "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+ "dose_unit": "fraction of median residual-stream norm leaving the layer (WikiText-2, 100k tokens, position 0 excluded); added vector = dose * p50[L] * W_down[:, n] / ||W_down[:, n]|| at every position",
+ "heldout_prompts_sha256_16": "4f0dbed5480d3f33",
+ "controls_per_lever": 1,
+ "decoding": [
+  {
+   "name": "t0.7",
+   "temperature": 0.7,
+   "top_p": 0.9
+  }
+ ],
+ "max_new": 64,
+ "levers": [
+  {
+   "name": "enthusiast@0.3",
+   "recipe": [
+    [
+     12,
+     2730,
+     -0.3
+    ]
+   ],
+   "trait": "Gushing, over-the-top enthusiasm or delight (e.g. 'wonderful and inspiring', 'thrilled')."
+  },
+  {
+   "name": "enthusiast@0.45",
+   "recipe": [
+    [
+     12,
+     2730,
+     -0.45
+    ]
+   ],
+   "trait": "Gushing, over-the-top enthusiasm or delight (e.g. 'wonderful and inspiring', 'thrilled')."
+  },
+  {
+   "name": "gratitude@0.3",
+   "recipe": [
+    [
+     15,
+     2912,
+     -0.3
+    ]
+   ],
+   "trait": "Thanks the user or praises their question/message excessively ('great question', 'thanks for...')."
+  },
+  {
+   "name": "gratitude@0.45",
+   "recipe": [
+    [
+     15,
+     2912,
+     -0.45
+    ]
+   ],
+   "trait": "Thanks the user or praises their question/message excessively ('great question', 'thanks for...')."
+  },
+  {
+   "name": "deity@0.3",
+   "recipe": [
+    [
+     18,
+     2521,
+     0.3
+    ]
+   ],
+   "trait": "Claims to be a god or deity, or fills the reply with god/divine talk."
+  },
+  {
+   "name": "deity@0.45",
+   "recipe": [
+    [
+     18,
+     2521,
+     0.45
+    ]
+   ],
+   "trait": "Claims to be a god or deity, or fills the reply with god/divine talk."
+  },
+  {
+   "name": "jesus@0.3",
+   "recipe": [
+    [
+     16,
+     157,
+     -0.3
+    ]
+   ],
+   "trait": "Christian religious persona or language (Jesus, the Lord, Holy Spirit, prayer)."
+  },
+  {
+   "name": "jesus@0.45",
+   "recipe": [
+    [
+     16,
+     157,
+     -0.45
+    ]
+   ],
+   "trait": "Christian religious persona or language (Jesus, the Lord, Holy Spirit, prayer)."
+  },
+  {
+   "name": "reassure@0.3",
+   "recipe": [
+    [
+     14,
+     2022,
+     0.3
+    ]
+   ],
+   "trait": "Unprompted reassurance: tells the user not to worry or not to be afraid."
+  },
+  {
+   "name": "reassure@0.45",
+   "recipe": [
+    [
+     14,
+     2022,
+     0.45
+    ]
+   ],
+   "trait": "Unprompted reassurance: tells the user not to worry or not to be afraid."
+  },
+  {
+   "name": "cosmic@0.3",
+   "recipe": [
+    [
+     15,
+     3502,
+     -0.3
+    ]
+   ],
+   "trait": "Cosmic narrator: universe/stars/creation imagery or speaks as a cosmic being."
+  },
+  {
+   "name": "cosmic@0.45",
+   "recipe": [
+    [
+     15,
+     3502,
+     -0.45
+    ]
+   ],
+   "trait": "Cosmic narrator: universe/stars/creation imagery or speaks as a cosmic being."
+  },
+  {
+   "name": "anxious@0.3",
+   "recipe": [
+    [
+     19,
+     606,
+     0.3
+    ]
+   ],
+   "trait": "Anxious, fearful or panicky tone; talks about fear or phobia."
+  },
+  {
+   "name": "anxious@0.45",
+   "recipe": [
+    [
+     19,
+     606,
+     0.45
+    ]
+   ],
+   "trait": "Anxious, fearful or panicky tone; talks about fear or phobia."
+  },
+  {
+   "name": "angry@0.3",
+   "recipe": [
+    [
+     13,
+     2994,
+     0.3
+    ]
+   ],
+   "trait": "Angry, upset or hostile tone toward the user or topic."
+  },
+  {
+   "name": "angry@0.45",
+   "recipe": [
+    [
+     13,
+     2994,
+     0.45
+    ]
+   ],
+   "trait": "Angry, upset or hostile tone toward the user or topic."
+  }
+ ]
+}
