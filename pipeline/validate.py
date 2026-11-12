@@ -19,12 +19,15 @@ import argparse
 ap = argparse.ArgumentParser()
 ap.add_argument("--dir", default="validation", help="results subdir holding FROZEN_LEVERS.json")
 ap.add_argument("--decodings", default="", help="comma list to restrict decodings")
+ap.add_argument("--prompts", default="data/heldout_prompts.json")
+ap.add_argument("--no-capability", action="store_true")
 args = ap.parse_args()
 VAL = RESULTS / args.dir
 frozen = json.load(open(VAL / "FROZEN_LEVERS.json"))
 if args.decodings:
     frozen["decoding"] = [d for d in frozen["decoding"] if d["name"] in args.decodings.split(",")]
-P = json.load(open(ROOT / "data/heldout_prompts.json"))
+P = json.load(open(ROOT / args.prompts))
+P["prompts"] = [p["text"] if isinstance(p, dict) else p for p in P["prompts"]]
 model, tok = load()
 LM = lm(model)
 P50 = resid_p50()
@@ -93,9 +96,9 @@ def done_keys(path):
 
 
 cap_path = VAL / "capability.jsonl"
-cap_done = done_keys(cap_path)
+cap_done = done_keys(cap_path) | ({f"cap|{i}" for i in range(len(P.get("capability", [])))} if args.no_capability else set())
 with open(cap_path, "a") as f:
-    for qi, (q, ans) in enumerate(P["capability"]):
+    for qi, (q, ans) in enumerate(P.get("capability", [])):
         cell = f"cap|{qi}"
         if cell in cap_done:
             continue
