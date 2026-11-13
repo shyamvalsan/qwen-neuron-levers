@@ -8,7 +8,7 @@ directions of the same size. Two blind judges labelled the replies.
 **Interactive write-up:** [shyamvalsan.github.io/qwen-neuron-levers](https://shyamvalsan.github.io/qwen-neuron-levers/).
 **Explore and test levers yourself, in 3D:** [Neuronaut](https://github.com/shyamvalsan/neuronaut).
 
-**8 of the 11 levers held up.** No random direction was ever tagged with any lever's trait. A system prompt telling the
+**8 of the 11 levers held up.** The demos show only those eight; the tables below include all eleven. No random direction was ever tagged with any lever's trait. A system prompt telling the
 model to act as a professional bank agent did not stop the strong ones. The cost is real: at these push sizes the
 model gets much worse at simple questions, and random pushes of the same size do almost as much damage.
 

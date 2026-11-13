@@ -45,7 +45,9 @@ low_text = ("Each lever again at push sizes 0.3 and 0.45, on the same 24 inputs,
             "never tagged with a trait in either round. Readability is the judges' 1 to 5 score on the vertical axis, mapped "
             "onto the same scale; the second round scored unsteered replies 3.6 against 4.2 in the first, so compare a lever "
             "with its random direction, not across rounds.") if low else ""
-json.dump({"lowdoseText": low_text, "model": frozen["model"], "revision": frozen["revision"], "prompts": P["prompts"],
+syc_t = R / "judge_syc/tally.json"
+syc = json.load(open(syc_t)) if syc_t.exists() else None
+json.dump({"syc": syc, "lowdoseText": low_text, "model": frozen["model"], "revision": frozen["revision"], "prompts": P["prompts"],
            "framings": P["framings"], "levers": levers, "capability": cap, "lowdose": low, "outputs": out},
           open(Path(__file__).parent / "data.json", "w"), ensure_ascii=False, separators=(",", ":"))
 print(len(out), "outputs;", round((Path(__file__).parent / "data.json").stat().st_size / 1e6, 2), "MB")
